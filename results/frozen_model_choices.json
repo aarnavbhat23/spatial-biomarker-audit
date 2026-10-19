@@ -1,0 +1,46 @@
+{
+  "chosen_model": "logistic",
+  "validation_prediction_coefficient": 0.8152693050458282,
+  "validation_metrics": {
+    "logistic": {
+      "CRC19": {
+        "Pan-CK_pos": {
+          "brier": 0.11494842916727066,
+          "auc": 0.8320818590291883,
+          "prevalence": 0.24824094731422688
+        },
+        "CD3e_pos": {
+          "brier": 0.17274710536003113,
+          "auc": 0.6853246999902441,
+          "prevalence": 0.22507293633087352
+        }
+      }
+    },
+    "histogram_boosting": {
+      "CRC19": {
+        "Pan-CK_pos": {
+          "brier": 0.1235440031428739,
+          "auc": 0.820818807292303,
+          "prevalence": 0.24824094731422688
+        },
+        "CD3e_pos": {
+          "brier": 0.17367654199650884,
+          "auc": 0.7114883824778911,
+          "prevalence": 0.22507293633087352
+        }
+      }
+    }
+  },
+  "training_patients": [
+    "CRC01",
+    "CRC03"
+  ],
+  "validation_patients": [
+    "CRC19"
+  ],
+  "n_training_cells": 117770,
+  "test_patients": [
+    "CRC02",
+    "CRC11"
+  ]
+}

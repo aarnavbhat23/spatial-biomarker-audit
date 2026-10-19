@@ -1,0 +1,379 @@
+{
+  "protocol": {
+    "status": "Exploratory extension after inspecting initial pilot; not independent confirmation.",
+    "added_control": "Training marker prevalence times known geometric pair count; no H&E image features.",
+    "density_coefficient_from_validation": 0.5821509506690558,
+    "betting_stabilizers": [
+      0.01,
+      0.05,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "confidence": "Fixed-budget two-sided test-martingale inversion with alpha=0.05.",
+    "sampling_seed": 20261018,
+    "repetitions": 1000
+  },
+  "rows": [
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 2,
+      "method": "measured_only",
+      "rmse": 0.01826774084679397,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.93950298332141,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 2,
+      "method": "difference",
+      "rmse": 0.03803161103848345,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.93950298332141,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 2,
+      "method": "validation_tuned",
+      "rmse": 0.02976447878516739,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.93950298332141,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 2,
+      "method": "density_only",
+      "rmse": 0.020877828010186613,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.93950298332141,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 4,
+      "method": "measured_only",
+      "rmse": 0.012524843923676603,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8794840298622336,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 4,
+      "method": "difference",
+      "rmse": 0.026927507245999655,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8794840298622336,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 4,
+      "method": "validation_tuned",
+      "rmse": 0.021152062023852895,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8794840298622336,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 4,
+      "method": "density_only",
+      "rmse": 0.01465546991984988,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8794840298622336,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 8,
+      "method": "measured_only",
+      "rmse": 0.008349861949009855,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.755872352452077,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 8,
+      "method": "difference",
+      "rmse": 0.017384627303963306,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.755872352452077,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 8,
+      "method": "validation_tuned",
+      "rmse": 0.013599872432553128,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.755872352452077,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 8,
+      "method": "density_only",
+      "rmse": 0.009289137453597156,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.755872352452077,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 16,
+      "method": "measured_only",
+      "rmse": 0.00480051658399677,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4954819480350706,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 16,
+      "method": "difference",
+      "rmse": 0.010362848264883226,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4954819480350706,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 16,
+      "method": "validation_tuned",
+      "rmse": 0.00811291247774422,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4954819480350706,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 16,
+      "method": "density_only",
+      "rmse": 0.005479977581746665,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4954819480350706,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 32,
+      "method": "measured_only",
+      "rmse": 0.0,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 32,
+      "method": "difference",
+      "rmse": 3.698257950804335e-18,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 32,
+      "method": "validation_tuned",
+      "rmse": 9.797732934998344e-19,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC02",
+      "sampled_tiles": 32,
+      "method": "density_only",
+      "rmse": 8.319441530320187e-19,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 2,
+      "method": "measured_only",
+      "rmse": 0.03849373865984099,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.9376247544979829,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 2,
+      "method": "difference",
+      "rmse": 0.02228603914328566,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.9376247544979829,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 2,
+      "method": "validation_tuned",
+      "rmse": 0.024446491700044436,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.9376247544979829,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 2,
+      "method": "density_only",
+      "rmse": 0.02123143134728292,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.9376247544979829,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 4,
+      "method": "measured_only",
+      "rmse": 0.027117354078942228,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8748154659422455,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 4,
+      "method": "difference",
+      "rmse": 0.015025481461455253,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8748208385708558,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 4,
+      "method": "validation_tuned",
+      "rmse": 0.016675987135156244,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8748208385708558,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 4,
+      "method": "density_only",
+      "rmse": 0.014518047022794247,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.8748208385708558,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 8,
+      "method": "measured_only",
+      "rmse": 0.016648392379128442,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.7491909764612549,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 8,
+      "method": "difference",
+      "rmse": 0.009713773317568002,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.74931606361693,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 8,
+      "method": "validation_tuned",
+      "rmse": 0.010632562409191833,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.74931606361693,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 8,
+      "method": "density_only",
+      "rmse": 0.009220430175650496,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.74931606361693,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 16,
+      "method": "measured_only",
+      "rmse": 0.009907541847149216,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4883299873155523,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 16,
+      "method": "difference",
+      "rmse": 0.005860511207980933,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4869059142271315,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 16,
+      "method": "validation_tuned",
+      "rmse": 0.006390621505600433,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.48724996467489656,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 16,
+      "method": "density_only",
+      "rmse": 0.005531781305752807,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.4875939066658048,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 32,
+      "method": "measured_only",
+      "rmse": 0.0,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 32,
+      "method": "difference",
+      "rmse": 0.0,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 32,
+      "method": "validation_tuned",
+      "rmse": 0.0,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    },
+    {
+      "patient": "CRC11",
+      "sampled_tiles": 32,
+      "method": "density_only",
+      "rmse": 0.0,
+      "betting_coverage": 1.0,
+      "betting_mean_width": 0.0,
+      "empty_intervals": 0
+    }
+  ]
+}

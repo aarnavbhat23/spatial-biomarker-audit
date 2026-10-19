@@ -1,0 +1,1020 @@
+{
+  "CRC01": {
+    "patient": "CRC01",
+    "cell_table_bytes": 149811737,
+    "sha256": "2ed2d89812421edb59cc0833ca7b9a497500e20335d49f27d5ae513e7c13407d",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S29_A24_C59kX_E15_20220106_014304_946511-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC01/18459_LSP10353_US_SCAN_OR_001__093059-registered.ome.tif",
+    "split": "train",
+    "n_source_cells": 1328649,
+    "n_cells": 50858,
+    "n_anchor_cells": 44011,
+    "n_directed_pairs": 927227,
+    "n_tiles": 24,
+    "core_tiles_xy": [
+      [
+        1,
+        10
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        10,
+        17
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        20,
+        8
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        18
+      ],
+      [
+        27,
+        20
+      ],
+      [
+        29,
+        14
+      ],
+      [
+        30,
+        23
+      ],
+      [
+        32,
+        10
+      ],
+      [
+        33,
+        18
+      ],
+      [
+        35,
+        18
+      ]
+    ],
+    "native_image_shape": [
+      57360,
+      78417,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 612,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  },
+  "CRC03": {
+    "patient": "CRC03",
+    "cell_table_bytes": 164091053,
+    "sha256": "87b589a908edb9fd5835070f86903d6f374990102ef7e63d26da566c3d387807",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S31_A24_C59kX_E15_20220106_014409_014236-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC03/18459_LSP10375_US_SCAN_OR_001__092147-registered.ome.tif",
+    "split": "train",
+    "n_source_cells": 1447646,
+    "n_cells": 66912,
+    "n_anchor_cells": 57600,
+    "n_directed_pairs": 1102513,
+    "n_tiles": 24,
+    "core_tiles_xy": [
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        15
+      ],
+      [
+        21,
+        6
+      ],
+      [
+        22,
+        1
+      ],
+      [
+        22,
+        12
+      ],
+      [
+        26,
+        14
+      ],
+      [
+        27,
+        13
+      ],
+      [
+        29,
+        7
+      ],
+      [
+        30,
+        17
+      ]
+    ],
+    "native_image_shape": [
+      41571,
+      79882,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 540,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  },
+  "CRC19": {
+    "patient": "CRC19",
+    "cell_table_bytes": 117762531,
+    "sha256": "0235b62d3203bf7148a4903745a81c3710cc2be0c1e109634fa0b7cc9ad19b22",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S51_Full_A24_C59mX_E15_20220129_015300_669681-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC19/19510_C19_US_SCAN_OR_001__153041-registered.ome.tif",
+    "split": "validation",
+    "n_source_cells": 1044592,
+    "n_cells": 11654,
+    "n_anchor_cells": 9902,
+    "n_directed_pairs": 84135,
+    "n_tiles": 12,
+    "core_tiles_xy": [
+      [
+        6,
+        4
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        13,
+        23
+      ],
+      [
+        20,
+        4
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        25,
+        11
+      ],
+      [
+        26,
+        10
+      ],
+      [
+        27,
+        8
+      ],
+      [
+        28,
+        13
+      ],
+      [
+        28,
+        18
+      ],
+      [
+        31,
+        22
+      ]
+    ],
+    "native_image_shape": [
+      60790,
+      81405,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 820,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  },
+  "CRC02": {
+    "patient": "CRC02",
+    "cell_table_bytes": 105908437,
+    "sha256": "3d91c5fa0cc9be64a8537d0735a017506610ce986621462825a204959879cc6a",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S30_A24_C59kX_E15_20220106_014319_409148-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC02/18459_LSP10364_US_SCAN_OR_001__092347-registered.ome.tif",
+    "split": "test",
+    "n_source_cells": 940198,
+    "n_cells": 56220,
+    "n_anchor_cells": 48302,
+    "n_directed_pairs": 792573,
+    "n_tiles": 32,
+    "core_tiles_xy": [
+      [
+        2,
+        14
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        17
+      ],
+      [
+        6,
+        18
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        19
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        13,
+        20
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        16,
+        15
+      ],
+      [
+        17,
+        10
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        19,
+        14
+      ],
+      [
+        19,
+        15
+      ],
+      [
+        21,
+        8
+      ],
+      [
+        21,
+        12
+      ],
+      [
+        21,
+        19
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        14
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        22
+      ],
+      [
+        26,
+        7
+      ],
+      [
+        26,
+        22
+      ],
+      [
+        27,
+        11
+      ],
+      [
+        27,
+        21
+      ]
+    ],
+    "native_image_shape": [
+      48460,
+      58709,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 458,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  },
+  "CRC11": {
+    "patient": "CRC11",
+    "cell_table_bytes": 85226850,
+    "sha256": "a655ba7279528f28b12e814d1f72d6d48e81e0b575042346c8e203e1527481cc",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S43_Full_A24_C59mX_E15_20220128_171510_544056-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC11/19510_C11_US_SCAN_OR_001__151039-registered.ome.tif",
+    "split": "test",
+    "n_source_cells": 758976,
+    "n_cells": 72922,
+    "n_anchor_cells": 62939,
+    "n_directed_pairs": 1140011,
+    "n_tiles": 32,
+    "core_tiles_xy": [
+      [
+        1,
+        22
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        26
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        16
+      ],
+      [
+        5,
+        20
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        19
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        18,
+        10
+      ],
+      [
+        20,
+        17
+      ],
+      [
+        20,
+        18
+      ],
+      [
+        21,
+        14
+      ],
+      [
+        22,
+        11
+      ],
+      [
+        23,
+        10
+      ],
+      [
+        25,
+        5
+      ],
+      [
+        25,
+        6
+      ],
+      [
+        27,
+        19
+      ],
+      [
+        28,
+        19
+      ],
+      [
+        29,
+        7
+      ]
+    ],
+    "native_image_shape": [
+      57325,
+      65485,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 363,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  },
+  "CRC04": {
+    "patient": "CRC04",
+    "cell_table_bytes": 166454614,
+    "sha256": "f3b7a5fad0eec1c97f956ec5f1ee333270f5ed6c5940cffe2ea99cf08e8e4e70",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S32_A24_C59kX_E15_20220106_014630_553652-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC04/18459_LSP10388_US_SCAN_OR_001__091155-registered.ome.tif",
+    "split": "confirmation",
+    "n_source_cells": 1487579,
+    "n_cells": 79837,
+    "n_anchor_cells": 68662,
+    "n_directed_pairs": 1418755,
+    "n_tiles": 32,
+    "core_tiles_xy": [
+      [
+        2,
+        13
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        13,
+        9
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        16,
+        13
+      ],
+      [
+        17,
+        6
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        20,
+        12
+      ],
+      [
+        20,
+        15
+      ],
+      [
+        21,
+        7
+      ],
+      [
+        21,
+        19
+      ],
+      [
+        23,
+        7
+      ],
+      [
+        24,
+        4
+      ],
+      [
+        25,
+        3
+      ],
+      [
+        27,
+        6
+      ],
+      [
+        27,
+        18
+      ],
+      [
+        30,
+        1
+      ],
+      [
+        30,
+        5
+      ],
+      [
+        30,
+        13
+      ],
+      [
+        31,
+        11
+      ],
+      [
+        32,
+        5
+      ],
+      [
+        32,
+        10
+      ],
+      [
+        32,
+        18
+      ],
+      [
+        33,
+        19
+      ],
+      [
+        34,
+        14
+      ],
+      [
+        35,
+        2
+      ]
+    ],
+    "native_image_shape": [
+      42367,
+      87043,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 568,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  },
+  "CRC12": {
+    "patient": "CRC12",
+    "cell_table_bytes": 73047777,
+    "sha256": "726629bb80d47ea106bfa886ffdd89aeccb7b20a0ab068e0f1db693bad2ea9b6",
+    "archive_member": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S44_Full_A24_C59mX_E15_20220128_171448_903938-zlib.ome.csv",
+    "image_url": "https://lin-2023-orion-crc.s3.amazonaws.com/data/CRC12/19510_C12_US_SCAN_OR_001__151249-registered.ome.tif",
+    "split": "confirmation",
+    "n_source_cells": 646025,
+    "n_cells": 37904,
+    "n_anchor_cells": 33166,
+    "n_directed_pairs": 433593,
+    "n_tiles": 32,
+    "core_tiles_xy": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        8
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        15,
+        10
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        21
+      ],
+      [
+        16,
+        23
+      ],
+      [
+        17,
+        21
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        23,
+        9
+      ],
+      [
+        23,
+        18
+      ],
+      [
+        24,
+        11
+      ],
+      [
+        25,
+        7
+      ],
+      [
+        28,
+        11
+      ],
+      [
+        29,
+        11
+      ],
+      [
+        29,
+        18
+      ],
+      [
+        30,
+        6
+      ],
+      [
+        30,
+        15
+      ],
+      [
+        31,
+        7
+      ],
+      [
+        32,
+        15
+      ]
+    ],
+    "native_image_shape": [
+      55993,
+      68853,
+      3
+    ],
+    "pyramid_level": 2,
+    "downsample": 4,
+    "physical_pixel_size": {
+      "PhysicalSizeX": "0.325",
+      "PhysicalSizeXUnit": "\u00b5m",
+      "PhysicalSizeY": "0.325",
+      "PhysicalSizeYUnit": "\u00b5m"
+    },
+    "core_pixels": 2048,
+    "measurement_halo_pixels": 80,
+    "candidate_occupied_tiles": 602,
+    "features": 42,
+    "markers": [
+      "Pan-CK_pos",
+      "CD3e_pos"
+    ],
+    "graph_dependency": "Source measured-image cell segmentation",
+    "scope": "Selected tile panel, with all source cells in its local halos. Not a whole-slide census."
+  }
+}

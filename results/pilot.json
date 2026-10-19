@@ -1,0 +1,1734 @@
+{
+  "scope": "Five-patient feasibility study; two held-out patients. Classical tile estimators, not a novel method.",
+  "python": "3.14.6",
+  "frozen_choices": {
+    "chosen_model": "logistic",
+    "validation_prediction_coefficient": 0.8152693050458282,
+    "validation_metrics": {
+      "logistic": {
+        "CRC19": {
+          "Pan-CK_pos": {
+            "brier": 0.11494842916727066,
+            "auc": 0.8320818590291883,
+            "prevalence": 0.24824094731422688
+          },
+          "CD3e_pos": {
+            "brier": 0.17274710536003113,
+            "auc": 0.6853246999902441,
+            "prevalence": 0.22507293633087352
+          }
+        }
+      },
+      "histogram_boosting": {
+        "CRC19": {
+          "Pan-CK_pos": {
+            "brier": 0.1235440031428739,
+            "auc": 0.820818807292303,
+            "prevalence": 0.24824094731422688
+          },
+          "CD3e_pos": {
+            "brier": 0.17367654199650884,
+            "auc": 0.7114883824778911,
+            "prevalence": 0.22507293633087352
+          }
+        }
+      }
+    },
+    "training_patients": [
+      "CRC01",
+      "CRC03"
+    ],
+    "validation_patients": [
+      "CRC19"
+    ],
+    "n_training_cells": 117770,
+    "test_patients": [
+      "CRC02",
+      "CRC11"
+    ]
+  },
+  "patients": {
+    "CRC02": {
+      "marker_metrics": {
+        "Pan-CK_pos": {
+          "brier": 0.16474418342113495,
+          "auc": 0.8753478786238076,
+          "prevalence": 0.5853255069370331
+        },
+        "CD3e_pos": {
+          "brier": 0.0536869652569294,
+          "auc": 0.7722455134256133,
+          "prevalence": 0.05117395944503735
+        }
+      },
+      "true_pair_fraction": 0.013891464887146042,
+      "virtual_pair_fraction": 0.04347268460222786,
+      "tile_measured_totals": [
+        141.0,
+        418.0,
+        733.0,
+        1566.0,
+        103.0,
+        182.0,
+        29.0,
+        539.0,
+        711.0,
+        1506.0,
+        271.0,
+        0.0,
+        145.0,
+        40.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2430.0,
+        0.0,
+        0.0,
+        5.0,
+        0.0,
+        2191.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tile_predicted_totals": [
+        2097.3591299042128,
+        2540.1108417881683,
+        347.64264239613385,
+        4352.2360479138415,
+        122.78362447145628,
+        131.36315541882772,
+        4706.895413148369,
+        91.79075878930028,
+        5186.333143867521,
+        6009.582244486352,
+        1273.2166792613352,
+        100.88175862922662,
+        284.7820135171496,
+        154.4921879846588,
+        13.919447467584632,
+        6.8875000130269655,
+        1.6859166926442413,
+        11.769811853926512,
+        6.18962320277933,
+        3.3027892220670765,
+        3428.1172783809934,
+        2.0498944856080925,
+        2.6728875957523996,
+        4.151467988523962,
+        6.07554043526352,
+        3443.7529966311586,
+        2.398435733775841,
+        24.703085281167876,
+        63.51297408452024,
+        18.31460154587317,
+        14.962284850882497,
+        1.3398761994380948
+      ],
+      "tile_pair_counts": [
+        57152,
+        58993,
+        13888,
+        92955,
+        5555,
+        6219,
+        98173,
+        12017,
+        94856,
+        126639,
+        44853,
+        6047,
+        5585,
+        6316,
+        2798,
+        5558,
+        348,
+        1638,
+        574,
+        798,
+        61778,
+        264,
+        1698,
+        7264,
+        1739,
+        47178,
+        197,
+        11232,
+        1505,
+        10539,
+        2611,
+        5606
+      ],
+      "sampling": [
+        {
+          "patient": "CRC02",
+          "method": "measured_only",
+          "sampled_tiles": 2,
+          "mean_acquired_panel_area_fraction": 0.06293639723138557,
+          "bias": 0.00012372866600300451,
+          "rmse": 0.01826774084679397,
+          "student_interval": {
+            "coverage": 0.649,
+            "mean_width": 0.15308318303974955,
+            "monte_carlo_95_interval": [
+              0.6185133989073751,
+              0.6786062068810231
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "difference",
+          "sampled_tiles": 2,
+          "mean_acquired_panel_area_fraction": 0.06293639723138557,
+          "bias": 0.001773256164687995,
+          "rmse": 0.03803161103848345,
+          "student_interval": {
+            "coverage": 0.62,
+            "mean_width": 0.2995252707239596,
+            "monte_carlo_95_interval": [
+              0.5890982340617008,
+              0.6501929780067929
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "validation_tuned",
+          "sampled_tiles": 2,
+          "mean_acquired_panel_area_fraction": 0.06293639723138557,
+          "bias": 0.0014685378035098964,
+          "rmse": 0.02976447878516739,
+          "student_interval": {
+            "coverage": 0.633,
+            "mean_width": 0.24141799050066928,
+            "monte_carlo_95_interval": [
+              0.6022699716904012,
+              0.6629443378664158
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "measured_only",
+          "sampled_tiles": 4,
+          "mean_acquired_panel_area_fraction": 0.1257933984279453,
+          "bias": -0.0005648741503937165,
+          "rmse": 0.012524843923676603,
+          "student_interval": {
+            "coverage": 0.672,
+            "mean_width": 0.042219529528611875,
+            "monte_carlo_95_interval": [
+              0.6419273442293649,
+              0.7010559991574353
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "difference",
+          "sampled_tiles": 4,
+          "mean_acquired_panel_area_fraction": 0.1257933984279453,
+          "bias": 0.0016123012828391792,
+          "rmse": 0.026927507245999655,
+          "student_interval": {
+            "coverage": 0.731,
+            "mean_width": 0.07270353586312087,
+            "monte_carlo_95_interval": [
+              0.7023620968228451,
+              0.7582707605480967
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "validation_tuned",
+          "sampled_tiles": 4,
+          "mean_acquired_panel_area_fraction": 0.1257933984279453,
+          "bias": 0.0012101101520209153,
+          "rmse": 0.021152062023852895,
+          "student_interval": {
+            "coverage": 0.683,
+            "mean_width": 0.0574885867927017,
+            "monte_carlo_95_interval": [
+              0.6531529694410999,
+              0.7117651432741482
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "measured_only",
+          "sampled_tiles": 8,
+          "mean_acquired_panel_area_fraction": 0.2513786219069592,
+          "bias": -0.000278369311091849,
+          "rmse": 0.008349861949009855,
+          "student_interval": {
+            "coverage": 0.772,
+            "mean_width": 0.030090125142285318,
+            "monte_carlo_95_interval": [
+              0.7447168224784331,
+              0.7976712701289688
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "difference",
+          "sampled_tiles": 8,
+          "mean_acquired_panel_area_fraction": 0.2513786219069592,
+          "bias": 0.0010400581725129362,
+          "rmse": 0.017384627303963306,
+          "student_interval": {
+            "coverage": 0.843,
+            "mean_width": 0.04773344012257323,
+            "monte_carlo_95_interval": [
+              0.8189474466392858,
+              0.8650123407930691
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "validation_tuned",
+          "sampled_tiles": 8,
+          "mean_acquired_panel_area_fraction": 0.2513786219069592,
+          "bias": 0.0007965041472199445,
+          "rmse": 0.013599872432553128,
+          "student_interval": {
+            "coverage": 0.85,
+            "mean_width": 0.039008016219597035,
+            "monte_carlo_95_interval": [
+              0.8263418714329642,
+              0.8715751888838271
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "measured_only",
+          "sampled_tiles": 16,
+          "mean_acquired_panel_area_fraction": 0.5017719000178492,
+          "bias": 0.00013482165049781038,
+          "rmse": 0.00480051658399677,
+          "student_interval": {
+            "coverage": 0.905,
+            "mean_width": 0.019342914354411517,
+            "monte_carlo_95_interval": [
+              0.885115155595548,
+              0.9224597929183449
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "difference",
+          "sampled_tiles": 16,
+          "mean_acquired_panel_area_fraction": 0.5017719000178492,
+          "bias": -0.0003589302687626115,
+          "rmse": 0.010362848264883226,
+          "student_interval": {
+            "coverage": 0.911,
+            "mean_width": 0.03228566916018653,
+            "monte_carlo_95_interval": [
+              0.8916189999399975,
+              0.92791753546024
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "validation_tuned",
+          "sampled_tiles": 16,
+          "mean_acquired_panel_area_fraction": 0.5017719000178492,
+          "bias": -0.00026771913358267924,
+          "rmse": 0.00811291247774422,
+          "student_interval": {
+            "coverage": 0.906,
+            "mean_width": 0.027200487652127826,
+            "monte_carlo_95_interval": [
+              0.8861975612810254,
+              0.9233710070726222
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "measured_only",
+          "sampled_tiles": 32,
+          "mean_acquired_panel_area_fraction": 1.0,
+          "bias": 0.0,
+          "rmse": 0.0,
+          "student_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "difference",
+          "sampled_tiles": 32,
+          "mean_acquired_panel_area_fraction": 1.0,
+          "bias": 1.734723475976807e-18,
+          "rmse": 3.698257950804335e-18,
+          "student_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC02",
+          "method": "validation_tuned",
+          "sampled_tiles": 32,
+          "mean_acquired_panel_area_fraction": 1.0,
+          "bias": 1.734723475976807e-18,
+          "rmse": 9.797732934998344e-19,
+          "student_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    "CRC11": {
+      "marker_metrics": {
+        "Pan-CK_pos": {
+          "brier": 0.21698129177093506,
+          "auc": 0.7526152903896648,
+          "prevalence": 0.47231288225775486
+        },
+        "CD3e_pos": {
+          "brier": 0.16020718216896057,
+          "auc": 0.6536683733415618,
+          "prevalence": 0.1976906831957434
+        }
+      },
+      "true_pair_fraction": 0.04056890679125026,
+      "virtual_pair_fraction": 0.0304039129973859,
+      "tile_measured_totals": [
+        80.0,
+        186.0,
+        16.0,
+        70.0,
+        1471.0,
+        19.0,
+        683.0,
+        1843.0,
+        25.0,
+        4059.0,
+        685.0,
+        1819.0,
+        6831.0,
+        1045.0,
+        5187.0,
+        5323.0,
+        112.0,
+        5393.0,
+        298.0,
+        5002.0,
+        196.0,
+        0.0,
+        0.0,
+        6.0,
+        27.0,
+        1652.0,
+        838.0,
+        4.0,
+        899.0,
+        0.0,
+        0.0,
+        2480.0
+      ],
+      "tile_predicted_totals": [
+        29.629751147556817,
+        162.89639275063382,
+        29.42861306390114,
+        685.7401270257051,
+        1760.8637620948575,
+        164.71250457027213,
+        1402.3740201508133,
+        2041.3698245756696,
+        128.34458498677122,
+        4070.448445560498,
+        1175.8578369444149,
+        1339.0614142282764,
+        1981.9035896929727,
+        1402.091144610893,
+        3656.2966883060435,
+        3450.3342821443453,
+        402.61342182906446,
+        2373.0886233915953,
+        414.51222629288714,
+        2817.506937609287,
+        273.21850543375706,
+        53.10140042712533,
+        9.093228627752978,
+        19.697626209961527,
+        153.6373809508376,
+        466.6371558399048,
+        306.7775552333529,
+        233.75419760521436,
+        969.4180800517261,
+        3.772569370092242,
+        14.919906423412613,
+        2667.693462913303
+      ],
+      "tile_pair_counts": [
+        1094,
+        6692,
+        1296,
+        19932,
+        48640,
+        16872,
+        44610,
+        59282,
+        15482,
+        115774,
+        30907,
+        39933,
+        101514,
+        33649,
+        112267,
+        99795,
+        13688,
+        87951,
+        11358,
+        93191,
+        9323,
+        1609,
+        245,
+        452,
+        3785,
+        25829,
+        17864,
+        5735,
+        35286,
+        186,
+        300,
+        85470
+      ],
+      "sampling": [
+        {
+          "patient": "CRC11",
+          "method": "measured_only",
+          "sampled_tiles": 2,
+          "mean_acquired_panel_area_fraction": 0.06307878884272053,
+          "bias": -0.0006435516850276032,
+          "rmse": 0.03849373865984099,
+          "student_interval": {
+            "coverage": 0.771,
+            "mean_width": 0.3652432944136919,
+            "monte_carlo_95_interval": [
+              0.7436798486369471,
+              0.796714230139708
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "difference",
+          "sampled_tiles": 2,
+          "mean_acquired_panel_area_fraction": 0.06307878884272053,
+          "bias": -0.0007967247439812503,
+          "rmse": 0.02228603914328566,
+          "student_interval": {
+            "coverage": 0.843,
+            "mean_width": 0.20429643595138539,
+            "monte_carlo_95_interval": [
+              0.8189474466392858,
+              0.8650123407930691
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "validation_tuned",
+          "sampled_tiles": 2,
+          "mean_acquired_panel_area_fraction": 0.06307878884272053,
+          "bias": -0.0007684289783524839,
+          "rmse": 0.024446491700044436,
+          "student_interval": {
+            "coverage": 0.818,
+            "mean_width": 0.2243165265513448,
+            "monte_carlo_95_interval": [
+              0.7926611505098348,
+              0.841450346688562
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "measured_only",
+          "sampled_tiles": 4,
+          "mean_acquired_panel_area_fraction": 0.1261148995672545,
+          "bias": -0.00024062223960996665,
+          "rmse": 0.027117354078942228,
+          "student_interval": {
+            "coverage": 0.816,
+            "mean_width": 0.11159989136467893,
+            "monte_carlo_95_interval": [
+              0.7905658665854713,
+              0.8395577168152119
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "difference",
+          "sampled_tiles": 4,
+          "mean_acquired_panel_area_fraction": 0.1261148995672545,
+          "bias": -0.00024312773479176486,
+          "rmse": 0.015025481461455253,
+          "student_interval": {
+            "coverage": 0.703,
+            "mean_width": 0.06862616793091167,
+            "monte_carlo_95_interval": [
+              0.6736110731678128,
+              0.7311883166205181
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "validation_tuned",
+          "sampled_tiles": 4,
+          "mean_acquired_panel_area_fraction": 0.1261148995672545,
+          "bias": -0.00024266489292562587,
+          "rmse": 0.016675987135156244,
+          "student_interval": {
+            "coverage": 0.752,
+            "mean_width": 0.07483899814652392,
+            "monte_carlo_95_interval": [
+              0.7240157794869063,
+              0.7784918701625331
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "measured_only",
+          "sampled_tiles": 8,
+          "mean_acquired_panel_area_fraction": 0.2518718728669225,
+          "bias": 0.0003191021841017355,
+          "rmse": 0.016648392379128442,
+          "student_interval": {
+            "coverage": 0.88,
+            "mean_width": 0.07622775852620481,
+            "monte_carlo_95_interval": [
+              0.8582331362071746,
+              0.8994990762518323
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "difference",
+          "sampled_tiles": 8,
+          "mean_acquired_panel_area_fraction": 0.2518718728669225,
+          "bias": 0.00033711864349791204,
+          "rmse": 0.009713773317568002,
+          "student_interval": {
+            "coverage": 0.856,
+            "mean_width": 0.04305766639971023,
+            "monte_carlo_95_interval": [
+              0.8326930831842088,
+              0.8771872488924841
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "validation_tuned",
+          "sampled_tiles": 8,
+          "mean_acquired_panel_area_fraction": 0.2518718728669225,
+          "bias": 0.0003337904504330455,
+          "rmse": 0.010632562409191833,
+          "student_interval": {
+            "coverage": 0.834,
+            "mean_width": 0.04795808277820453,
+            "monte_carlo_95_interval": [
+              0.8094632114581198,
+              0.8565513384158628
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "measured_only",
+          "sampled_tiles": 16,
+          "mean_acquired_panel_area_fraction": 0.5024839460029027,
+          "bias": 0.00014244774831119467,
+          "rmse": 0.009907541847149216,
+          "student_interval": {
+            "coverage": 0.939,
+            "mean_width": 0.04251958710876511,
+            "monte_carlo_95_interval": [
+              0.9223292259508765,
+              0.9530221244589198
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "difference",
+          "sampled_tiles": 16,
+          "mean_acquired_panel_area_fraction": 0.5024839460029027,
+          "bias": 0.00019131213076203912,
+          "rmse": 0.005860511207980933,
+          "student_interval": {
+            "coverage": 0.9,
+            "mean_width": 0.02392436420702957,
+            "monte_carlo_95_interval": [
+              0.8797120634813074,
+              0.91789466564442
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "validation_tuned",
+          "sampled_tiles": 16,
+          "mean_acquired_panel_area_fraction": 0.5024839460029027,
+          "bias": 0.00018228537943339174,
+          "rmse": 0.006390621505600433,
+          "student_interval": {
+            "coverage": 0.906,
+            "mean_width": 0.026496825818878234,
+            "monte_carlo_95_interval": [
+              0.8861975612810254,
+              0.9233710070726222
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 1.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "measured_only",
+          "sampled_tiles": 32,
+          "mean_acquired_panel_area_fraction": 1.0,
+          "bias": -6.938893903907228e-18,
+          "rmse": 0.0,
+          "student_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "difference",
+          "sampled_tiles": 32,
+          "mean_acquired_panel_area_fraction": 1.0,
+          "bias": -6.938893903907228e-18,
+          "rmse": 0.0,
+          "student_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        },
+        {
+          "patient": "CRC11",
+          "method": "validation_tuned",
+          "sampled_tiles": 32,
+          "mean_acquired_panel_area_fraction": 1.0,
+          "bias": -6.938893903907228e-18,
+          "rmse": 0.0,
+          "student_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          },
+          "bounded_interval": {
+            "coverage": 1.0,
+            "mean_width": 0.0,
+            "monte_carlo_95_interval": [
+              0.9963179161031341,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "patient": "CRC02",
+      "method": "measured_only",
+      "sampled_tiles": 2,
+      "mean_acquired_panel_area_fraction": 0.06293639723138557,
+      "bias": 0.00012372866600300451,
+      "rmse": 0.01826774084679397,
+      "student_interval": {
+        "coverage": 0.649,
+        "mean_width": 0.15308318303974955,
+        "monte_carlo_95_interval": [
+          0.6185133989073751,
+          0.6786062068810231
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "difference",
+      "sampled_tiles": 2,
+      "mean_acquired_panel_area_fraction": 0.06293639723138557,
+      "bias": 0.001773256164687995,
+      "rmse": 0.03803161103848345,
+      "student_interval": {
+        "coverage": 0.62,
+        "mean_width": 0.2995252707239596,
+        "monte_carlo_95_interval": [
+          0.5890982340617008,
+          0.6501929780067929
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "validation_tuned",
+      "sampled_tiles": 2,
+      "mean_acquired_panel_area_fraction": 0.06293639723138557,
+      "bias": 0.0014685378035098964,
+      "rmse": 0.02976447878516739,
+      "student_interval": {
+        "coverage": 0.633,
+        "mean_width": 0.24141799050066928,
+        "monte_carlo_95_interval": [
+          0.6022699716904012,
+          0.6629443378664158
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "measured_only",
+      "sampled_tiles": 4,
+      "mean_acquired_panel_area_fraction": 0.1257933984279453,
+      "bias": -0.0005648741503937165,
+      "rmse": 0.012524843923676603,
+      "student_interval": {
+        "coverage": 0.672,
+        "mean_width": 0.042219529528611875,
+        "monte_carlo_95_interval": [
+          0.6419273442293649,
+          0.7010559991574353
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "difference",
+      "sampled_tiles": 4,
+      "mean_acquired_panel_area_fraction": 0.1257933984279453,
+      "bias": 0.0016123012828391792,
+      "rmse": 0.026927507245999655,
+      "student_interval": {
+        "coverage": 0.731,
+        "mean_width": 0.07270353586312087,
+        "monte_carlo_95_interval": [
+          0.7023620968228451,
+          0.7582707605480967
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "validation_tuned",
+      "sampled_tiles": 4,
+      "mean_acquired_panel_area_fraction": 0.1257933984279453,
+      "bias": 0.0012101101520209153,
+      "rmse": 0.021152062023852895,
+      "student_interval": {
+        "coverage": 0.683,
+        "mean_width": 0.0574885867927017,
+        "monte_carlo_95_interval": [
+          0.6531529694410999,
+          0.7117651432741482
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "measured_only",
+      "sampled_tiles": 8,
+      "mean_acquired_panel_area_fraction": 0.2513786219069592,
+      "bias": -0.000278369311091849,
+      "rmse": 0.008349861949009855,
+      "student_interval": {
+        "coverage": 0.772,
+        "mean_width": 0.030090125142285318,
+        "monte_carlo_95_interval": [
+          0.7447168224784331,
+          0.7976712701289688
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "difference",
+      "sampled_tiles": 8,
+      "mean_acquired_panel_area_fraction": 0.2513786219069592,
+      "bias": 0.0010400581725129362,
+      "rmse": 0.017384627303963306,
+      "student_interval": {
+        "coverage": 0.843,
+        "mean_width": 0.04773344012257323,
+        "monte_carlo_95_interval": [
+          0.8189474466392858,
+          0.8650123407930691
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "validation_tuned",
+      "sampled_tiles": 8,
+      "mean_acquired_panel_area_fraction": 0.2513786219069592,
+      "bias": 0.0007965041472199445,
+      "rmse": 0.013599872432553128,
+      "student_interval": {
+        "coverage": 0.85,
+        "mean_width": 0.039008016219597035,
+        "monte_carlo_95_interval": [
+          0.8263418714329642,
+          0.8715751888838271
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "measured_only",
+      "sampled_tiles": 16,
+      "mean_acquired_panel_area_fraction": 0.5017719000178492,
+      "bias": 0.00013482165049781038,
+      "rmse": 0.00480051658399677,
+      "student_interval": {
+        "coverage": 0.905,
+        "mean_width": 0.019342914354411517,
+        "monte_carlo_95_interval": [
+          0.885115155595548,
+          0.9224597929183449
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "difference",
+      "sampled_tiles": 16,
+      "mean_acquired_panel_area_fraction": 0.5017719000178492,
+      "bias": -0.0003589302687626115,
+      "rmse": 0.010362848264883226,
+      "student_interval": {
+        "coverage": 0.911,
+        "mean_width": 0.03228566916018653,
+        "monte_carlo_95_interval": [
+          0.8916189999399975,
+          0.92791753546024
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "validation_tuned",
+      "sampled_tiles": 16,
+      "mean_acquired_panel_area_fraction": 0.5017719000178492,
+      "bias": -0.00026771913358267924,
+      "rmse": 0.00811291247774422,
+      "student_interval": {
+        "coverage": 0.906,
+        "mean_width": 0.027200487652127826,
+        "monte_carlo_95_interval": [
+          0.8861975612810254,
+          0.9233710070726222
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "measured_only",
+      "sampled_tiles": 32,
+      "mean_acquired_panel_area_fraction": 1.0,
+      "bias": 0.0,
+      "rmse": 0.0,
+      "student_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "difference",
+      "sampled_tiles": 32,
+      "mean_acquired_panel_area_fraction": 1.0,
+      "bias": 1.734723475976807e-18,
+      "rmse": 3.698257950804335e-18,
+      "student_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC02",
+      "method": "validation_tuned",
+      "sampled_tiles": 32,
+      "mean_acquired_panel_area_fraction": 1.0,
+      "bias": 1.734723475976807e-18,
+      "rmse": 9.797732934998344e-19,
+      "student_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "measured_only",
+      "sampled_tiles": 2,
+      "mean_acquired_panel_area_fraction": 0.06307878884272053,
+      "bias": -0.0006435516850276032,
+      "rmse": 0.03849373865984099,
+      "student_interval": {
+        "coverage": 0.771,
+        "mean_width": 0.3652432944136919,
+        "monte_carlo_95_interval": [
+          0.7436798486369471,
+          0.796714230139708
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "difference",
+      "sampled_tiles": 2,
+      "mean_acquired_panel_area_fraction": 0.06307878884272053,
+      "bias": -0.0007967247439812503,
+      "rmse": 0.02228603914328566,
+      "student_interval": {
+        "coverage": 0.843,
+        "mean_width": 0.20429643595138539,
+        "monte_carlo_95_interval": [
+          0.8189474466392858,
+          0.8650123407930691
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "validation_tuned",
+      "sampled_tiles": 2,
+      "mean_acquired_panel_area_fraction": 0.06307878884272053,
+      "bias": -0.0007684289783524839,
+      "rmse": 0.024446491700044436,
+      "student_interval": {
+        "coverage": 0.818,
+        "mean_width": 0.2243165265513448,
+        "monte_carlo_95_interval": [
+          0.7926611505098348,
+          0.841450346688562
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "measured_only",
+      "sampled_tiles": 4,
+      "mean_acquired_panel_area_fraction": 0.1261148995672545,
+      "bias": -0.00024062223960996665,
+      "rmse": 0.027117354078942228,
+      "student_interval": {
+        "coverage": 0.816,
+        "mean_width": 0.11159989136467893,
+        "monte_carlo_95_interval": [
+          0.7905658665854713,
+          0.8395577168152119
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "difference",
+      "sampled_tiles": 4,
+      "mean_acquired_panel_area_fraction": 0.1261148995672545,
+      "bias": -0.00024312773479176486,
+      "rmse": 0.015025481461455253,
+      "student_interval": {
+        "coverage": 0.703,
+        "mean_width": 0.06862616793091167,
+        "monte_carlo_95_interval": [
+          0.6736110731678128,
+          0.7311883166205181
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "validation_tuned",
+      "sampled_tiles": 4,
+      "mean_acquired_panel_area_fraction": 0.1261148995672545,
+      "bias": -0.00024266489292562587,
+      "rmse": 0.016675987135156244,
+      "student_interval": {
+        "coverage": 0.752,
+        "mean_width": 0.07483899814652392,
+        "monte_carlo_95_interval": [
+          0.7240157794869063,
+          0.7784918701625331
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "measured_only",
+      "sampled_tiles": 8,
+      "mean_acquired_panel_area_fraction": 0.2518718728669225,
+      "bias": 0.0003191021841017355,
+      "rmse": 0.016648392379128442,
+      "student_interval": {
+        "coverage": 0.88,
+        "mean_width": 0.07622775852620481,
+        "monte_carlo_95_interval": [
+          0.8582331362071746,
+          0.8994990762518323
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "difference",
+      "sampled_tiles": 8,
+      "mean_acquired_panel_area_fraction": 0.2518718728669225,
+      "bias": 0.00033711864349791204,
+      "rmse": 0.009713773317568002,
+      "student_interval": {
+        "coverage": 0.856,
+        "mean_width": 0.04305766639971023,
+        "monte_carlo_95_interval": [
+          0.8326930831842088,
+          0.8771872488924841
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "validation_tuned",
+      "sampled_tiles": 8,
+      "mean_acquired_panel_area_fraction": 0.2518718728669225,
+      "bias": 0.0003337904504330455,
+      "rmse": 0.010632562409191833,
+      "student_interval": {
+        "coverage": 0.834,
+        "mean_width": 0.04795808277820453,
+        "monte_carlo_95_interval": [
+          0.8094632114581198,
+          0.8565513384158628
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "measured_only",
+      "sampled_tiles": 16,
+      "mean_acquired_panel_area_fraction": 0.5024839460029027,
+      "bias": 0.00014244774831119467,
+      "rmse": 0.009907541847149216,
+      "student_interval": {
+        "coverage": 0.939,
+        "mean_width": 0.04251958710876511,
+        "monte_carlo_95_interval": [
+          0.9223292259508765,
+          0.9530221244589198
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "difference",
+      "sampled_tiles": 16,
+      "mean_acquired_panel_area_fraction": 0.5024839460029027,
+      "bias": 0.00019131213076203912,
+      "rmse": 0.005860511207980933,
+      "student_interval": {
+        "coverage": 0.9,
+        "mean_width": 0.02392436420702957,
+        "monte_carlo_95_interval": [
+          0.8797120634813074,
+          0.91789466564442
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "validation_tuned",
+      "sampled_tiles": 16,
+      "mean_acquired_panel_area_fraction": 0.5024839460029027,
+      "bias": 0.00018228537943339174,
+      "rmse": 0.006390621505600433,
+      "student_interval": {
+        "coverage": 0.906,
+        "mean_width": 0.026496825818878234,
+        "monte_carlo_95_interval": [
+          0.8861975612810254,
+          0.9233710070726222
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 1.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "measured_only",
+      "sampled_tiles": 32,
+      "mean_acquired_panel_area_fraction": 1.0,
+      "bias": -6.938893903907228e-18,
+      "rmse": 0.0,
+      "student_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "difference",
+      "sampled_tiles": 32,
+      "mean_acquired_panel_area_fraction": 1.0,
+      "bias": -6.938893903907228e-18,
+      "rmse": 0.0,
+      "student_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    },
+    {
+      "patient": "CRC11",
+      "method": "validation_tuned",
+      "sampled_tiles": 32,
+      "mean_acquired_panel_area_fraction": 1.0,
+      "bias": -6.938893903907228e-18,
+      "rmse": 0.0,
+      "student_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      },
+      "bounded_interval": {
+        "coverage": 1.0,
+        "mean_width": 0.0,
+        "monte_carlo_95_interval": [
+          0.9963179161031341,
+          1.0
+        ]
+      }
+    }
+  ]
+}

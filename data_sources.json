@@ -1,0 +1,64 @@
+{
+  "archive": "https://zenodo.org/records/15340874/files/ORIONCRC_dataset_tile_20x.zip?download=1",
+  "archive_bytes": 127020270255,
+  "cell_tables": {
+    "CRC01": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S29_A24_C59kX_E15_20220106_014304_946511-zlib.ome.csv",
+      "compressed": 11782964,
+      "size": 149811737,
+      "offset": 127,
+      "compression": 8,
+      "sha256": "2ed2d89812421edb59cc0833ca7b9a497500e20335d49f27d5ae513e7c13407d"
+    },
+    "CRC02": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S30_A24_C59kX_E15_20220106_014319_409148-zlib.ome.csv",
+      "compressed": 7871812,
+      "size": 105908437,
+      "offset": 11783219,
+      "compression": 8,
+      "sha256": "3d91c5fa0cc9be64a8537d0735a017506610ce986621462825a204959879cc6a"
+    },
+    "CRC03": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S31_A24_C59kX_E15_20220106_014409_014236-zlib.ome.csv",
+      "compressed": 11669371,
+      "size": 164091053,
+      "offset": 19655159,
+      "compression": 8,
+      "sha256": "87b589a908edb9fd5835070f86903d6f374990102ef7e63d26da566c3d387807"
+    },
+    "CRC11": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S43_Full_A24_C59mX_E15_20220128_171510_544056-zlib.ome.csv",
+      "compressed": 6932275,
+      "size": 85226850,
+      "offset": 85153047,
+      "compression": 8,
+      "sha256": "a655ba7279528f28b12e814d1f72d6d48e81e0b575042346c8e203e1527481cc"
+    },
+    "CRC19": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S51_Full_A24_C59mX_E15_20220129_015300_669681-zlib.ome.csv",
+      "compressed": 9701110,
+      "size": 117762531,
+      "offset": 193371398,
+      "compression": 8,
+      "sha256": "0235b62d3203bf7148a4903745a81c3710cc2be0c1e109634fa0b7cc9ad19b22"
+    },
+    "CRC04": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S32_A24_C59kX_E15_20220106_014630_553652-zlib.ome.csv",
+      "compressed": 14161346,
+      "size": 166454614,
+      "offset": 31324658,
+      "compression": 8,
+      "sha256": "f3b7a5fad0eec1c97f956ec5f1ee333270f5ed6c5940cffe2ea99cf08e8e4e70"
+    },
+    "CRC12": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S44_Full_A24_C59mX_E15_20220128_171448_903938-zlib.ome.csv",
+      "compressed": 5752974,
+      "size": 73047777,
+      "offset": 92085455,
+      "compression": 8,
+      "sha256": "726629bb80d47ea106bfa886ffdd89aeccb7b20a0ab068e0f1db693bad2ea9b6"
+    }
+  },
+  "raw_images": "https://lin-2023-orion-crc.s3.amazonaws.com/",
+  "license_record": "https://zenodo.org/records/15340874"
+}

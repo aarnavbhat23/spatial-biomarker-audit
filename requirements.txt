@@ -1,0 +1,11 @@
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+fsspec==2026.9.0
+aiohttp==3.14.5
+tifffile==2026.10.15
+imagecodecs==2026.10.10
+zarr==3.4.1
+joblib==1.6.0
+matplotlib==3.11.2

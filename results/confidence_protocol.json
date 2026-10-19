@@ -1,0 +1,15 @@
+{
+  "status": "Exploratory extension after inspecting initial pilot; not independent confirmation.",
+  "added_control": "Training marker prevalence times known geometric pair count; no H&E image features.",
+  "density_coefficient_from_validation": 0.5821509506690558,
+  "betting_stabilizers": [
+    0.01,
+    0.05,
+    0.1,
+    0.5,
+    1.0
+  ],
+  "confidence": "Fixed-budget two-sided test-martingale inversion with alpha=0.05.",
+  "sampling_seed": 20261018,
+  "repetitions": 1000
+}
