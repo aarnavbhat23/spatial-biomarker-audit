@@ -1,0 +1,35 @@
+{
+  "archive": "https://zenodo.org/records/15340874/files/ORIONCRC_dataset_tile_20x.zip?download=1",
+  "raw_images": "https://lin-2023-orion-crc.s3.amazonaws.com/",
+  "cell_tables": {
+    "CRC05": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S33_A24_C59kX_E15_20220107_180446_881530-zlib.ome.csv",
+      "compressed": 5483117,
+      "size": 70379551,
+      "offset": 45486132,
+      "compression": 8
+    },
+    "CRC06": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S34_A24_C59kX_E15_20220107_202112_212579-zlib.ome.csv",
+      "compressed": 8454117,
+      "size": 103442006,
+      "offset": 50969377,
+      "compression": 8
+    },
+    "CRC07": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S35_A24_C59kX_E15_20220108_012037_490594-zlib.ome.csv",
+      "compressed": 7440116,
+      "size": 93864218,
+      "offset": 59423622,
+      "compression": 8
+    },
+    "CRC09": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S37_A24_C59kX_E15_20220108_012113_953544-zlib.ome.csv",
+      "compressed": 8020087,
+      "size": 102296840,
+      "offset": 66863866,
+      "compression": 8
+    }
+  },
+  "patient_mapping_source": "https://github.com/labsyspharm/orion-crc/blob/main/scripts-processing/file_list.csv"
+}

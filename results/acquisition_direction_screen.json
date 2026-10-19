@@ -1,0 +1,633 @@
+{
+  "seed": 20261020,
+  "scope": "Exploratory existing-panel development; not independent confirmation.",
+  "patients": {
+    "CRC02": {
+      "truth": 0.013891464887146042,
+      "overlap": {
+        "observation_signatures": 45,
+        "geometric_pairs": 792573,
+        "rows": [
+          {
+            "sampled_tiles": 4,
+            "ownership_expected_pairs": 99071.625,
+            "all_observed_expected_pairs": 99111.81854838709,
+            "relative_additional_pairs": 0.0004057019190619737
+          },
+          {
+            "sampled_tiles": 8,
+            "ownership_expected_pairs": 198143.25,
+            "all_observed_expected_pairs": 198212.15322580645,
+            "relative_additional_pairs": 0.0003477445020532155
+          },
+          {
+            "sampled_tiles": 16,
+            "ownership_expected_pairs": 396286.5,
+            "all_observed_expected_pairs": 396378.37096774194,
+            "relative_additional_pairs": 0.000231829668035477
+          }
+        ]
+      },
+      "coarse_costs": [
+        {
+          "sampled_tiles": 4,
+          "mean_union_area_native_pixels": 19476326.4,
+          "miss_single_hotspot_probability": 0.875,
+          "largest_single_tile_pair_mass": 0.15978212732454927
+        },
+        {
+          "sampled_tiles": 8,
+          "mean_union_area_native_pixels": 38946816.0,
+          "miss_single_hotspot_probability": 0.75,
+          "largest_single_tile_pair_mass": 0.15978212732454927
+        },
+        {
+          "sampled_tiles": 16,
+          "mean_union_area_native_pixels": 77764352.0,
+          "miss_single_hotspot_probability": 0.5,
+          "largest_single_tile_pair_mass": 0.15978212732454927
+        }
+      ],
+      "pair_sampling": [
+        {
+          "sampled_pairs": 128,
+          "exact_coverage": 0.9907374947932053,
+          "expected_width": 0.04931630142611414,
+          "probability_width_below_004": 0.16686447131966833,
+          "rmse": 0.010345021481685054,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 2021029.4,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 7559276.15,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 24357430.85,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 256,
+          "exact_coverage": 0.9896989176339015,
+          "expected_width": 0.03268379992324499,
+          "probability_width_below_004": 0.8514671719648222,
+          "rmse": 0.0073150348412200075,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 3923182.7,
+              "mean_regions": 255.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 13831555.75,
+              "mean_regions": 256.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 38697214.7,
+              "mean_regions": 255.8,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 512,
+          "exact_coverage": 0.9797826165533869,
+          "expected_width": 0.02224862841040202,
+          "probability_width_below_004": 0.9999999725138049,
+          "rmse": 0.005172510740842527,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 7353168.45,
+              "mean_regions": 511.6,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 22827817.2,
+              "mean_regions": 511.4,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 54834447.05,
+              "mean_regions": 511.6,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 1024,
+          "exact_coverage": 0.9691601458222284,
+          "expected_width": 0.015322110291007045,
+          "probability_width_below_004": 0.9999999999999994,
+          "rmse": 0.0036575174206100037,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 13103290.9,
+              "mean_regions": 1022.2,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 35259234.55,
+              "mean_regions": 1022.4,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 73705102.3,
+              "mean_regions": 1022.6,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 2048,
+          "exact_coverage": 0.953008456474139,
+          "expected_width": 0.010629605103719528,
+          "probability_width_below_004": 0.9999999999999997,
+          "rmse": 0.0025862553704212635,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 21466320.9,
+              "mean_regions": 2044.2,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 49014609.6,
+              "mean_regions": 2044.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 91155061.5,
+              "mean_regions": 2041.0,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 4096,
+          "exact_coverage": 0.9549256297029582,
+          "expected_width": 0.007414043252275553,
+          "probability_width_below_004": 1.0000000000000002,
+          "rmse": 0.0018287587103050019,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 32268143.15,
+              "mean_regions": 4075.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 63590635.4,
+              "mean_regions": 4073.4,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 111637759.6,
+              "mean_regions": 4075.0,
+              "cost_repetitions": 5
+            }
+          ]
+        }
+      ]
+    },
+    "CRC11": {
+      "truth": 0.04056890679125026,
+      "overlap": {
+        "observation_signatures": 50,
+        "geometric_pairs": 1140011,
+        "rows": [
+          {
+            "sampled_tiles": 4,
+            "ownership_expected_pairs": 142501.375,
+            "all_observed_expected_pairs": 143248.11693548388,
+            "relative_additional_pairs": 0.005240243720342264
+          },
+          {
+            "sampled_tiles": 8,
+            "ownership_expected_pairs": 285002.75,
+            "all_observed_expected_pairs": 286282.87903225806,
+            "relative_additional_pairs": 0.0044916374745789245
+          },
+          {
+            "sampled_tiles": 16,
+            "ownership_expected_pairs": 570005.5,
+            "all_observed_expected_pairs": 571712.3387096775,
+            "relative_additional_pairs": 0.0029944249830526903
+          }
+        ]
+      },
+      "coarse_costs": [
+        {
+          "sampled_tiles": 4,
+          "mean_union_area_native_pixels": 19492966.4,
+          "miss_single_hotspot_probability": 0.875,
+          "largest_single_tile_pair_mass": 0.1015551604326625
+        },
+        {
+          "sampled_tiles": 8,
+          "mean_union_area_native_pixels": 38905139.2,
+          "miss_single_hotspot_probability": 0.75,
+          "largest_single_tile_pair_mass": 0.1015551604326625
+        },
+        {
+          "sampled_tiles": 16,
+          "mean_union_area_native_pixels": 77685504.0,
+          "miss_single_hotspot_probability": 0.5,
+          "largest_single_tile_pair_mass": 0.1015551604326625
+        }
+      ],
+      "pair_sampling": [
+        {
+          "sampled_pairs": 128,
+          "exact_coverage": 0.9795797780779245,
+          "expected_width": 0.0755169345035399,
+          "probability_width_below_004": 0.004986145950003583,
+          "rmse": 0.017438075840181304,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 2050547.1,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 7785794.75,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 26027876.9,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 256,
+          "exact_coverage": 0.9614600624929224,
+          "expected_width": 0.0520221674385237,
+          "probability_width_below_004": 0.05043754538281377,
+          "rmse": 0.012330581677437502,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 4039197.0,
+              "mean_regions": 256.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 14581157.9,
+              "mean_regions": 256.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 42929227.65,
+              "mean_regions": 256.0,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 512,
+          "exact_coverage": 0.9678918685058404,
+          "expected_width": 0.03605890203942779,
+          "probability_width_below_004": 0.8547946317946502,
+          "rmse": 0.008719037920090652,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 7757718.55,
+              "mean_regions": 511.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 25664997.7,
+              "mean_regions": 512.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 63748688.65,
+              "mean_regions": 512.0,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 1024,
+          "exact_coverage": 0.952724190008973,
+          "expected_width": 0.025119823346427365,
+          "probability_width_below_004": 1.0000000000000013,
+          "rmse": 0.006165290838718751,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 14302787.8,
+              "mean_regions": 1023.2,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 40616221.05,
+              "mean_regions": 1023.4,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 83312982.05,
+              "mean_regions": 1023.4,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 2048,
+          "exact_coverage": 0.9564635673075386,
+          "expected_width": 0.017569029888675893,
+          "probability_width_below_004": 1.0000000000000062,
+          "rmse": 0.004359518960045326,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 24713231.65,
+              "mean_regions": 2045.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 57803848.95,
+              "mean_regions": 2043.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 101257802.3,
+              "mean_regions": 2043.6,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 4096,
+          "exact_coverage": 0.9524433193917498,
+          "expected_width": 0.012325048543799153,
+          "probability_width_below_004": 1.0000000000000009,
+          "rmse": 0.0030826454193593755,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 38639600.9,
+              "mean_regions": 4081.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 72182443.0,
+              "mean_regions": 4083.2,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 115228848.05,
+              "mean_regions": 4085.6,
+              "cost_repetitions": 5
+            }
+          ]
+        }
+      ]
+    },
+    "CRC19": {
+      "truth": 0.016521067332263623,
+      "overlap": {
+        "observation_signatures": 15,
+        "geometric_pairs": 84135,
+        "rows": [
+          {
+            "sampled_tiles": 4,
+            "ownership_expected_pairs": 28045.0,
+            "all_observed_expected_pairs": 28053.242424242428,
+            "relative_additional_pairs": 0.00029389995515871625
+          },
+          {
+            "sampled_tiles": 8,
+            "ownership_expected_pairs": 56090.0,
+            "all_observed_expected_pairs": 56098.24242424243,
+            "relative_additional_pairs": 0.00014694997757946915
+          }
+        ]
+      },
+      "coarse_costs": [
+        {
+          "sampled_tiles": 4,
+          "mean_union_area_native_pixels": 19496448.0,
+          "miss_single_hotspot_probability": 0.6666666666666667,
+          "largest_single_tile_pair_mass": 0.29907886135377665
+        },
+        {
+          "sampled_tiles": 8,
+          "mean_union_area_native_pixels": 38980352.0,
+          "miss_single_hotspot_probability": 0.33333333333333337,
+          "largest_single_tile_pair_mass": 0.29907886135377665
+        }
+      ],
+      "pair_sampling": [
+        {
+          "sampled_pairs": 128,
+          "exact_coverage": 0.9799458683013493,
+          "expected_width": 0.052524211705554144,
+          "probability_width_below_004": 0.11855717371432492,
+          "rmse": 0.011266696522018733,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 1843515.55,
+              "mean_regions": 128.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 6264413.4,
+              "mean_regions": 127.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 17433637.05,
+              "mean_regions": 127.6,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 256,
+          "exact_coverage": 0.9749946523089176,
+          "expected_width": 0.03516370710641803,
+          "probability_width_below_004": 0.7493918287557941,
+          "rmse": 0.007966757512290337,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 3269970.55,
+              "mean_regions": 255.4,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 10231039.3,
+              "mean_regions": 255.4,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 25283233.95,
+              "mean_regions": 255.0,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 512,
+          "exact_coverage": 0.9782346039212183,
+          "expected_width": 0.024039770871654036,
+          "probability_width_below_004": 0.9999992732965363,
+          "rmse": 0.005633348261009367,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 5844884.05,
+              "mean_regions": 508.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 15223663.1,
+              "mean_regions": 508.6,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 33294612.35,
+              "mean_regions": 509.4,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 1024,
+          "exact_coverage": 0.9643347082305163,
+          "expected_width": 0.016594229425488553,
+          "probability_width_below_004": 0.9999999999999993,
+          "rmse": 0.003983378756145168,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 8954967.7,
+              "mean_regions": 1011.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 21533495.75,
+              "mean_regions": 1014.2,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 41194296.95,
+              "mean_regions": 1013.6,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 2048,
+          "exact_coverage": 0.962721533482135,
+          "expected_width": 0.011530948566492328,
+          "probability_width_below_004": 1.0000000000000009,
+          "rmse": 0.0028166741305046834,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 13631239.6,
+              "mean_regions": 2002.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 27853994.2,
+              "mean_regions": 1999.0,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 49409152.3,
+              "mean_regions": 2000.8,
+              "cost_repetitions": 5
+            }
+          ]
+        },
+        {
+          "sampled_pairs": 4096,
+          "exact_coverage": 0.9572726944728394,
+          "expected_width": 0.008052047896925521,
+          "probability_width_below_004": 1.0000000000000016,
+          "rmse": 0.001991689378072584,
+          "costs": [
+            {
+              "side_native_pixels": 128,
+              "mean_union_area_native_pixels": 18326071.35,
+              "mean_regions": 3910.2,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 256,
+              "mean_union_area_native_pixels": 34021728.05,
+              "mean_regions": 3909.8,
+              "cost_repetitions": 5
+            },
+            {
+              "side_native_pixels": 512,
+              "mean_union_area_native_pixels": 55027807.45,
+              "mean_regions": 3914.0,
+              "cost_repetitions": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "assumptions": [
+    "Known source-segmentation graph and error-free source positivity calls.",
+    "Pair indices sampled independently with replacement; intervals condition on the fixed panel.",
+    "Both endpoints lie within a square centered at their midpoint; radius is 80 native pixels.",
+    "Area is only a cost proxy; per-region overhead is unmeasured."
+  ]
+}
