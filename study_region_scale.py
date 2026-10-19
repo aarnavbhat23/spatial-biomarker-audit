@@ -69,22 +69,26 @@ def acquisition_trial(f,draws,width=.04):
         # Inspect at fixed checkpoints; confidence sequence also permits stopping.
         if k+1 not in (8,16,32,64,128,256,512,1024,2048):continue
         ids=np.array(sorted(seen))
-        lower=positive[ids].sum()/total
-        upper=lower+1-counts[ids].sum()/total
-        lo,hi=bounded_sequence(values)
-        lo,hi=max(lo,lower),min(hi,upper)
+        known_positive=positive[ids].sum()
+        lower=known_positive/total
+        upper=(known_positive+total-counts[ids].sum())/total
+        if len(ids)==len(counts):
+            lo=hi=lower
+        else:
+            lo,hi=bounded_sequence(values)
+            lo,hi=max(lo,lower),min(hi,upper)
         visited.append({'draws':k+1,'interval':[float(lo),float(hi)]})
-        if hi-lo<=width:
+        if 0<=hi-lo<=width:
             stopped=True;break
     ids=np.array(sorted(seen))
     rectangles=f['rectangles'][ids]
     area=float(union_all(box(*rectangles.T)).area)
     return {'draws':len(values),'unique_regions':len(ids),'area_native_pixels':area,
-            'interval':[float(lo),float(hi)],'stopped':stopped,
+            'interval':[float(lo),float(hi)],'stopped':stopped,'empty_confidence_set':bool(lo>hi),
             'estimate':float(np.mean(values)), 'checkpoints':visited}
 
 
-def evaluate(data,seed=20261022,repetitions=100,cores=(128,256,512,2048)):
+def evaluate(data,seed=20261022,repetitions=100,cores=(128,256,512,2048),width=.04):
     output=[];rng=np.random.default_rng(seed)
     truth=float(np.mean(data['labels'][data['edges'][:,0],0]&data['labels'][data['edges'][:,1],1]))
     for core in cores:
@@ -92,11 +96,12 @@ def evaluate(data,seed=20261022,repetitions=100,cores=(128,256,512,2048)):
         rows=[]
         for repeat in range(repetitions):
             draws=rng.choice(len(f['counts']),2048,p=f['counts']/f['counts'].sum())
-            row=acquisition_trial(f,draws)
+            row=acquisition_trial(f,draws,width=width)
             row['covered']=bool(row['interval'][0]-1e-12<=truth<=row['interval'][1]+1e-12)
             row['repeat']=repeat
             rows.append(row)
         output.append({'core_native_pixels':core,'frame_regions':len(f['counts']),'truth':truth,
+                       'target_width':width,
                        'stop_fraction':float(np.mean([r['stopped'] for r in rows])),
                        'coverage_at_stop':float(np.mean([r['covered'] for r in rows])),
                        'mean_draws':float(np.mean([r['draws'] for r in rows])),
@@ -110,7 +115,19 @@ def evaluate(data,seed=20261022,repetitions=100,cores=(128,256,512,2048)):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--repetitions',type=int,default=100)
+    parser.add_argument('--precision-stress',action='store_true')
     args=parser.parse_args()
+    if args.precision_stress:
+        result={'scope':'Exploratory precision stress after confirmation; not a second confirmation.',
+                'repetitions':args.repetitions,'patients':{}}
+        for patient in ('CRC05','CRC06','CRC07','CRC09'):
+            data=dict(np.load(ROOT/'data'/f'{patient}-acquisition.npz'))
+            result['patients'][patient]={}
+            for width in (.01,.005):
+                result['patients'][patient][str(width)]=evaluate(data,seed=20261025+int(patient[3:]),
+                    repetitions=args.repetitions,cores=(128,2048),width=width)
+            (ROOT/'results/region_scale_precision_stress.json').write_text(json.dumps(result,indent=2)+'\n')
+        return
     result={'seed':20261022,'target_width':.04,'alpha':.05,'repetitions':args.repetitions,
             'patients':{},'scope':'Development-only comparison; classical PPS and betting; geometry from measured segmentation.'}
     for patient in ('CRC02','CRC11','CRC19'):

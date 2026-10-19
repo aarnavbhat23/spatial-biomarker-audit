@@ -4,7 +4,17 @@ A small reproducible study of when H&E-derived marker predictions help estimate 
 
 ## Current result
 
-The pipeline works on public measured tissue data. The proposed direct-pair correction **failed its fixed two-patient confirmation criterion**. Prediction-assisted point estimation helps on some patients and hurts on others. Sparse-region Student-t intervals can substantially under-cover; rigorous intervals are much wider. The hoped-for cost reduction at matched valid coverage has not been demonstrated.
+The selected follow-up direction is **acquisition geometry at valid precision**.
+A frozen comparison on four additional patients found 128-pixel cores used
+84%-89% less union area than 2048-pixel cores to reach a four-percentage-point
+confidence width. They required many more ROIs. At half-percentage-point width,
+the small-core method failed its 2048-draw budget on two patients, while coarse
+regions succeeded. Thus the research target is a cost/precision-aware acquisition
+policy, not a universally optimal small ROI. See [acquisition results and limits](ACQUISITION_RESULTS.md).
+These are conditional source-graph simulations with classical methods, not
+validated instrument savings or a new prediction architecture.
+
+The earlier prediction pipeline works on public measured tissue data. The proposed direct-pair correction **failed its fixed two-patient confirmation criterion**. Prediction-assisted point estimation helps on some patients and hurts on others. Sparse-region Student-t intervals can substantially under-cover; the original rigorous intervals are much wider. Prediction-assisted acquisition savings have not been demonstrated.
 
 This repository implements established prediction/sampling tools and an empirical audit. It does not claim a new estimator, a clinically validated biomarker, or a competitive virtual-staining model.
 

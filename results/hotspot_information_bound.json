@@ -1,0 +1,69 @@
+{
+  "scope": "Classical two-point bound under uniform coarse-region sampling; synthetic marker assignments on real fixed geometry.",
+  "construction": "All markers zero versus both markers positive only in one physically unobserved deep core. Not a biological coexpression claim.",
+  "patients": {
+    "CRC02": {
+      "tiles": 32,
+      "hotspot_tile": 9,
+      "changed_cells": 4190,
+      "realizable_positive_directed_pairs": 107040,
+      "readout_separation": 0.13505380576931084,
+      "cases": [
+        {
+          "sampled_tiles": 4,
+          "indistinguishable_probability": 0.875,
+          "minimax_mse_lower_bound": 0.003989897286544474,
+          "maximum_worst_population_coverage_if_always_shorter_than_separation": 0.5625
+        },
+        {
+          "sampled_tiles": 8,
+          "indistinguishable_probability": 0.75,
+          "minimax_mse_lower_bound": 0.0034199119598952634,
+          "maximum_worst_population_coverage_if_always_shorter_than_separation": 0.625
+        }
+      ]
+    },
+    "CRC11": {
+      "tiles": 32,
+      "hotspot_tile": 9,
+      "changed_cells": 4144,
+      "realizable_positive_directed_pairs": 94062,
+      "readout_separation": 0.0825097301692703,
+      "cases": [
+        {
+          "sampled_tiles": 4,
+          "indistinguishable_probability": 0.875,
+          "minimax_mse_lower_bound": 0.0014892184065075172,
+          "maximum_worst_population_coverage_if_always_shorter_than_separation": 0.5625
+        },
+        {
+          "sampled_tiles": 8,
+          "indistinguishable_probability": 0.75,
+          "minimax_mse_lower_bound": 0.0012764729198635862,
+          "maximum_worst_population_coverage_if_always_shorter_than_separation": 0.625
+        }
+      ]
+    },
+    "CRC19": {
+      "tiles": 12,
+      "hotspot_tile": 10,
+      "changed_cells": 1725,
+      "realizable_positive_directed_pairs": 20992,
+      "readout_separation": 0.24950377369703453,
+      "cases": [
+        {
+          "sampled_tiles": 4,
+          "indistinguishable_probability": 0.6666666666666667,
+          "minimax_mse_lower_bound": 0.010375355514843504,
+          "maximum_worst_population_coverage_if_always_shorter_than_separation": 0.6666666666666666
+        },
+        {
+          "sampled_tiles": 8,
+          "indistinguishable_probability": 0.33333333333333337,
+          "minimax_mse_lower_bound": 0.005187677757421752,
+          "maximum_worst_population_coverage_if_always_shorter_than_separation": 0.8333333333333333
+        }
+      ]
+    }
+  }
+}

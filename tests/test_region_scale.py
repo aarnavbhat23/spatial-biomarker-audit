@@ -1,14 +1,22 @@
-"""Finite enumeration checks for the acquisition estimator and confidence law."""
+"""Enumerated checks for acquisition, interval inversion and optional stopping."""
 import itertools
 import unittest
 
 import numpy as np
 from scipy.stats import binom
 
-from study_region_scale import bounded_sequence,frame,logwealth
+from study_region_scale import acquisition_trial,bounded_sequence,frame,logwealth
 
 
 class RegionScaleTests(unittest.TestCase):
+    def test_census_returns_exact_nonnegative_width(self):
+        f={'counts':np.array([89613,89613]),'positive':np.array([512.,512.]),
+           'rectangles':np.array([[0,0,10,10],[10,0,20,10]])}
+        row=acquisition_trial(f,np.tile([0,1],4),width=.005)
+        self.assertTrue(row['stopped'])
+        self.assertEqual(row['interval'],[1024/179226]*2)
+        self.assertFalse(row['empty_confidence_set'])
+
     def test_pps_expectation_and_halo_containment(self):
         coords=np.array([[127,127],[130,128],[250,130],[260,131]])
         edges=np.array([[0,1],[1,0],[1,2],[2,1],[2,3]])
