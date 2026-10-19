@@ -84,3 +84,7 @@ A second cohort and uncertainty in the pre-acquisition graph are also needed.
 Reproduce with `python confirm_cell_reuse.py`. Source records, preparation hashes,
 all 240 trial trajectories, failures and cost components are retained in
 `results/cell_reuse_confirmation.json`.
+
+A subsequent [camera-raster sensitivity study](RASTER_ACQUISITION_RESULTS.md)
+uses physical field counts and query rounds separately. It includes a stronger
+frame-pair baseline and does not change this confirmation or its cost caveats.

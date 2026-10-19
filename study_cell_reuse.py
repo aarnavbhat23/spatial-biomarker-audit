@@ -73,7 +73,10 @@ def cell_trial(data,prepared,seed,width,max_draws=2048):
         known_positive+=int(outcomes[identified].sum())
         unresolved[identified]=False
         remaining-=np.bincount(f['owners'][identified],minlength=len(remaining))
-        rectangles.append(f['rectangles'][selected])
+        if 'physical_rectangles' in prepared:
+            rectangles.extend(prepared['physical_rectangles'][selected])
+        else:
+            rectangles.append(f['rectangles'][selected])
         current_low=known_positive/total
         current_high=(known_positive+int(remaining.sum()))/total
         if step in (8,16,32,64,128,256,512,1024,2048) or step==max_draws or current_high-current_low<=width:
