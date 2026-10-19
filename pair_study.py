@@ -100,19 +100,21 @@ def main():
             for name,f in totals_by_model.items():
                 methods.extend([(name+'_raw',f,1.),(name+'_tuned',f,coefficients[name])])
             for method,f,coefficient in methods:
-                estimates=[];coverage=[];widths=[];rigorous=[];rigorous_widths=[]
+                estimates=[];coverage=[];widths=[];rigorous=[];rigorous_widths=[];empty=[]
                 for selected in draws:
                     result=difference_estimate(f,y[selected],selected,counts,coefficient)
                     estimates.append(result['estimate'])
                     lo,hi=result['student_interval']
                     coverage.append(lo-1e-12<=target<=hi+1e-12);widths.append(hi-lo)
                     band=betting_interval(f,y[selected],selected,counts,coefficient)
+                    empty.append(band is None)
                     rigorous.append(band is not None and band[0]-1e-12<=target<=band[1]+1e-12)
                     rigorous_widths.append(band[1]-band[0] if band is not None else 0.)
                 row={'patient':patient,'method':method,'sampled_tiles':size,
                      'rmse':float(np.sqrt(np.mean((np.array(estimates)-target)**2))),
                      'student_coverage':float(np.mean(coverage)),'student_width':float(np.mean(widths)),
-                     'betting_coverage':float(np.mean(rigorous)),'betting_width':float(np.mean(rigorous_widths))}
+                     'betting_coverage':float(np.mean(rigorous)),'betting_width':float(np.mean(rigorous_widths)),
+                     'empty_betting_intervals':int(sum(empty))}
                 output.append(row)
             print(patient,'completed confirmation budget',size,flush=True)
     primary={p:{r['method']:r['rmse'] for r in output if r['patient']==p and r['sampled_tiles']==8} for p in confirmation}

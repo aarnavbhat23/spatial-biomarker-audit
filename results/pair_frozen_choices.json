@@ -1,0 +1,39 @@
+{
+  "training_patients": [
+    "CRC01",
+    "CRC03"
+  ],
+  "validation_patient": "CRC19",
+  "confirmation_patients": [
+    "CRC04",
+    "CRC12"
+  ],
+  "training_edge_count": 100000,
+  "training_edge_prevalence": 0.01338,
+  "validation_coefficients": {
+    "marker_product": 0.8152693050458282,
+    "pair_constant": 1.0,
+    "pair_image": 1.0,
+    "pair_distance": 1.0
+  },
+  "validation_scores": {
+    "marker_product": {
+      "brier": 0.017649313434958458,
+      "auc": 0.6480112819527446
+    },
+    "pair_constant": {
+      "brier": 0.016257990151643753,
+      "auc": 0.5
+    },
+    "pair_image": {
+      "brier": 0.016335925087332726,
+      "auc": 0.649821589341615
+    },
+    "pair_distance": {
+      "brier": 0.016249066218733788,
+      "auc": 0.5460252504987368
+    }
+  },
+  "primary": "Validation-tuned coefficients for every predictor; no choice on confirmation outcomes.",
+  "model_sha256": "8910c54ecef6889f4e53afe25e2cb0fc481d6b9a14984e4733b4d373410555c0"
+}

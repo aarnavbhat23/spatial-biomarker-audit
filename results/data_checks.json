@@ -1,0 +1,58 @@
+[
+  {
+    "patient": "CRC01",
+    "source_sha256": "2ed2d89812421edb59cc0833ca7b9a497500e20335d49f27d5ae513e7c13407d",
+    "cells": 50858,
+    "pairs": 927227,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  },
+  {
+    "patient": "CRC03",
+    "source_sha256": "87b589a908edb9fd5835070f86903d6f374990102ef7e63d26da566c3d387807",
+    "cells": 66912,
+    "pairs": 1102513,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  },
+  {
+    "patient": "CRC19",
+    "source_sha256": "0235b62d3203bf7148a4903745a81c3710cc2be0c1e109634fa0b7cc9ad19b22",
+    "cells": 11654,
+    "pairs": 84135,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  },
+  {
+    "patient": "CRC02",
+    "source_sha256": "3d91c5fa0cc9be64a8537d0735a017506610ce986621462825a204959879cc6a",
+    "cells": 56220,
+    "pairs": 792573,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  },
+  {
+    "patient": "CRC11",
+    "source_sha256": "a655ba7279528f28b12e814d1f72d6d48e81e0b575042346c8e203e1527481cc",
+    "cells": 72922,
+    "pairs": 1140011,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  },
+  {
+    "patient": "CRC04",
+    "source_sha256": "f3b7a5fad0eec1c97f956ec5f1ee333270f5ed6c5940cffe2ea99cf08e8e4e70",
+    "cells": 79837,
+    "pairs": 1418755,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  },
+  {
+    "patient": "CRC12",
+    "source_sha256": "726629bb80d47ea106bfa886ffdd89aeccb7b20a0ab068e0f1db693bad2ea9b6",
+    "cells": 37904,
+    "pairs": 433593,
+    "source_neighbors_checked": 100,
+    "status": "passed"
+  }
+]
