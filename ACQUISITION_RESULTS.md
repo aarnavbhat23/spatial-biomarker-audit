@@ -35,7 +35,7 @@ The confidence law remains valid at the stopping time under its stated fixed-gra
 exact-label assumptions. This is not an iid-cell assumption.
 
 Primary target was absolute interval width <=0.04, inspected at the fixed draw
-checkpoints, with a maximum of 2048 draws. There were 100 acquisitions per patient
+checkpoints, with a maximum of 2048 draws. There were 100 acquisition trials per patient
 per scale. All 400 selected-small-core acquisitions stopped at 256 draws and
 covered the target in this simulation. The mathematical guarantee is at least
 95% simultaneous coverage over time; observing 100% here does not strengthen it.
@@ -137,3 +137,11 @@ results/region_scale_precision_stress.json. Reproduce that stress test with
 lower-bound construction runs with `python study_hotspot_bound.py`. Run all invariants with
 `python -m unittest discover -s tests -v`.
 Render the figure with `python plot_acquisition_geometry.py`.
+
+## Stronger follow-up
+
+[Residual sampling and cell-level reuse](RESIDUAL_ACQUISITION_RESULTS.md) remove
+repeated acquisitions and reuse more observed information. A separate
+[0.5-point confirmation](CELL_REUSE_CONFIRMATION_RESULTS.md) passed on four new
+patients, with an explicit limitation: summed rectangle cost favors coarse
+acquisition on three patients. These results do not replace the failures above.

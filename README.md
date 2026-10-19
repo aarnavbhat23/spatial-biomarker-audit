@@ -1,7 +1,7 @@
 # Measuring confidence in virtual spatial marker readouts
 
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
-The geometry-only adaptive policy failed; tight-precision cell reuse is undergoing a separately frozen confirmation.
+The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
 
 A small reproducible study of when H&E-derived marker predictions help estimate a spatial protein-pair readout under limited region acquisition.
 

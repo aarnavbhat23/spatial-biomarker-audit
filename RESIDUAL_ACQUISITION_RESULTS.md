@@ -95,3 +95,7 @@ cohort are still missing.
 Reproduce with `python study_residual_acquisition.py` and
 `python study_cell_reuse.py`. Full trial records are retained in the corresponding
 JSON files under `results/`. Neither script trains a marker predictor.
+
+The [frozen confirmation](CELL_REUSE_CONFIRMATION_RESULTS.md) is now complete.
+All four patients passed the union-area criterion; summed-area and overhead
+results substantially limit any physical-cost claim.
