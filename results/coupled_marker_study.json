@@ -1,0 +1,583 @@
+{
+  "scope": "Conditional fixed-graph sensitivity; source calls are not biological truth.",
+  "budget_a": 1,
+  "b_fractions": [
+    0,
+    0.001,
+    0.005
+  ],
+  "rows": [
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 195990,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.009525996224297157,
+      "bounds": [
+        0.009495382417470279,
+        0.009582121536813103
+      ],
+      "width": 8.673911934282443e-05,
+      "degree_outer_bounds": [
+        0.009403540996989642,
+        0.009648451451604673
+      ],
+      "degree_outer_width": 0.0002449104546150306,
+      "bound_seconds": 0.003994833008619025
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 195990,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 57,
+      "b_fraction": 0.001,
+      "source_target": 0.009525996224297157,
+      "bounds": [
+        0.007408541252104699,
+        0.015230368896372264
+      ],
+      "width": 0.007821827644267565,
+      "degree_outer_bounds": [
+        0.0033420072452676154,
+        0.0157099852033267
+      ],
+      "degree_outer_width": 0.012367977958059082,
+      "bound_seconds": 0.007213874996523373
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 195990,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 282,
+      "b_fraction": 0.005,
+      "source_target": 0.009525996224297157,
+      "bounds": [
+        0.003617531506709526,
+        0.031292412878208074
+      ],
+      "width": 0.02767488137149855,
+      "degree_outer_bounds": [
+        0.0,
+        0.03255268125924792
+      ],
+      "degree_outer_width": 0.03255268125924792,
+      "bound_seconds": 0.013877000004868023
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 449431,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.012059693256584438,
+      "bounds": [
+        0.01203299282871008,
+        0.012106419005364561
+      ],
+      "width": 7.342617665448067e-05,
+      "degree_outer_bounds": [
+        0.01195289154508701,
+        0.012166494968081865
+      ],
+      "degree_outer_width": 0.00021360342299485413,
+      "bound_seconds": 0.005711582998628728
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 449431,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 57,
+      "b_fraction": 0.001,
+      "source_target": 0.012059693256584438,
+      "bounds": [
+        0.010034910809445722,
+        0.01697034694980987
+      ],
+      "width": 0.006935436140364149,
+      "degree_outer_bounds": [
+        0.006710707539088315,
+        0.01740867897408056
+      ],
+      "degree_outer_width": 0.010697971434992244,
+      "bound_seconds": 0.012680291009019129
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 449431,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 282,
+      "b_fraction": 0.005,
+      "source_target": 0.012059693256584438,
+      "bounds": [
+        0.006049871949197986,
+        0.03136410260974432
+      ],
+      "width": 0.025314230660546336,
+      "degree_outer_bounds": [
+        0.0,
+        0.03256562186409037
+      ],
+      "degree_outer_width": 0.03256562186409037,
+      "bound_seconds": 0.012814582994906232
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 792573,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.013891464887146042,
+      "bounds": [
+        0.013864968905072467,
+        0.013933101430404517
+      ],
+      "width": 6.813252533205069e-05,
+      "degree_outer_bounds": [
+        0.01379557466630834,
+        0.013987355107983743
+      ],
+      "degree_outer_width": 0.00019178044167540362,
+      "bound_seconds": 0.01161616700119339
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 792573,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 57,
+      "b_fraction": 0.001,
+      "source_target": 0.013891464887146042,
+      "bounds": [
+        0.0118929108107392,
+        0.018127036878621907
+      ],
+      "width": 0.006234126067882708,
+      "degree_outer_bounds": [
+        0.00926728515859107,
+        0.018515644615701016
+      ],
+      "degree_outer_width": 0.009248359457109947,
+      "bound_seconds": 0.020796333003090695
+    },
+    {
+      "patient": "CRC02",
+      "cells": 56220,
+      "edges": 792573,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 282,
+      "b_fraction": 0.005,
+      "source_target": 0.013891464887146042,
+      "bounds": [
+        0.007798650723655739,
+        0.031482273557136065
+      ],
+      "width": 0.023683622833480324,
+      "degree_outer_bounds": [
+        0.0,
+        0.032495429443092305
+      ],
+      "degree_outer_width": 0.032495429443092305,
+      "bound_seconds": 0.020182958003715612
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 269514,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.026002359803201317,
+      "bounds": [
+        0.02597638712645725,
+        0.02605059477429744
+      ],
+      "width": 7.420764784018749e-05,
+      "degree_outer_bounds": [
+        0.025942993684929166,
+        0.026061725921473468
+      ],
+      "degree_outer_width": 0.00011873223654430137,
+      "bound_seconds": 0.004256375003024004
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 269514,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 73,
+      "b_fraction": 0.001,
+      "source_target": 0.026002359803201317,
+      "bounds": [
+        0.024210245107860816,
+        0.029137632924449194
+      ],
+      "width": 0.004927387816588379,
+      "degree_outer_bounds": [
+        0.022748354445409142,
+        0.029256365160993492
+      ],
+      "degree_outer_width": 0.00650801071558435,
+      "bound_seconds": 0.009642542005167343
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 269514,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 365,
+      "b_fraction": 0.005,
+      "source_target": 0.026002359803201317,
+      "bounds": [
+        0.019338513027152577,
+        0.03941539215031501
+      ],
+      "width": 0.020076879123162434,
+      "degree_outer_bounds": [
+        0.011683994152437349,
+        0.040320725453965284
+      ],
+      "degree_outer_width": 0.028636731301527933,
+      "bound_seconds": 0.010580333007965237
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 635046,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.03444474888433279,
+      "bounds": [
+        0.03442742730447873,
+        0.03447939204404091
+      ],
+      "width": 5.1964739562176954e-05,
+      "degree_outer_bounds": [
+        0.0343959335229259,
+        0.03449356424573968
+      ],
+      "degree_outer_width": 9.763072281378238e-05,
+      "bound_seconds": 0.009420666989171878
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 635046,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 73,
+      "b_fraction": 0.001,
+      "source_target": 0.03444474888433279,
+      "bounds": [
+        0.032728337789703424,
+        0.03703038834982033
+      ],
+      "width": 0.004302050560116906,
+      "degree_outer_bounds": [
+        0.03174258242709977,
+        0.03714691534156581
+      ],
+      "degree_outer_width": 0.005404332914466042,
+      "bound_seconds": 0.020514542004093528
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 635046,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 365,
+      "b_fraction": 0.005,
+      "source_target": 0.03444474888433279,
+      "bounds": [
+        0.027615322354601082,
+        0.04601713891592105
+      ],
+      "width": 0.01840181656131997,
+      "degree_outer_bounds": [
+        0.022199966616591557,
+        0.046689531152074026
+      ],
+      "degree_outer_width": 0.02448956453548247,
+      "bound_seconds": 0.020144082998740487
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 1140011,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.04056890679125026,
+      "bounds": [
+        0.04055399465443754,
+        0.04060048543391248
+      ],
+      "width": 4.649077947493918e-05,
+      "degree_outer_bounds": [
+        0.04052504756533051,
+        0.04061276601717001
+      ],
+      "degree_outer_width": 8.771845183949689e-05,
+      "bound_seconds": 0.014379500003997236
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 1140011,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 73,
+      "b_fraction": 0.001,
+      "source_target": 0.04056890679125026,
+      "bounds": [
+        0.038863660087490384,
+        0.04288818265788663
+      ],
+      "width": 0.004024522570396247,
+      "degree_outer_bounds": [
+        0.038116298877817846,
+        0.04302151470468268
+      ],
+      "degree_outer_width": 0.004905215826864831,
+      "bound_seconds": 0.034548374998848885
+    },
+    {
+      "patient": "CRC11",
+      "cells": 72922,
+      "edges": 1140011,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 365,
+      "b_fraction": 0.005,
+      "source_target": 0.04056890679125026,
+      "bounds": [
+        0.03373300783939804,
+        0.05123459335041504
+      ],
+      "width": 0.017501585511017,
+      "degree_outer_bounds": [
+        0.02922866533743973,
+        0.05190914824506079
+      ],
+      "degree_outer_width": 0.022680482907621063,
+      "bound_seconds": 0.03621049999492243
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 20420,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.011018609206660137,
+      "bounds": [
+        0.010822722820763957,
+        0.011606268364348677
+      ],
+      "width": 0.0007835455435847207,
+      "degree_outer_bounds": [
+        0.010430950048971597,
+        0.011606268364348677
+      ],
+      "degree_outer_width": 0.0011753183153770802,
+      "bound_seconds": 0.00035433399898465723
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 20420,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 12,
+      "b_fraction": 0.001,
+      "source_target": 0.011018609206660137,
+      "bounds": [
+        0.00852105778648384,
+        0.017286973555337905
+      ],
+      "width": 0.008765915768854065,
+      "degree_outer_bounds": [
+        0.004407443682664055,
+        0.01762977473065622
+      ],
+      "degree_outer_width": 0.013222331047992166,
+      "bound_seconds": 0.0011357500043231994
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 20420,
+      "radius": 40,
+      "budget_a": 1,
+      "budget_b": 59,
+      "b_fraction": 0.005,
+      "source_target": 0.011018609206660137,
+      "bounds": [
+        0.0032810969637610187,
+        0.03712047012732615
+      ],
+      "width": 0.03383937316356513,
+      "degree_outer_bounds": [
+        0.0,
+        0.03854064642507346
+      ],
+      "degree_outer_width": 0.03854064642507346,
+      "bound_seconds": 0.0016123749956022948
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 47686,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.014972948035062703,
+      "bounds": [
+        0.014763242880510003,
+        0.01549721092144445
+      ],
+      "width": 0.0007339680409344466,
+      "degree_outer_bounds": [
+        0.014448685148680956,
+        0.01549721092144445
+      ],
+      "degree_outer_width": 0.0010485257727634936,
+      "bound_seconds": 0.0008702500053914264
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 47686,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 12,
+      "b_fraction": 0.001,
+      "source_target": 0.014972948035062703,
+      "bounds": [
+        0.012183869479511807,
+        0.020614016692530303
+      ],
+      "width": 0.008430147213018496,
+      "degree_outer_bounds": [
+        0.009164115253952942,
+        0.020781780816172463
+      ],
+      "degree_outer_width": 0.01161766556221952,
+      "bound_seconds": 0.001826292005716823
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 47686,
+      "radius": 60,
+      "budget_a": 1,
+      "budget_b": 59,
+      "b_fraction": 0.005,
+      "source_target": 0.014972948035062703,
+      "bounds": [
+        0.006731535461141635,
+        0.03835507276768863
+      ],
+      "width": 0.031623537306546996,
+      "degree_outer_bounds": [
+        0.0,
+        0.03917292287044416
+      ],
+      "degree_outer_width": 0.03917292287044416,
+      "bound_seconds": 0.0015319169906433672
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 84135,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 0,
+      "b_fraction": 0,
+      "source_target": 0.016521067332263623,
+      "bounds": [
+        0.0163784394128484,
+        0.017008379390265643
+      ],
+      "width": 0.0006299399774172439,
+      "degree_outer_bounds": [
+        0.016033755274261603,
+        0.017008379390265643
+      ],
+      "degree_outer_width": 0.00097462411600404,
+      "bound_seconds": 0.001326875004451722
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 84135,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 12,
+      "b_fraction": 0.001,
+      "source_target": 0.016521067332263623,
+      "bounds": [
+        0.013811136863374339,
+        0.021857728650383313
+      ],
+      "width": 0.008046591787008974,
+      "degree_outer_bounds": [
+        0.01102989243477744,
+        0.022012242229749807
+      ],
+      "degree_outer_width": 0.010982349794972368,
+      "bound_seconds": 0.0032191659993259236
+    },
+    {
+      "patient": "CRC19",
+      "cells": 11654,
+      "edges": 84135,
+      "radius": 80,
+      "budget_a": 1,
+      "budget_b": 59,
+      "b_fraction": 0.005,
+      "source_target": 0.016521067332263623,
+      "bounds": [
+        0.008319961965888157,
+        0.03865216616152612
+      ],
+      "width": 0.030332204195637966,
+      "degree_outer_bounds": [
+        0.0,
+        0.03953170499792001
+      ],
+      "degree_outer_width": 0.03953170499792001,
+      "bound_seconds": 0.0025268749886890873
+    }
+  ],
+  "input_sha256": {
+    "CRC02": "7df95a014bde651ff372285f86927644365da119ff0cdea3848c5b0169f1d91d",
+    "CRC11": "74840a7ccb463afbb900dc0477b21d74270a5d7199f3e2023021ab5b9b0993c2",
+    "CRC19": "64b35c0e462c537b0d47682a93afe99502971b01bf8beb8c3b2a8f431da02f38"
+  }
+}

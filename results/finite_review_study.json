@@ -1,0 +1,185 @@
+{
+  "scope": "Two-cell exact planning with assumed error budgets; hypothetical costs.",
+  "rows": [
+    {
+      "review_model": "perfect",
+      "review_cost": 0.05,
+      "review_error_unit": "events",
+      "review_error_budget_each_marker": 0,
+      "review_cap_each_cell_marker": 1,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": 2.4000000000000004,
+      "census_first_minimax_cost": 2.4000000000000004,
+      "optimal_minimax_cost": 2.4000000000000004,
+      "precision_attainable": true,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 495,
+      "seconds": 0.021402750004199333
+    },
+    {
+      "review_model": "one_fallible",
+      "review_cost": 0.05,
+      "review_error_unit": "events",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 1,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": null,
+      "census_first_minimax_cost": null,
+      "optimal_minimax_cost": null,
+      "precision_attainable": false,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 25,
+      "seconds": 0.018961708003189415
+    },
+    {
+      "review_model": "repeat_fallible",
+      "review_cost": 0.05,
+      "review_error_unit": "events",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 3,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": 2.8000000000000007,
+      "census_first_minimax_cost": 2.75,
+      "optimal_minimax_cost": 2.7,
+      "precision_attainable": true,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 44738,
+      "seconds": 2.0345922090054955
+    },
+    {
+      "review_model": "systematic_cell_errors",
+      "review_cost": 0.05,
+      "review_error_unit": "cells",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 3,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": null,
+      "census_first_minimax_cost": null,
+      "optimal_minimax_cost": null,
+      "precision_attainable": false,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 25,
+      "seconds": 0.01916604100551922
+    },
+    {
+      "review_model": "systematic_with_trusted_reference",
+      "review_cost": 0.05,
+      "review_error_unit": "cells",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 3,
+      "trusted_reference_cost": 1.0,
+      "greedy_minimax_cost": 6.35,
+      "census_first_minimax_cost": 6.399999999999999,
+      "optimal_minimax_cost": 6.199999999999999,
+      "precision_attainable": true,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 37837,
+      "seconds": 1.8380528330017114
+    },
+    {
+      "review_model": "perfect",
+      "review_cost": 0.5,
+      "review_error_unit": "events",
+      "review_error_budget_each_marker": 0,
+      "review_cap_each_cell_marker": 1,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": 4.2,
+      "census_first_minimax_cost": 4.2,
+      "optimal_minimax_cost": 4.2,
+      "precision_attainable": true,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 495,
+      "seconds": 0.02047337499971036
+    },
+    {
+      "review_model": "one_fallible",
+      "review_cost": 0.5,
+      "review_error_unit": "events",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 1,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": null,
+      "census_first_minimax_cost": null,
+      "optimal_minimax_cost": null,
+      "precision_attainable": false,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 25,
+      "seconds": 0.018499042009352706
+    },
+    {
+      "review_model": "repeat_fallible",
+      "review_cost": 0.5,
+      "review_error_unit": "events",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 3,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": 8.2,
+      "census_first_minimax_cost": 7.699999999999999,
+      "optimal_minimax_cost": 7.199999999999999,
+      "precision_attainable": true,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 44738,
+      "seconds": 1.9348262080020504
+    },
+    {
+      "review_model": "systematic_cell_errors",
+      "review_cost": 0.5,
+      "review_error_unit": "cells",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 3,
+      "trusted_reference_cost": null,
+      "greedy_minimax_cost": null,
+      "census_first_minimax_cost": null,
+      "optimal_minimax_cost": null,
+      "precision_attainable": false,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 25,
+      "seconds": 0.019067582994466648
+    },
+    {
+      "review_model": "systematic_with_trusted_reference",
+      "review_cost": 0.5,
+      "review_error_unit": "cells",
+      "review_error_budget_each_marker": 1,
+      "review_cap_each_cell_marker": 3,
+      "trusted_reference_cost": 1.0,
+      "greedy_minimax_cost": 7.699999999999999,
+      "census_first_minimax_cost": 8.2,
+      "optimal_minimax_cost": 6.199999999999999,
+      "precision_attainable": true,
+      "optimal_root_action": [
+        "field",
+        0
+      ],
+      "solved_belief_states": 37644,
+      "seconds": 1.8170041249977658
+    }
+  ]
+}

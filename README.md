@@ -38,6 +38,15 @@ Its exact-B prerequisite, ideal reviews and hypothetical costs prevent an
 end-to-end instrument-saving claim. Proprietary virtual predictions have not
 been evaluated.
 
+The [fallible-review follow-up](FINITE_REVIEW_RESULTS.md) separates response-event
+errors from systematic cell errors: repeated reviews can help the former but
+cannot guarantee resolution of the latter. A [sharp coupled-marker bound](COUPLED_MARKER_RESULTS.md)
+handles one possible A error and an arbitrary B budget in linear work on simple
+unit-weight graphs. It runs in milliseconds on the development panels, yet most
+0.1%-B-error cases still miss the requested precision. These are conditional
+theory and sensitivity results; neither error budgets nor instrument savings
+have been calibrated experimentally.
+
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
 The [camera-raster follow-up](RASTER_ACQUISITION_RESULTS.md) compares cached physical fields and a stronger frame-pair sampler, while retaining round-latency tradeoffs.
