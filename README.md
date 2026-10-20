@@ -47,6 +47,15 @@ unit-weight graphs. It runs in milliseconds on the development panels, yet most
 theory and sensitivity results; neither error budgets nor instrument savings
 have been calibrated experimentally.
 
+The [general-budget extension](GENERAL_MARKER_RESULTS.md) removes the one-A-error
+restriction. Fast valid bounds tighten all 18 development intervals, with
+attainable witnesses certifying endpoint gaps below .1 percentage points in
+16 cases. They also prove that .1% uncertainty in each marker prevents the
+requested precision in all nine graphs even after full acquisition. A separate
+analysis brackets claim-specific tolerable error budgets; fallible references
+retain a precision floor. These results define testable assay requirements,
+without estimating actual error rates or claiming instrument savings.
+
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
 The [camera-raster follow-up](RASTER_ACQUISITION_RESULTS.md) compares cached physical fields and a stronger frame-pair sampler, while retaining round-latency tradeoffs.
