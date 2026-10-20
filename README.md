@@ -1,5 +1,20 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Which physical measurements are needed to certify a spatial claim?**
+
+The current direction is [cost-aware spatial certification](BATCH_ACQUISITION_RESULTS.md).
+**Batched acquisition retains a 95% simultaneous confidence guarantee at completed
+batch boundaries**, conditional on a fixed source graph and exact marker calls.
+In three development patients at a hypothetical 1024-pixel camera field, batches
+of 16 reduced feedback rounds by 90%-92% while using 1%-4% more field exposures.
+A batched deterministic graph control wins several high-latency comparisons;
+the selected research problem includes both kinds of certificate.
+
+The next target is multiple spatial claims sharing measured cells, with a policy
+and measurement-cost guarantee that survive strong controls, imperfect marker
+calls and a new cohort. This is a research target; instrument savings and
+proprietary virtual predictions have not been evaluated.
+
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
 The [camera-raster follow-up](RASTER_ACQUISITION_RESULTS.md) compares cached physical fields and a stronger frame-pair sampler, while retaining round-latency tradeoffs.
