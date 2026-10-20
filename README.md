@@ -67,6 +67,16 @@ assay requirements depend on the claim and specimen. This is conditional
 source-annotation sensitivity on a different target and k-neighbour graphs,
 not validation of predictor accuracy, annotation truth or instrument savings.
 
+A [fallible-reference review study](FALLIBLE_POLICY_RESULTS.md) now evaluates
+six additional patients, with two-marker raw errors and a systematically
+fallible reference. [Exact linear oracles and conditional graph bounds](FALLIBLE_BOUNDS_THEORY.md)
+keep every proxy target covered throughout all 120 policy/scenario runs.
+Every policy reaches the requested precision, but the witness policy's 3.08%
+mean quoted-cost gain over the strongest lookahead control fails its frozen
+10% gate. It uses about one-tenth of the policy computation on this host.
+These are post-census review simulations with hypothetical costs and supplied
+error budgets, not measured physical savings or a new active-learning framework.
+
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
 The [camera-raster follow-up](RASTER_ACQUISITION_RESULTS.md) compares cached physical fields and a stronger frame-pair sampler, while retaining round-latency tradeoffs.
