@@ -1,0 +1,2707 @@
+{
+  "scope": "Independent cohort, source-annotation sensitivity; not biological label truth or assay validation.",
+  "protocol_commit": "dd3041a",
+  "frozen_algorithm_commit": "9d8c6da",
+  "source": {
+    "record_doi": "10.5281/zenodo.7324285",
+    "archive_url": "https://zenodo.org/records/7324285/files/MBTMEStrPublicProcessedDataCode.zip?download=1",
+    "license": "CC-BY-4.0",
+    "files": {
+      "SingleCells.csv": {
+        "name": "MBTMEIMCPublic/SingleCells.csv",
+        "compressed": 381180527,
+        "size": 849239430,
+        "offset": 342180182,
+        "crc32": 3748430769,
+        "sha256": "9f693514acc02bbb6b2dabd14c15c806348c5b882659aea071a83ed16e2d5df0",
+        "path": "data/danenberg/SingleCells.csv"
+      },
+      "SingleCellsAnnotation.xlsx": {
+        "name": "MBTMEIMCPublic/SingleCellsAnnotation.xlsx",
+        "compressed": 11192,
+        "size": 14046,
+        "offset": 723469956,
+        "crc32": 2582924346,
+        "sha256": "2c54cecc9bff6bb152c7f78c330ef5b68d3c3098a24d93e5f781044ce24e98d0",
+        "path": "data/danenberg/SingleCellsAnnotation.xlsx"
+      },
+      "IMCClinical.csv": {
+        "name": "MBTMEIMCPublic/IMCClinical.csv",
+        "compressed": 9359,
+        "size": 51316,
+        "offset": 723481247,
+        "crc32": 1165356369,
+        "sha256": "3555a1bb623ad86a4697a740e0e13ed4aa658ed2d08b1b1c6aca20f857ee4f8d",
+        "path": "data/danenberg/IMCClinical.csv"
+      },
+      "SI_metaclusters.csv": {
+        "name": "MBTMEIMCPublic/SI_metaclusters.csv",
+        "compressed": 414,
+        "size": 1113,
+        "offset": 202262,
+        "crc32": 1536880894,
+        "sha256": "e6602949a3806698489048d01e20e241f512ce6da003cf339afeda66ef09699d",
+        "path": "data/danenberg/SI_metaclusters.csv"
+      }
+    }
+  },
+  "rows_read": 1123466,
+  "retained_rows_all_images": 1047528,
+  "excluded_rows_all_images": 75938,
+  "selected_images": [
+    {
+      "metabric_id": "MB-0002",
+      "ImageNumber": 70,
+      "cells": 2115
+    },
+    {
+      "metabric_id": "MB-0005",
+      "ImageNumber": 71,
+      "cells": 1559
+    },
+    {
+      "metabric_id": "MB-0006",
+      "ImageNumber": 165,
+      "cells": 810
+    },
+    {
+      "metabric_id": "MB-0010",
+      "ImageNumber": 219,
+      "cells": 1391
+    },
+    {
+      "metabric_id": "MB-0013",
+      "ImageNumber": 220,
+      "cells": 2691
+    },
+    {
+      "metabric_id": "MB-0014",
+      "ImageNumber": 227,
+      "cells": 1500
+    }
+  ],
+  "rows": [
+    {
+      "patient": "MB-0002",
+      "image": 70,
+      "cells": 2115,
+      "a_positives": 1620,
+      "b_positives": 9,
+      "k": 6,
+      "edges": 12690,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 3,
+      "source_target": 0.0008668242710795902,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.0037825059101654845
+        ],
+        "attained_bounds": [
+          0.0,
+          0.0037825059101654845
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0
+        ],
+        "details": [
+          {
+            "gain_lower": 11.0,
+            "gain_upper": 11.0,
+            "a_flips": [
+              2,
+              3,
+              408
+            ],
+            "b_flips": [
+              113,
+              1819,
+              1913
+            ]
+          },
+          {
+            "gain_lower": 37.0,
+            "gain_upper": 37.0,
+            "a_flips": [
+              537,
+              538,
+              606
+            ],
+            "b_flips": [
+              111,
+              588,
+              2015
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.004806934594168637
+      ],
+      "bound_seconds": 0.001624957993044518,
+      "cells_sha256": "f25487d394926f65623f658557a5df8bbece469f5324f238f5ef98fec777854c",
+      "edges_sha256": "5bec6e5edb43c0aac207a9832e04b6889541837903e792afcbaaa49b92027775"
+    },
+    {
+      "patient": "MB-0002",
+      "image": 70,
+      "cells": 2115,
+      "a_positives": 1620,
+      "b_positives": 9,
+      "k": 6,
+      "edges": 12690,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 11,
+      "source_target": 0.0008668242710795902,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.010874704491725768
+        ],
+        "attained_bounds": [
+          0.0,
+          0.010401891252955082
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.00047281323877068626
+        ],
+        "details": [
+          {
+            "gain_lower": 11.0,
+            "gain_upper": 11.0,
+            "a_flips": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "b_flips": [
+              113,
+              240,
+              466,
+              554,
+              598,
+              783,
+              959,
+              1819,
+              1913
+            ]
+          },
+          {
+            "gain_lower": 121.0,
+            "gain_upper": 127.0,
+            "a_flips": [
+              98,
+              114,
+              117,
+              187,
+              200,
+              229,
+              247,
+              537,
+              538,
+              606,
+              616
+            ],
+            "b_flips": [
+              30,
+              46,
+              50,
+              57,
+              62,
+              111,
+              588,
+              753,
+              1019,
+              2015,
+              2039
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.014893617021276595
+      ],
+      "bound_seconds": 0.0007695829990552738,
+      "cells_sha256": "f25487d394926f65623f658557a5df8bbece469f5324f238f5ef98fec777854c",
+      "edges_sha256": "5bec6e5edb43c0aac207a9832e04b6889541837903e792afcbaaa49b92027775"
+    },
+    {
+      "patient": "MB-0002",
+      "image": 70,
+      "cells": 2115,
+      "a_positives": 1620,
+      "b_positives": 9,
+      "k": 12,
+      "edges": 25380,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 3,
+      "source_target": 0.001103230890464933,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.0035460992907801418
+        ],
+        "attained_bounds": [
+          0.0,
+          0.0035066981875492512
+        ],
+        "endpoint_gaps": [
+          0.0,
+          3.940110323089052e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 28.0,
+            "gain_upper": 28.0,
+            "a_flips": [
+              181,
+              244,
+              408
+            ],
+            "b_flips": [
+              113,
+              1819,
+              1913
+            ]
+          },
+          {
+            "gain_lower": 61.0,
+            "gain_upper": 62.0,
+            "a_flips": [
+              475,
+              480,
+              527
+            ],
+            "b_flips": [
+              67,
+              395,
+              439
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.004806934594168637
+      ],
+      "bound_seconds": 0.0015039999998407438,
+      "cells_sha256": "f25487d394926f65623f658557a5df8bbece469f5324f238f5ef98fec777854c",
+      "edges_sha256": "59c547d3911e5a21bbd166a1f75f6c5b0650745d5400dc07309164c4eb0cf6f8"
+    },
+    {
+      "patient": "MB-0002",
+      "image": 70,
+      "cells": 2115,
+      "a_positives": 1620,
+      "b_positives": 9,
+      "k": 12,
+      "edges": 25380,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 11,
+      "source_target": 0.001103230890464933,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.009771473601260836
+        ],
+        "attained_bounds": [
+          0.0,
+          0.009535066981875492
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.00023640661938534313
+        ],
+        "details": [
+          {
+            "gain_lower": 28.0,
+            "gain_upper": 28.0,
+            "a_flips": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "b_flips": [
+              113,
+              240,
+              466,
+              554,
+              598,
+              783,
+              959,
+              1819,
+              1913
+            ]
+          },
+          {
+            "gain_lower": 214.0,
+            "gain_upper": 220.0,
+            "a_flips": [
+              16,
+              59,
+              475,
+              480,
+              527,
+              537,
+              538,
+              543,
+              606,
+              616,
+              650
+            ],
+            "b_flips": [
+              57,
+              67,
+              82,
+              185,
+              195,
+              272,
+              395,
+              439,
+              533,
+              1886,
+              2038
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.014302600472813239
+      ],
+      "bound_seconds": 0.0010917909967247397,
+      "cells_sha256": "f25487d394926f65623f658557a5df8bbece469f5324f238f5ef98fec777854c",
+      "edges_sha256": "59c547d3911e5a21bbd166a1f75f6c5b0650745d5400dc07309164c4eb0cf6f8"
+    },
+    {
+      "patient": "MB-0002",
+      "image": 70,
+      "cells": 2115,
+      "a_positives": 1620,
+      "b_positives": 9,
+      "k": 24,
+      "edges": 50760,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 3,
+      "source_target": 0.0012411347517730497,
+      "bounds": {
+        "outer_bounds": [
+          0.00021670606776989754,
+          0.0035855003940110323
+        ],
+        "attained_bounds": [
+          0.00021670606776989754,
+          0.0035263987391646965
+        ],
+        "endpoint_gaps": [
+          0.0,
+          5.910165484633578e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 52.0,
+            "gain_upper": 52.0,
+            "a_flips": [
+              181,
+              206,
+              599
+            ],
+            "b_flips": [
+              113,
+              1819,
+              1913
+            ]
+          },
+          {
+            "gain_lower": 116.0,
+            "gain_upper": 119.0,
+            "a_flips": [
+              407,
+              425,
+              428
+            ],
+            "b_flips": [
+              932,
+              958,
+              1513
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.004846335697399527
+      ],
+      "bound_seconds": 0.0019880829931935295,
+      "cells_sha256": "f25487d394926f65623f658557a5df8bbece469f5324f238f5ef98fec777854c",
+      "edges_sha256": "9e26fb0d8f57c9e3e91dcd0ed4d047b405b35ae04caf5a7c7976e11bd5f0b0fa"
+    },
+    {
+      "patient": "MB-0002",
+      "image": 70,
+      "cells": 2115,
+      "a_positives": 1620,
+      "b_positives": 9,
+      "k": 24,
+      "edges": 50760,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 11,
+      "source_target": 0.0012411347517730497,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.009436564223798266
+        ],
+        "attained_bounds": [
+          0.0,
+          0.009141055949566587
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0002955082742316789
+        ],
+        "details": [
+          {
+            "gain_lower": 63.0,
+            "gain_upper": 63.0,
+            "a_flips": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "b_flips": [
+              113,
+              240,
+              466,
+              554,
+              598,
+              783,
+              959,
+              1819,
+              1913
+            ]
+          },
+          {
+            "gain_lower": 401.0,
+            "gain_upper": 416.0,
+            "a_flips": [
+              407,
+              425,
+              428,
+              443,
+              448,
+              475,
+              480,
+              527,
+              537,
+              538,
+              543
+            ],
+            "b_flips": [
+              373,
+              690,
+              932,
+              958,
+              985,
+              1219,
+              1459,
+              1476,
+              1502,
+              1513,
+              1998
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.014164696611505122
+      ],
+      "bound_seconds": 0.0020998330001020804,
+      "cells_sha256": "f25487d394926f65623f658557a5df8bbece469f5324f238f5ef98fec777854c",
+      "edges_sha256": "9e26fb0d8f57c9e3e91dcd0ed4d047b405b35ae04caf5a7c7976e11bd5f0b0fa"
+    },
+    {
+      "patient": "MB-0005",
+      "image": 71,
+      "cells": 1559,
+      "a_positives": 861,
+      "b_positives": 11,
+      "k": 6,
+      "edges": 9354,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.001603592046183451,
+      "bounds": {
+        "outer_bounds": [
+          0.0008552490912978405,
+          0.004276245456489203
+        ],
+        "attained_bounds": [
+          0.0008552490912978405,
+          0.004062433183664742
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0002138122728244608
+        ],
+        "details": [
+          {
+            "gain_lower": 7.0,
+            "gain_upper": 7.0,
+            "a_flips": [
+              41,
+              61
+            ],
+            "b_flips": [
+              504,
+              581
+            ]
+          },
+          {
+            "gain_lower": 23.0,
+            "gain_upper": 25.0,
+            "a_flips": [
+              800,
+              828
+            ],
+            "b_flips": [
+              24,
+              185
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.005131494547787043
+      ],
+      "bound_seconds": 0.000745291996281594,
+      "cells_sha256": "f6cd44b7a20910d8fcd114b3fa31f5483796dddbf04baddfae94c7f0c1213ded",
+      "edges_sha256": "b3615d3b295ca398aa55f348aa0c5b6273d0dcd28de3f8430afc965988179468"
+    },
+    {
+      "patient": "MB-0005",
+      "image": 71,
+      "cells": 1559,
+      "a_positives": 861,
+      "b_positives": 11,
+      "k": 6,
+      "edges": 9354,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 8,
+      "source_target": 0.001603592046183451,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.011652768868933077
+        ],
+        "attained_bounds": [
+          0.0,
+          0.010797519777635236
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0008552490912978414
+        ],
+        "details": [
+          {
+            "gain_lower": 15.0,
+            "gain_upper": 15.0,
+            "a_flips": [
+              0,
+              1,
+              6,
+              7,
+              9,
+              535,
+              536,
+              549
+            ],
+            "b_flips": [
+              20,
+              504,
+              517,
+              733,
+              899,
+              1003,
+              1010,
+              1234
+            ]
+          },
+          {
+            "gain_lower": 86.0,
+            "gain_upper": 94.0,
+            "a_flips": [
+              2,
+              3,
+              5,
+              800,
+              828,
+              983,
+              1028,
+              1046
+            ],
+            "b_flips": [
+              24,
+              105,
+              140,
+              185,
+              192,
+              286,
+              293,
+              374
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.015394483643361129
+      ],
+      "bound_seconds": 0.0006905420013936237,
+      "cells_sha256": "f6cd44b7a20910d8fcd114b3fa31f5483796dddbf04baddfae94c7f0c1213ded",
+      "edges_sha256": "b3615d3b295ca398aa55f348aa0c5b6273d0dcd28de3f8430afc965988179468"
+    },
+    {
+      "patient": "MB-0005",
+      "image": 71,
+      "cells": 1559,
+      "a_positives": 861,
+      "b_positives": 11,
+      "k": 12,
+      "edges": 18708,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.0022984819328629464,
+      "bounds": {
+        "outer_bounds": [
+          0.0013897797733589908,
+          0.004436604661107547
+        ],
+        "attained_bounds": [
+          0.0013897797733589908,
+          0.004383151592901433
+        ],
+        "endpoint_gaps": [
+          0.0,
+          5.345306820611455e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 17.0,
+            "gain_upper": 17.0,
+            "a_flips": [
+              791,
+              1033
+            ],
+            "b_flips": [
+              504,
+              733
+            ]
+          },
+          {
+            "gain_lower": 39.0,
+            "gain_upper": 40.0,
+            "a_flips": [
+              800,
+              821
+            ],
+            "b_flips": [
+              293,
+              409
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.005772931366260423
+      ],
+      "bound_seconds": 0.00109591698856093,
+      "cells_sha256": "f6cd44b7a20910d8fcd114b3fa31f5483796dddbf04baddfae94c7f0c1213ded",
+      "edges_sha256": "77b2cb5a52a1a610e800c0c8a05bd0e384ca20932a8d449d8a1c3c356f8206d9"
+    },
+    {
+      "patient": "MB-0005",
+      "image": 71,
+      "cells": 1559,
+      "a_positives": 861,
+      "b_positives": 11,
+      "k": 12,
+      "edges": 18708,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 8,
+      "source_target": 0.0022984819328629464,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.010957878982253581
+        ],
+        "attained_bounds": [
+          0.0,
+          0.010102629890955742
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0008552490912978397
+        ],
+        "details": [
+          {
+            "gain_lower": 43.0,
+            "gain_upper": 43.0,
+            "a_flips": [
+              1,
+              40,
+              41,
+              61,
+              771,
+              791,
+              1033,
+              1090
+            ],
+            "b_flips": [
+              504,
+              517,
+              581,
+              733,
+              840,
+              899,
+              1010,
+              1234
+            ]
+          },
+          {
+            "gain_lower": 146.0,
+            "gain_upper": 162.0,
+            "a_flips": [
+              130,
+              800,
+              821,
+              828,
+              845,
+              885,
+              983,
+              1028
+            ],
+            "b_flips": [
+              109,
+              151,
+              157,
+              293,
+              409,
+              1156,
+              1217,
+              1318
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.015554842847979474
+      ],
+      "bound_seconds": 0.0010181669931625947,
+      "cells_sha256": "f6cd44b7a20910d8fcd114b3fa31f5483796dddbf04baddfae94c7f0c1213ded",
+      "edges_sha256": "77b2cb5a52a1a610e800c0c8a05bd0e384ca20932a8d449d8a1c3c356f8206d9"
+    },
+    {
+      "patient": "MB-0005",
+      "image": 71,
+      "cells": 1559,
+      "a_positives": 861,
+      "b_positives": 11,
+      "k": 24,
+      "edges": 37416,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.0022717553987598887,
+      "bounds": {
+        "outer_bounds": [
+          0.0014699593756681633,
+          0.0040891597177678
+        ],
+        "attained_bounds": [
+          0.0014966859097712208,
+          0.003982253581355569
+        ],
+        "endpoint_gaps": [
+          2.672653410305749e-05,
+          0.00010690613641223083
+        ],
+        "details": [
+          {
+            "gain_lower": 29.0,
+            "gain_upper": 30.0,
+            "a_flips": [
+              754,
+              771
+            ],
+            "b_flips": [
+              504,
+              581
+            ]
+          },
+          {
+            "gain_lower": 64.0,
+            "gain_upper": 68.0,
+            "a_flips": [
+              534,
+              573
+            ],
+            "b_flips": [
+              173,
+              1213
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.005532392559332905
+      ],
+      "bound_seconds": 0.001676416999544017,
+      "cells_sha256": "f6cd44b7a20910d8fcd114b3fa31f5483796dddbf04baddfae94c7f0c1213ded",
+      "edges_sha256": "036c76c68ca0ebbc4207fdfeb9a4bc4bfa98448061d5d27974c0293754db343c"
+    },
+    {
+      "patient": "MB-0005",
+      "image": 71,
+      "cells": 1559,
+      "a_positives": 861,
+      "b_positives": 11,
+      "k": 24,
+      "edges": 37416,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 8,
+      "source_target": 0.0022717553987598887,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.009942270686337396
+        ],
+        "attained_bounds": [
+          0.00010690613641223006,
+          0.009087021595039555
+        ],
+        "endpoint_gaps": [
+          0.00010690613641223006,
+          0.0008552490912978414
+        ],
+        "details": [
+          {
+            "gain_lower": 81.0,
+            "gain_upper": 85.0,
+            "a_flips": [
+              1,
+              40,
+              41,
+              61,
+              435,
+              451,
+              463,
+              495
+            ],
+            "b_flips": [
+              504,
+              581,
+              733,
+              840,
+              846,
+              899,
+              1010,
+              1234
+            ]
+          },
+          {
+            "gain_lower": 255.0,
+            "gain_upper": 287.0,
+            "a_flips": [
+              80,
+              130,
+              141,
+              170,
+              534,
+              573,
+              1185,
+              1222
+            ],
+            "b_flips": [
+              130,
+              151,
+              157,
+              173,
+              177,
+              1213,
+              1238,
+              1243
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.015100491768227496
+      ],
+      "bound_seconds": 0.0022606249985983595,
+      "cells_sha256": "f6cd44b7a20910d8fcd114b3fa31f5483796dddbf04baddfae94c7f0c1213ded",
+      "edges_sha256": "036c76c68ca0ebbc4207fdfeb9a4bc4bfa98448061d5d27974c0293754db343c"
+    },
+    {
+      "patient": "MB-0006",
+      "image": 165,
+      "cells": 810,
+      "a_positives": 274,
+      "b_positives": 8,
+      "k": 6,
+      "edges": 4860,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 1,
+      "source_target": 0.00041152263374485596,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.002880658436213992
+        ],
+        "attained_bounds": [
+          0.0,
+          0.002880658436213992
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0
+        ],
+        "details": [
+          {
+            "gain_lower": 2.0,
+            "gain_upper": 2.0,
+            "a_flips": [
+              6
+            ],
+            "b_flips": [
+              483
+            ]
+          },
+          {
+            "gain_lower": 12.0,
+            "gain_upper": 12.0,
+            "a_flips": [
+              319
+            ],
+            "b_flips": [
+              116
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.00411522633744856
+      ],
+      "bound_seconds": 0.00046804099110886455,
+      "cells_sha256": "d42554e0c7d6b55157db221126c6670fc156daa16aab31a636330349dbd793c4",
+      "edges_sha256": "b22b2e7e141653b822b73de7a45254126f919747fbdcb35208b9d746dc60fe2a"
+    },
+    {
+      "patient": "MB-0006",
+      "image": 165,
+      "cells": 810,
+      "a_positives": 274,
+      "b_positives": 8,
+      "k": 6,
+      "edges": 4860,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 5,
+      "source_target": 0.00041152263374485596,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.01213991769547325
+        ],
+        "attained_bounds": [
+          0.0,
+          0.01131687242798354
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0008230452674897106
+        ],
+        "details": [
+          {
+            "gain_lower": 2.0,
+            "gain_upper": 2.0,
+            "a_flips": [
+              6,
+              8,
+              15,
+              463,
+              508
+            ],
+            "b_flips": [
+              1,
+              259,
+              264,
+              318,
+              354
+            ]
+          },
+          {
+            "gain_lower": 53.0,
+            "gain_upper": 57.0,
+            "a_flips": [
+              7,
+              13,
+              14,
+              29,
+              319
+            ],
+            "b_flips": [
+              28,
+              43,
+              101,
+              116,
+              144
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.01831275720164609
+      ],
+      "bound_seconds": 0.00045270899136085063,
+      "cells_sha256": "d42554e0c7d6b55157db221126c6670fc156daa16aab31a636330349dbd793c4",
+      "edges_sha256": "b22b2e7e141653b822b73de7a45254126f919747fbdcb35208b9d746dc60fe2a"
+    },
+    {
+      "patient": "MB-0006",
+      "image": 165,
+      "cells": 810,
+      "a_positives": 274,
+      "b_positives": 8,
+      "k": 12,
+      "edges": 9720,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 1,
+      "source_target": 0.000720164609053498,
+      "bounds": {
+        "outer_bounds": [
+          0.00020576131687242798,
+          0.002880658436213992
+        ],
+        "attained_bounds": [
+          0.00020576131687242798,
+          0.002880658436213992
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0
+        ],
+        "details": [
+          {
+            "gain_lower": 5.0,
+            "gain_upper": 5.0,
+            "a_flips": [
+              532
+            ],
+            "b_flips": [
+              483
+            ]
+          },
+          {
+            "gain_lower": 21.0,
+            "gain_upper": 21.0,
+            "a_flips": [
+              296
+            ],
+            "b_flips": [
+              570
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.004012345679012346
+      ],
+      "bound_seconds": 0.000661082987789996,
+      "cells_sha256": "d42554e0c7d6b55157db221126c6670fc156daa16aab31a636330349dbd793c4",
+      "edges_sha256": "9c6055df1919ce51a9fc25e0f839c6c98bf7a44ad0f98390db2f21e66f952441"
+    },
+    {
+      "patient": "MB-0006",
+      "image": 165,
+      "cells": 810,
+      "a_positives": 274,
+      "b_positives": 8,
+      "k": 12,
+      "edges": 9720,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 5,
+      "source_target": 0.000720164609053498,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.01131687242798354
+        ],
+        "attained_bounds": [
+          0.0,
+          0.010699588477366255
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0006172839506172843
+        ],
+        "details": [
+          {
+            "gain_lower": 7.0,
+            "gain_upper": 7.0,
+            "a_flips": [
+              6,
+              461,
+              463,
+              508,
+              527
+            ],
+            "b_flips": [
+              1,
+              259,
+              264,
+              318,
+              513
+            ]
+          },
+          {
+            "gain_lower": 97.0,
+            "gain_upper": 103.0,
+            "a_flips": [
+              75,
+              99,
+              161,
+              296,
+              319
+            ],
+            "b_flips": [
+              97,
+              111,
+              116,
+              570,
+              647
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.016872427983539093
+      ],
+      "bound_seconds": 0.0009653749875724316,
+      "cells_sha256": "d42554e0c7d6b55157db221126c6670fc156daa16aab31a636330349dbd793c4",
+      "edges_sha256": "9c6055df1919ce51a9fc25e0f839c6c98bf7a44ad0f98390db2f21e66f952441"
+    },
+    {
+      "patient": "MB-0006",
+      "image": 165,
+      "cells": 810,
+      "a_positives": 274,
+      "b_positives": 8,
+      "k": 24,
+      "edges": 19440,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 1,
+      "source_target": 0.0011316872427983538,
+      "bounds": {
+        "outer_bounds": [
+          0.000462962962962963,
+          0.0030864197530864196
+        ],
+        "attained_bounds": [
+          0.00051440329218107,
+          0.0030349794238683126
+        ],
+        "endpoint_gaps": [
+          5.144032921810702e-05,
+          5.144032921810702e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 12.0,
+            "gain_upper": 13.0,
+            "a_flips": [
+              208
+            ],
+            "b_flips": [
+              513
+            ]
+          },
+          {
+            "gain_lower": 37.0,
+            "gain_upper": 38.0,
+            "a_flips": [
+              253
+            ],
+            "b_flips": [
+              612
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.004423868312757201
+      ],
+      "bound_seconds": 0.0010225000005448237,
+      "cells_sha256": "d42554e0c7d6b55157db221126c6670fc156daa16aab31a636330349dbd793c4",
+      "edges_sha256": "3dd41571410bd9f157f95053497ee2aa1d1345471648b2c4480e1cf55a04578d"
+    },
+    {
+      "patient": "MB-0006",
+      "image": 165,
+      "cells": 810,
+      "a_positives": 274,
+      "b_positives": 8,
+      "k": 24,
+      "edges": 19440,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 5,
+      "source_target": 0.0011316872427983538,
+      "bounds": {
+        "outer_bounds": [
+          0.0,
+          0.01131687242798354
+        ],
+        "attained_bounds": [
+          0.0,
+          0.010339506172839507
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.000977366255144033
+        ],
+        "details": [
+          {
+            "gain_lower": 22.0,
+            "gain_upper": 22.0,
+            "a_flips": [
+              6,
+              8,
+              15,
+              16,
+              17
+            ],
+            "b_flips": [
+              259,
+              264,
+              318,
+              483,
+              513
+            ]
+          },
+          {
+            "gain_lower": 179.0,
+            "gain_upper": 198.0,
+            "a_flips": [
+              37,
+              75,
+              93,
+              99,
+              161
+            ],
+            "b_flips": [
+              95,
+              97,
+              106,
+              612,
+              616
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.01712962962962963
+      ],
+      "bound_seconds": 0.0010415420110803097,
+      "cells_sha256": "d42554e0c7d6b55157db221126c6670fc156daa16aab31a636330349dbd793c4",
+      "edges_sha256": "3dd41571410bd9f157f95053497ee2aa1d1345471648b2c4480e1cf55a04578d"
+    },
+    {
+      "patient": "MB-0010",
+      "image": 219,
+      "cells": 1391,
+      "a_positives": 1129,
+      "b_positives": 22,
+      "k": 6,
+      "edges": 8346,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.010424155283968369,
+      "bounds": {
+        "outer_bounds": [
+          0.008387251377905584,
+          0.013419602204648934
+        ],
+        "attained_bounds": [
+          0.008387251377905584,
+          0.013299784327821711
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.00011981787682722317
+        ],
+        "details": [
+          {
+            "gain_lower": 17.0,
+            "gain_upper": 17.0,
+            "a_flips": [
+              108,
+              677
+            ],
+            "b_flips": [
+              492,
+              887
+            ]
+          },
+          {
+            "gain_lower": 24.0,
+            "gain_upper": 25.0,
+            "a_flips": [
+              190,
+              577
+            ],
+            "b_flips": [
+              34,
+              119
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.006350347471842799,
+        0.014497963096093937
+      ],
+      "bound_seconds": 0.0006307500007096678,
+      "cells_sha256": "09814e4c98cd9b181ceb7db1dbd98685283db92f34d3626632234018f44ee2ed",
+      "edges_sha256": "bef7f28be824877e122d18f10f3206b9655a97bc7e82233b7e5a2471ac714d7c"
+    },
+    {
+      "patient": "MB-0010",
+      "image": 219,
+      "cells": 1391,
+      "a_positives": 1129,
+      "b_positives": 22,
+      "k": 6,
+      "edges": 8346,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 7,
+      "source_target": 0.010424155283968369,
+      "bounds": {
+        "outer_bounds": [
+          0.004792715073088905,
+          0.020249221183800622
+        ],
+        "attained_bounds": [
+          0.004912532949916127,
+          0.01965013179966451
+        ],
+        "endpoint_gaps": [
+          0.0001198178768272223,
+          0.0005990893841361124
+        ],
+        "details": [
+          {
+            "gain_lower": 46.0,
+            "gain_upper": 47.0,
+            "a_flips": [
+              92,
+              98,
+              107,
+              108,
+              133,
+              159,
+              677
+            ],
+            "b_flips": [
+              265,
+              300,
+              492,
+              601,
+              648,
+              740,
+              887
+            ]
+          },
+          {
+            "gain_lower": 77.0,
+            "gain_upper": 82.0,
+            "a_flips": [
+              84,
+              94,
+              102,
+              132,
+              190,
+              577,
+              579
+            ],
+            "b_flips": [
+              34,
+              117,
+              119,
+              124,
+              156,
+              193,
+              433
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.024083393242271746
+      ],
+      "bound_seconds": 0.0007228329923236743,
+      "cells_sha256": "09814e4c98cd9b181ceb7db1dbd98685283db92f34d3626632234018f44ee2ed",
+      "edges_sha256": "bef7f28be824877e122d18f10f3206b9655a97bc7e82233b7e5a2471ac714d7c"
+    },
+    {
+      "patient": "MB-0010",
+      "image": 219,
+      "cells": 1391,
+      "a_positives": 1129,
+      "b_positives": 22,
+      "k": 12,
+      "edges": 16692,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.011262880421758926,
+      "bounds": {
+        "outer_bounds": [
+          0.009525521207764199,
+          0.013539420081476156
+        ],
+        "attained_bounds": [
+          0.009525521207764199,
+          0.013479511143062546
+        ],
+        "endpoint_gaps": [
+          0.0,
+          5.990893841360985e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 29.0,
+            "gain_upper": 29.0,
+            "a_flips": [
+              67,
+              108
+            ],
+            "b_flips": [
+              101,
+              492
+            ]
+          },
+          {
+            "gain_lower": 37.0,
+            "gain_upper": 38.0,
+            "a_flips": [
+              84,
+              190
+            ],
+            "b_flips": [
+              403,
+              978
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.007668344116942247,
+        0.014857416726575604
+      ],
+      "bound_seconds": 0.0008855420019244775,
+      "cells_sha256": "09814e4c98cd9b181ceb7db1dbd98685283db92f34d3626632234018f44ee2ed",
+      "edges_sha256": "ebb7a994cd6c2553276fddc4959416c68abac27ed0d45ce42bda9ae016e72424"
+    },
+    {
+      "patient": "MB-0010",
+      "image": 219,
+      "cells": 1391,
+      "a_positives": 1129,
+      "b_positives": 22,
+      "k": 12,
+      "edges": 16692,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 7,
+      "source_target": 0.011262880421758926,
+      "bounds": {
+        "outer_bounds": [
+          0.005811167026120297,
+          0.019530313922837286
+        ],
+        "attained_bounds": [
+          0.005871075964533908,
+          0.01875149772346034
+        ],
+        "endpoint_gaps": [
+          5.9908938413611584e-05,
+          0.0007788161993769471
+        ],
+        "details": [
+          {
+            "gain_lower": 90.0,
+            "gain_upper": 91.0,
+            "a_flips": [
+              51,
+              67,
+              108,
+              164,
+              179,
+              210,
+              521
+            ],
+            "b_flips": [
+              101,
+              300,
+              492,
+              635,
+              648,
+              740,
+              887
+            ]
+          },
+          {
+            "gain_lower": 125.0,
+            "gain_upper": 138.0,
+            "a_flips": [
+              84,
+              94,
+              102,
+              190,
+              556,
+              577,
+              579
+            ],
+            "b_flips": [
+              403,
+              772,
+              942,
+              978,
+              990,
+              1068,
+              1097
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.0238437574886173
+      ],
+      "bound_seconds": 0.0008580839930800721,
+      "cells_sha256": "09814e4c98cd9b181ceb7db1dbd98685283db92f34d3626632234018f44ee2ed",
+      "edges_sha256": "ebb7a994cd6c2553276fddc4959416c68abac27ed0d45ce42bda9ae016e72424"
+    },
+    {
+      "patient": "MB-0010",
+      "image": 219,
+      "cells": 1391,
+      "a_positives": 1129,
+      "b_positives": 22,
+      "k": 24,
+      "edges": 33384,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.011951833213515457,
+      "bounds": {
+        "outer_bounds": [
+          0.010124610591900311,
+          0.014108554996405464
+        ],
+        "attained_bounds": [
+          0.010124610591900311,
+          0.014018691588785047
+        ],
+        "endpoint_gaps": [
+          0.0,
+          8.986340762041738e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 61.0,
+            "gain_upper": 61.0,
+            "a_flips": [
+              233,
+              658
+            ],
+            "b_flips": [
+              101,
+              143
+            ]
+          },
+          {
+            "gain_lower": 69.0,
+            "gain_upper": 72.0,
+            "a_flips": [
+              190,
+              583
+            ],
+            "b_flips": [
+              159,
+              534
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.008297387970285168,
+        0.015606278456745747
+      ],
+      "bound_seconds": 0.0018399169930489734,
+      "cells_sha256": "09814e4c98cd9b181ceb7db1dbd98685283db92f34d3626632234018f44ee2ed",
+      "edges_sha256": "459de26bd7966996a253010ea663af571a874f73cf63ad073811e84e3328a7bf"
+    },
+    {
+      "patient": "MB-0010",
+      "image": 219,
+      "cells": 1391,
+      "a_positives": 1129,
+      "b_positives": 22,
+      "k": 24,
+      "edges": 33384,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 7,
+      "source_target": 0.011951833213515457,
+      "bounds": {
+        "outer_bounds": [
+          0.006500119817876827,
+          0.01973999520728493
+        ],
+        "attained_bounds": [
+          0.006500119817876827,
+          0.01896117900790798
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0007788161993769471
+        ],
+        "details": [
+          {
+            "gain_lower": 182.0,
+            "gain_upper": 182.0,
+            "a_flips": [
+              233,
+              497,
+              521,
+              564,
+              580,
+              595,
+              658
+            ],
+            "b_flips": [
+              101,
+              132,
+              143,
+              492,
+              601,
+              740,
+              1281
+            ]
+          },
+          {
+            "gain_lower": 234.0,
+            "gain_upper": 260.0,
+            "a_flips": [
+              61,
+              84,
+              132,
+              143,
+              190,
+              583,
+              701
+            ],
+            "b_flips": [
+              107,
+              108,
+              159,
+              534,
+              724,
+              1105,
+              1278
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.024352983465132996
+      ],
+      "bound_seconds": 0.0015117080038180575,
+      "cells_sha256": "09814e4c98cd9b181ceb7db1dbd98685283db92f34d3626632234018f44ee2ed",
+      "edges_sha256": "459de26bd7966996a253010ea663af571a874f73cf63ad073811e84e3328a7bf"
+    },
+    {
+      "patient": "MB-0013",
+      "image": 220,
+      "cells": 2691,
+      "a_positives": 1852,
+      "b_positives": 23,
+      "k": 6,
+      "edges": 16146,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 3,
+      "source_target": 0.004025764895330112,
+      "bounds": {
+        "outer_bounds": [
+          0.0030348073826334697,
+          0.006007679920723399
+        ],
+        "attained_bounds": [
+          0.0030348073826334697,
+          0.005883810231636318
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.00012386968908708034
+        ],
+        "details": [
+          {
+            "gain_lower": 16.0,
+            "gain_upper": 16.0,
+            "a_flips": [
+              267,
+              290,
+              302
+            ],
+            "b_flips": [
+              705,
+              1325,
+              2125
+            ]
+          },
+          {
+            "gain_lower": 30.0,
+            "gain_upper": 32.0,
+            "a_flips": [
+              249,
+              301,
+              350
+            ],
+            "b_flips": [
+              458,
+              1034,
+              2602
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.001052892357240183,
+        0.0069986374334200414
+      ],
+      "bound_seconds": 0.0013281249994179234,
+      "cells_sha256": "f5ff5db81ea9a8c6b5c18c126518b37c37d3dce4f3958b528ffa1dc077e8448d",
+      "edges_sha256": "cf925357ad7a3462a6eed4d16c88a1acd7c4ef95313571d15f6cdf5ad43ed066"
+    },
+    {
+      "patient": "MB-0013",
+      "image": 220,
+      "cells": 2691,
+      "a_positives": 1852,
+      "b_positives": 23,
+      "k": 6,
+      "edges": 16146,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 14,
+      "source_target": 0.004025764895330112,
+      "bounds": {
+        "outer_bounds": [
+          6.19348445435402e-05,
+          0.01306825219868698
+        ],
+        "attained_bounds": [
+          6.19348445435402e-05,
+          0.012015359841446797
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0010528923572401833
+        ],
+        "details": [
+          {
+            "gain_lower": 64.0,
+            "gain_upper": 64.0,
+            "a_flips": [
+              982,
+              1124,
+              1516,
+              2035,
+              2126,
+              2162,
+              2213,
+              2281,
+              2304,
+              2344,
+              2389,
+              2401,
+              2540,
+              2610
+            ],
+            "b_flips": [
+              291,
+              329,
+              611,
+              705,
+              853,
+              984,
+              1325,
+              1355,
+              1383,
+              1928,
+              2125,
+              2297,
+              2604,
+              2615
+            ]
+          },
+          {
+            "gain_lower": 129.0,
+            "gain_upper": 146.0,
+            "a_flips": [
+              249,
+              301,
+              350,
+              353,
+              361,
+              581,
+              622,
+              658,
+              739,
+              747,
+              800,
+              811,
+              885,
+              901
+            ],
+            "b_flips": [
+              36,
+              134,
+              146,
+              280,
+              312,
+              340,
+              422,
+              435,
+              458,
+              486,
+              565,
+              582,
+              1034,
+              2602
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.017403691316734794
+      ],
+      "bound_seconds": 0.0011209169897483662,
+      "cells_sha256": "f5ff5db81ea9a8c6b5c18c126518b37c37d3dce4f3958b528ffa1dc077e8448d",
+      "edges_sha256": "cf925357ad7a3462a6eed4d16c88a1acd7c4ef95313571d15f6cdf5ad43ed066"
+    },
+    {
+      "patient": "MB-0013",
+      "image": 220,
+      "cells": 2691,
+      "a_positives": 1852,
+      "b_positives": 23,
+      "k": 12,
+      "edges": 32292,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 3,
+      "source_target": 0.004521243651678435,
+      "bounds": {
+        "outer_bounds": [
+          0.003375449027622941,
+          0.0063173541434411
+        ],
+        "attained_bounds": [
+          0.0034064164498947107,
+          0.006255419298897559
+        ],
+        "endpoint_gaps": [
+          3.096742227176987e-05,
+          6.19348445435406e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 36.0,
+            "gain_upper": 37.0,
+            "a_flips": [
+              252,
+              267,
+              1389
+            ],
+            "b_flips": [
+              1928,
+              2125,
+              2604
+            ]
+          },
+          {
+            "gain_lower": 56.0,
+            "gain_upper": 58.0,
+            "a_flips": [
+              908,
+              923,
+              926
+            ],
+            "b_flips": [
+              559,
+              576,
+              590
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0017032082249473558,
+        0.007339279078409514
+      ],
+      "bound_seconds": 0.0016027499950723723,
+      "cells_sha256": "f5ff5db81ea9a8c6b5c18c126518b37c37d3dce4f3958b528ffa1dc077e8448d",
+      "edges_sha256": "0331bc7bf734c664abfdf5ad7bf44a2ed8254f64c0aa14acb26e1176dfe05ab4"
+    },
+    {
+      "patient": "MB-0013",
+      "image": 220,
+      "cells": 2691,
+      "a_positives": 1852,
+      "b_positives": 23,
+      "k": 12,
+      "edges": 32292,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 14,
+      "source_target": 0.004521243651678435,
+      "bounds": {
+        "outer_bounds": [
+          0.0006193484454354019,
+          0.01257277344233866
+        ],
+        "attained_bounds": [
+          0.0006812832899789422,
+          0.011860522730087947
+        ],
+        "endpoint_gaps": [
+          6.193484454354028e-05,
+          0.0007122507122507126
+        ],
+        "details": [
+          {
+            "gain_lower": 124.0,
+            "gain_upper": 126.0,
+            "a_flips": [
+              550,
+              563,
+              629,
+              657,
+              662,
+              982,
+              1038,
+              1106,
+              1124,
+              1417,
+              1420,
+              1434,
+              1516,
+              1545
+            ],
+            "b_flips": [
+              291,
+              329,
+              705,
+              853,
+              984,
+              1325,
+              1355,
+              1383,
+              1928,
+              2125,
+              2202,
+              2297,
+              2604,
+              2615
+            ]
+          },
+          {
+            "gain_lower": 237.0,
+            "gain_upper": 260.0,
+            "a_flips": [
+              212,
+              219,
+              249,
+              266,
+              268,
+              291,
+              298,
+              301,
+              350,
+              353,
+              908,
+              923,
+              926,
+              1305
+            ],
+            "b_flips": [
+              134,
+              312,
+              559,
+              576,
+              590,
+              609,
+              830,
+              869,
+              924,
+              928,
+              1777,
+              2270,
+              2583,
+              2592
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.017217886783104173
+      ],
+      "bound_seconds": 0.0021640409977408126,
+      "cells_sha256": "f5ff5db81ea9a8c6b5c18c126518b37c37d3dce4f3958b528ffa1dc077e8448d",
+      "edges_sha256": "0331bc7bf734c664abfdf5ad7bf44a2ed8254f64c0aa14acb26e1176dfe05ab4"
+    },
+    {
+      "patient": "MB-0013",
+      "image": 220,
+      "cells": 2691,
+      "a_positives": 1852,
+      "b_positives": 23,
+      "k": 24,
+      "edges": 64584,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 3,
+      "source_target": 0.004505759940542549,
+      "bounds": {
+        "outer_bounds": [
+          0.0035148024278459063,
+          0.00610058218753871
+        ],
+        "attained_bounds": [
+          0.0035148024278459063,
+          0.005976712498451629
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.00012386968908708034
+        ],
+        "details": [
+          {
+            "gain_lower": 64.0,
+            "gain_upper": 64.0,
+            "a_flips": [
+              841,
+              849,
+              879
+            ],
+            "b_flips": [
+              705,
+              1383,
+              2604
+            ]
+          },
+          {
+            "gain_lower": 95.0,
+            "gain_upper": 103.0,
+            "a_flips": [
+              418,
+              730,
+              837
+            ],
+            "b_flips": [
+              70,
+              511,
+              548
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0016567570915396999,
+        0.007354762789545399
+      ],
+      "bound_seconds": 0.0025849170051515102,
+      "cells_sha256": "f5ff5db81ea9a8c6b5c18c126518b37c37d3dce4f3958b528ffa1dc077e8448d",
+      "edges_sha256": "5c60f0b9c70ee01ce5e144203ad00cd50a0197df2faa62dac5a7e4e602a178e3"
+    },
+    {
+      "patient": "MB-0013",
+      "image": 220,
+      "cells": 2691,
+      "a_positives": 1852,
+      "b_positives": 23,
+      "k": 24,
+      "edges": 64584,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 14,
+      "source_target": 0.004505759940542549,
+      "bounds": {
+        "outer_bounds": [
+          0.0008206366902019076,
+          0.01220116437507742
+        ],
+        "attained_bounds": [
+          0.0009909575126966432,
+          0.011225690573516661
+        ],
+        "endpoint_gaps": [
+          0.00017032082249473558,
+          0.000975473801560758
+        ],
+        "details": [
+          {
+            "gain_lower": 227.0,
+            "gain_upper": 238.0,
+            "a_flips": [
+              506,
+              514,
+              543,
+              550,
+              563,
+              629,
+              657,
+              662,
+              692,
+              716,
+              757,
+              841,
+              849,
+              879
+            ],
+            "b_flips": [
+              291,
+              329,
+              705,
+              1325,
+              1355,
+              1383,
+              1478,
+              1928,
+              2075,
+              2125,
+              2297,
+              2366,
+              2604,
+              2615
+            ]
+          },
+          {
+            "gain_lower": 434.0,
+            "gain_upper": 497.0,
+            "a_flips": [
+              338,
+              388,
+              418,
+              551,
+              730,
+              837,
+              885,
+              908,
+              909,
+              923,
+              926,
+              948,
+              1217,
+              1253
+            ],
+            "b_flips": [
+              70,
+              125,
+              418,
+              486,
+              511,
+              548,
+              559,
+              565,
+              590,
+              609,
+              1214,
+              1870,
+              2583,
+              2584
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.017217886783104173
+      ],
+      "bound_seconds": 0.003136250001261942,
+      "cells_sha256": "f5ff5db81ea9a8c6b5c18c126518b37c37d3dce4f3958b528ffa1dc077e8448d",
+      "edges_sha256": "5c60f0b9c70ee01ce5e144203ad00cd50a0197df2faa62dac5a7e4e602a178e3"
+    },
+    {
+      "patient": "MB-0014",
+      "image": 227,
+      "cells": 1500,
+      "a_positives": 718,
+      "b_positives": 28,
+      "k": 6,
+      "edges": 9000,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.006555555555555556,
+      "bounds": {
+        "outer_bounds": [
+          0.0047777777777777775,
+          0.009444444444444445
+        ],
+        "attained_bounds": [
+          0.0047777777777777775,
+          0.009444444444444445
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0
+        ],
+        "details": [
+          {
+            "gain_lower": 16.0,
+            "gain_upper": 16.0,
+            "a_flips": [
+              292,
+              866
+            ],
+            "b_flips": [
+              916,
+              957
+            ]
+          },
+          {
+            "gain_lower": 26.0,
+            "gain_upper": 26.0,
+            "a_flips": [
+              250,
+              275
+            ],
+            "b_flips": [
+              266,
+              1456
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.002777777777777778,
+        0.010333333333333333
+      ],
+      "bound_seconds": 0.0007742500019958243,
+      "cells_sha256": "ac4d17883e3fe546d58d9fee7290ea79db94abe7425ee8baa64a9ae0fa11fe0b",
+      "edges_sha256": "c38d9d20d15e76672db1a9185e760c0218039b5e69385d2b0cda91be39741964"
+    },
+    {
+      "patient": "MB-0014",
+      "image": 227,
+      "cells": 1500,
+      "a_positives": 718,
+      "b_positives": 28,
+      "k": 6,
+      "edges": 9000,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 8,
+      "source_target": 0.006555555555555556,
+      "bounds": {
+        "outer_bounds": [
+          0.0013333333333333333,
+          0.017444444444444443
+        ],
+        "attained_bounds": [
+          0.0016666666666666668,
+          0.016666666666666666
+        ],
+        "endpoint_gaps": [
+          0.0003333333333333335,
+          0.0007777777777777765
+        ],
+        "details": [
+          {
+            "gain_lower": 44.0,
+            "gain_upper": 47.0,
+            "a_flips": [
+              4,
+              5,
+              12,
+              16,
+              292,
+              866,
+              872,
+              889
+            ],
+            "b_flips": [
+              301,
+              460,
+              582,
+              689,
+              916,
+              957,
+              1291,
+              1356
+            ]
+          },
+          {
+            "gain_lower": 91.0,
+            "gain_upper": 98.0,
+            "a_flips": [
+              250,
+              275,
+              316,
+              378,
+              412,
+              536,
+              640,
+              668
+            ],
+            "b_flips": [
+              64,
+              199,
+              227,
+              266,
+              516,
+              1165,
+              1328,
+              1456
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.020999999999999998
+      ],
+      "bound_seconds": 0.0006945420027477667,
+      "cells_sha256": "ac4d17883e3fe546d58d9fee7290ea79db94abe7425ee8baa64a9ae0fa11fe0b",
+      "edges_sha256": "c38d9d20d15e76672db1a9185e760c0218039b5e69385d2b0cda91be39741964"
+    },
+    {
+      "patient": "MB-0014",
+      "image": 227,
+      "cells": 1500,
+      "a_positives": 718,
+      "b_positives": 28,
+      "k": 12,
+      "edges": 18000,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.006555555555555556,
+      "bounds": {
+        "outer_bounds": [
+          0.005166666666666667,
+          0.009111111111111111
+        ],
+        "attained_bounds": [
+          0.005166666666666667,
+          0.008944444444444444
+        ],
+        "endpoint_gaps": [
+          0.0,
+          0.0001666666666666674
+        ],
+        "details": [
+          {
+            "gain_lower": 25.0,
+            "gain_upper": 25.0,
+            "a_flips": [
+              866,
+              872
+            ],
+            "b_flips": [
+              916,
+              957
+            ]
+          },
+          {
+            "gain_lower": 43.0,
+            "gain_upper": 46.0,
+            "a_flips": [
+              275,
+              943
+            ],
+            "b_flips": [
+              1334,
+              1425
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.002888888888888889,
+        0.010222222222222223
+      ],
+      "bound_seconds": 0.001116874991566874,
+      "cells_sha256": "ac4d17883e3fe546d58d9fee7290ea79db94abe7425ee8baa64a9ae0fa11fe0b",
+      "edges_sha256": "4fc35d8d8443417921f951a226d69dbf76b8855561ce27796eee581dfac9a027"
+    },
+    {
+      "patient": "MB-0014",
+      "image": 227,
+      "cells": 1500,
+      "a_positives": 718,
+      "b_positives": 28,
+      "k": 12,
+      "edges": 18000,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 8,
+      "source_target": 0.006555555555555556,
+      "bounds": {
+        "outer_bounds": [
+          0.0018333333333333333,
+          0.016277777777777776
+        ],
+        "attained_bounds": [
+          0.0023333333333333335,
+          0.01538888888888889
+        ],
+        "endpoint_gaps": [
+          0.0005000000000000002,
+          0.000888888888888887
+        ],
+        "details": [
+          {
+            "gain_lower": 76.0,
+            "gain_upper": 85.0,
+            "a_flips": [
+              292,
+              858,
+              866,
+              870,
+              872,
+              889,
+              955,
+              976
+            ],
+            "b_flips": [
+              301,
+              503,
+              582,
+              689,
+              916,
+              957,
+              1291,
+              1356
+            ]
+          },
+          {
+            "gain_lower": 159.0,
+            "gain_upper": 175.0,
+            "a_flips": [
+              275,
+              309,
+              908,
+              909,
+              912,
+              926,
+              943,
+              979
+            ],
+            "b_flips": [
+              247,
+              266,
+              321,
+              540,
+              710,
+              1334,
+              1425,
+              1426
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.020555555555555556
+      ],
+      "bound_seconds": 0.0011056250077672303,
+      "cells_sha256": "ac4d17883e3fe546d58d9fee7290ea79db94abe7425ee8baa64a9ae0fa11fe0b",
+      "edges_sha256": "4fc35d8d8443417921f951a226d69dbf76b8855561ce27796eee581dfac9a027"
+    },
+    {
+      "patient": "MB-0014",
+      "image": 227,
+      "cells": 1500,
+      "a_positives": 718,
+      "b_positives": 28,
+      "k": 24,
+      "edges": 36000,
+      "fraction_each_marker": 0.001,
+      "budget_each_marker": 2,
+      "source_target": 0.007972222222222223,
+      "bounds": {
+        "outer_bounds": [
+          0.006666666666666667,
+          0.010055555555555555
+        ],
+        "attained_bounds": [
+          0.006722222222222222,
+          0.01
+        ],
+        "endpoint_gaps": [
+          5.555555555555522e-05,
+          5.555555555555522e-05
+        ],
+        "details": [
+          {
+            "gain_lower": 45.0,
+            "gain_upper": 47.0,
+            "a_flips": [
+              218,
+              292
+            ],
+            "b_flips": [
+              909,
+              912
+            ]
+          },
+          {
+            "gain_lower": 73.0,
+            "gain_upper": 75.0,
+            "a_flips": [
+              908,
+              926
+            ],
+            "b_flips": [
+              528,
+              1268
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.004416666666666667,
+        0.01152777777777778
+      ],
+      "bound_seconds": 0.0017148750048363581,
+      "cells_sha256": "ac4d17883e3fe546d58d9fee7290ea79db94abe7425ee8baa64a9ae0fa11fe0b",
+      "edges_sha256": "51dd5af3f50333ad2e3f3c4a82fe1ff8d79cc16dbb65908f89e5da8f41736e93"
+    },
+    {
+      "patient": "MB-0014",
+      "image": 227,
+      "cells": 1500,
+      "a_positives": 718,
+      "b_positives": 28,
+      "k": 24,
+      "edges": 36000,
+      "fraction_each_marker": 0.005,
+      "budget_each_marker": 8,
+      "source_target": 0.007972222222222223,
+      "bounds": {
+        "outer_bounds": [
+          0.0031944444444444446,
+          0.016277777777777776
+        ],
+        "attained_bounds": [
+          0.0035,
+          0.015666666666666666
+        ],
+        "endpoint_gaps": [
+          0.00030555555555555544,
+          0.0006111111111111109
+        ],
+        "details": [
+          {
+            "gain_lower": 161.0,
+            "gain_upper": 172.0,
+            "a_flips": [
+              16,
+              34,
+              210,
+              218,
+              260,
+              292,
+              552,
+              581
+            ],
+            "b_flips": [
+              632,
+              689,
+              909,
+              912,
+              914,
+              916,
+              957,
+              1291
+            ]
+          },
+          {
+            "gain_lower": 277.0,
+            "gain_upper": 299.0,
+            "a_flips": [
+              249,
+              275,
+              309,
+              589,
+              908,
+              926,
+              943,
+              979
+            ],
+            "b_flips": [
+              280,
+              519,
+              528,
+              568,
+              1195,
+              1208,
+              1268,
+              1303
+            ]
+          }
+        ]
+      },
+      "degree_outer_bounds": [
+        0.0,
+        0.021666666666666667
+      ],
+      "bound_seconds": 0.001690082994173281,
+      "cells_sha256": "ac4d17883e3fe546d58d9fee7290ea79db94abe7425ee8baa64a9ae0fa11fe0b",
+      "edges_sha256": "51dd5af3f50333ad2e3f3c4a82fe1ff8d79cc16dbb65908f89e5da8f41736e93"
+    }
+  ]
+}

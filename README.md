@@ -28,8 +28,8 @@ sensitivity assumption, not an assay error estimate. Geometry-only interval
 enlargement remains valid under stated error budgets but loses the target
 precision. The next research direction combines acquisition with independent
 review of influential calls. An [independent-cohort access and annotation plan](EXTERNAL_COHORT_PLAN.md)
-and [lab timing/feedback pilot](LAB_PILOT_PROTOCOL.md) specify the remaining gates;
-neither external transfer nor actual wall-clock savings has been demonstrated.
+and [lab timing/feedback pilot](LAB_PILOT_PROTOCOL.md) specify the observation and
+cost requirements. Actual wall-clock savings have not been demonstrated.
 An [incremental HTTP acquisition/review emulator](SPATIAL_TOOLING_AND_EMULATION.md)
 now tests the observation interface and sharp partial-information bounds.
 Interleaving helps concentrated-error development cases but fails its overall
@@ -55,6 +55,17 @@ requested precision in all nine graphs even after full acquisition. A separate
 analysis brackets claim-specific tolerable error budgets; fallible references
 retain a precision floor. These results define testable assay requirements,
 without estimating actual error rates or claiming instrument savings.
+
+An [independent breast-tumour IMC confirmation](DANENBERG_CONFIRMATION_RESULTS.md)
+now tests the unchanged general bounds on six patients selected by a committed
+rule. All 36 intervals tighten the degree baseline; 35 have certified endpoint
+gaps at most .1 percentage points. At a hypothetical .1% error allowance in each
+marker, 17/18 graph settings guarantee the requested .5-point width; at .5%,
+all 18 have attainable corruptions proving it impossible even at full census.
+Unlike the ORION development cases, the lower allowance often suffices:
+assay requirements depend on the claim and specimen. This is conditional
+source-annotation sensitivity on a different target and k-neighbour graphs,
+not validation of predictor accuracy, annotation truth or instrument savings.
 
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
@@ -141,7 +152,7 @@ The fetcher reads only selected compressed cell-table members by verified byte r
 - [Source/split manifest](results/data_manifest.json), [source and graph checks](results/data_checks.json)
 - [Frozen marker-model choices](results/frozen_model_choices.json), [frozen pair-model choices](results/pair_frozen_choices.json)
 
-Only two patients confirm the direct-pair experiment, within the same cohort. Marker gates are source annotations derived from measured channels, not independently adjudicated cell identities. Source fluorescence segmentation and residual registration error affect the estimand. Image descriptors and small classifiers are deliberately simple baselines. A stronger virtual-staining model, a second independent cohort, an H&E-only graph, and an instrument-specific acquisition cost model have not been validated. These results establish neither a functional cellular interaction nor a treatment effect.
+Only two patients confirm the direct-pair experiment, within the same cohort. Marker gates are source annotations derived from measured channels, not independently adjudicated cell identities. Source fluorescence segmentation and residual registration error affect the estimand. Image descriptors and small classifiers are deliberately simple baselines. A stronger virtual-staining model, independent transfer of prediction-assisted acquisition, an H&E-only graph, and an instrument-specific acquisition cost model have not been validated. The separate independent IMC confirmation concerns conditional graph bounds only. These results establish neither a functional cellular interaction nor a treatment effect.
 
 ## Sources and prior work
 

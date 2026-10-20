@@ -1,5 +1,15 @@
 # Independent-cohort feasibility and frozen analysis requirements
 
+Update 2026-10-20: an alternative accessible release, Danenberg et al. breast-tumour
+IMC, has now completed a separately frozen six-patient test. The unchanged
+conditional graph bounds pass its transfer gate: 36/36 tighten degree bounds,
+35/36 have endpoint gaps at most .1 percentage points. See the
+[protocol](DANENBERG_CONFIRMATION_PROTOCOL.md) and
+[results with source provenance](DANENBERG_CONFIRMATION_RESULTS.md).
+This does not validate acquisition-policy transfer, physical costs or annotation
+accuracy. The Dryad access record and prospective requirements below remain
+historical context; that candidate was not used for the completed confirmation.
+
 Status as of 2026-10-19: metadata inspected; no external target outcomes evaluated.
 No independent-cohort success is claimed. Public download attempts returned
 HTTP 401 from the API and 403 from the listed file links in this environment.
