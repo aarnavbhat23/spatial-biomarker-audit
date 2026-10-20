@@ -10,3 +10,4 @@ zarr==3.4.1
 joblib==1.6.0
 matplotlib==3.11.2
 shapely==2.1.2
+simpy==4.1.1

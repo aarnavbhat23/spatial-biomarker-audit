@@ -30,7 +30,13 @@ precision. The next research direction combines acquisition with independent
 review of influential calls. An [independent-cohort access and annotation plan](EXTERNAL_COHORT_PLAN.md)
 and [lab timing/feedback pilot](LAB_PILOT_PROTOCOL.md) specify the remaining gates;
 neither external transfer nor actual wall-clock savings has been demonstrated.
-Proprietary virtual predictions have not been evaluated.
+An [incremental HTTP acquisition/review emulator](SPATIAL_TOOLING_AND_EMULATION.md)
+now tests the observation interface and sharp partial-information bounds.
+Interleaving helps concentrated-error development cases but fails its overall
+continuation criterion; random-error and zero-observation cases remain visible.
+Its exact-B prerequisite, ideal reviews and hypothetical costs prevent an
+end-to-end instrument-saving claim. Proprietary virtual predictions have not
+been evaluated.
 
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
