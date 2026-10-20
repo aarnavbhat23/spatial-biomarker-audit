@@ -65,5 +65,5 @@ def run_policy(edges,raw,budgets,errors,fields,review,policy,seed,target_width=.
         ids=np.flatnonzero((fields==field)&(reference[:,0]<0));response=np.asarray(review(ids),int)
         if response.shape!=(len(ids),2) or not np.isin(response,[0,1]).all():raise ValueError('Malformed reference response')
         reference[ids]=response;cells+=len(ids);rounds+=1;step['next_field']=field;step['new_cells']=len(ids)
-    return {'empty':False,'attained':history[1]-history[0]<=target_width+1e-12,'fields':rounds,'cells':cells,'rounds':rounds,
+    return {'empty':False,'attained':bool(history[1]-history[0]<=target_width+1e-12),'fields':rounds,'cells':cells,'rounds':rounds,
             'quoted_cost':{str(latency):rounds*(1+latency)+.02*cells for latency in (0,1,8)},'trace':trace}
