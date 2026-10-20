@@ -1,0 +1,33 @@
+{
+  "archive": "https://zenodo.org/records/15340874/files/ORIONCRC_dataset_tile_20x.zip?download=1",
+  "raw_images": "https://lin-2023-orion-crc.s3.amazonaws.com/",
+  "cell_tables": {
+    "CRC17": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S49_Full_A24_C59mX_E15_20220129_015121_911264-zlib.ome.csv",
+      "compressed": 24371809,
+      "size": 298390238,
+      "offset": 154281066,
+      "compression": 8
+    },
+    "CRC18": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S50_Full_A24_C59mX_E15_20220129_015242_755602-zlib.ome.csv",
+      "compressed": 14718257,
+      "size": 179676787,
+      "offset": 178653008,
+      "compression": 8
+    },
+    "CRC20": {
+      "name": "ORIONCRC_dataset_tile_20x/csv_nuclei_pos/P37_S52_Full_A24_C59mX_E15_20220129_015324_574779-zlib.ome.csv",
+      "compressed": 17671767,
+      "size": 213310939,
+      "offset": 203072641,
+      "compression": 8
+    }
+  },
+  "patient_mapping_source": "https://lin-2023-orion-crc.s3.amazonaws.com/?list-type=2&prefix=data/",
+  "mapping_evidence": {
+    "CRC17": "data/CRC17/P37_S49-CRC17.csv",
+    "CRC18": "data/CRC18/P37_S50-CRC18.csv",
+    "CRC20": "data/CRC20/P37_S52-CRC20.csv"
+  }
+}
