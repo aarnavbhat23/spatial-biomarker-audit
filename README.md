@@ -2,7 +2,16 @@
 
 **Which physical measurements are needed to certify a spatial claim?**
 
-The current direction is [cost-aware spatial certification](BATCH_ACQUISITION_RESULTS.md).
+The current direction is [shared spatial certification](MULTICLAIM_THEORY.md).
+**A frozen three-patient confirmation found 8%-16% fewer camera-field exposures
+than strong sampling controls while certifying three nested spatial readouts.**
+All targets reached half-percentage-point width with joint 95% error control;
+the instrument geometry and timing are simulated. A deterministic greedy control
+wins when feedback latency is high. [Protocol, patient-level results and cost
+boundaries](MULTICLAIM_CONFIRMATION_RESULTS.md).
+
+The [batched-acquisition study](BATCH_ACQUISITION_RESULTS.md) established the earlier
+single-claim observation model.
 **Batched acquisition retains a 95% simultaneous confidence guarantee at completed
 batch boundaries**, conditional on a fixed source graph and exact marker calls.
 In three development patients at a hypothetical 1024-pixel camera field, batches
@@ -10,10 +19,11 @@ of 16 reduced feedback rounds by 90%-92% while using 1%-4% more field exposures.
 A batched deterministic graph control wins several high-latency comparisons;
 the selected research problem includes both kinds of certificate.
 
-The next target is multiple spatial claims sharing measured cells, with a policy
-and measurement-cost guarantee that survive strong controls, imperfect marker
-calls and a new cohort. This is a research target; instrument savings and
-proprietary virtual predictions have not been evaluated.
+The [shared-claim theory](MULTICLAIM_THEORY.md) derives a minimax importance-range
+proposal and shows why natural pair-resolution utility need not be submodular.
+The next targets are several marker pairs, imperfect marker calls and an
+independent cohort, together with instrument-specific cost measurement.
+Proprietary virtual predictions have not been evaluated.
 
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
 The geometry-only adaptive policy failed. [Tight-precision cell reuse passed on four new patients](CELL_REUSE_CONFIRMATION_RESULTS.md), with savings conditional on how acquisition cost is charged.
