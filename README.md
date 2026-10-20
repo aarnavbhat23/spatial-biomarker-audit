@@ -21,8 +21,15 @@ the selected research problem includes both kinds of certificate.
 
 The [shared-claim theory](MULTICLAIM_THEORY.md) derives a minimax importance-range
 proposal and shows why natural pair-resolution utility need not be submodular.
-The next targets are several marker pairs, imperfect marker calls and an
-independent cohort, together with instrument-specific cost measurement.
+The [marker-error study](MEASUREMENT_ERROR_RESULTS.md) now proves a limitation:
+allowing 0.5% wrong PanCK calls leaves a sharp full-census ambiguity wider than
+the requested .5 percentage points in all three development panels. This is a
+sensitivity assumption, not an assay error estimate. Geometry-only interval
+enlargement remains valid under stated error budgets but loses the target
+precision. The next research direction combines acquisition with independent
+review of influential calls. An [independent-cohort access and annotation plan](EXTERNAL_COHORT_PLAN.md)
+and [lab timing/feedback pilot](LAB_PILOT_PROTOCOL.md) specify the remaining gates;
+neither external transfer nor actual wall-clock savings has been demonstrated.
 Proprietary virtual predictions have not been evaluated.
 
 Follow-up: [observation reuse and stronger acquisition baselines](RESIDUAL_ACQUISITION_RESULTS.md).
