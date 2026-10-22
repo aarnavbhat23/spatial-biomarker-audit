@@ -8,6 +8,15 @@ composes graph errors with the existing marker bounds. This is a fluorescence
 nuclear-geometry study; measured marker errors, H&E transfer and real instrument
 savings remain unvalidated.
 
+A [contrast-specific follow-up](ENRICHMENT_RESULTS.md) changes the target to
+abundance-adjusted epithelial–T-cell association. On six unused patients, its
+frozen bounds are **34% narrower at the median** than separate contact/abundance
+bounds, but only **1/6** signs is certified at the supplied .5% marker-error
+budgets. A sparse interaction tightening reaches 53% on the same cases as
+post-screen development. Exact integer witnesses establish sign ambiguity in
+four cases under the stated Hamming model; geometry and measured assay-error
+calibration remain open.
+
 **Which physical measurements are needed to certify a spatial claim?**
 
 The current direction is [shared spatial certification](MULTICLAIM_THEORY.md).

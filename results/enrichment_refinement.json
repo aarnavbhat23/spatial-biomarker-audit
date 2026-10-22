@@ -1,0 +1,1111 @@
+{
+  "refinement_protocol_commit": "2310d16",
+  "primary_gate_changed": false,
+  "rows": [
+    {
+      "patient": "MB-0040",
+      "exact_witnesses": [
+        {
+          "numerator": -1085952,
+          "denominator": 190771344,
+          "a_flips": [
+            9,
+            12,
+            57,
+            97,
+            139,
+            184
+          ],
+          "b_flips": [
+            63,
+            67,
+            90,
+            93,
+            213,
+            577
+          ]
+        },
+        {
+          "numerator": 488160,
+          "denominator": 190771344,
+          "a_flips": [
+            128,
+            159,
+            166,
+            167,
+            191,
+            222
+          ],
+          "b_flips": [
+            444,
+            459,
+            966,
+            995,
+            1019,
+            1029
+          ]
+        }
+      ],
+      "opposite_signs_proved": true
+    },
+    {
+      "patient": "MB-0043",
+      "exact_witnesses": [
+        {
+          "numerator": -701892,
+          "denominator": 86490000,
+          "a_flips": [
+            24,
+            318,
+            377,
+            386
+          ],
+          "b_flips": [
+            110,
+            239,
+            269,
+            671
+          ]
+        },
+        {
+          "numerator": 65808,
+          "denominator": 86490000,
+          "a_flips": [
+            8,
+            16,
+            18,
+            46
+          ],
+          "b_flips": [
+            595,
+            616,
+            669,
+            694
+          ]
+        }
+      ],
+      "opposite_signs_proved": true
+    },
+    {
+      "patient": "MB-0045",
+      "exact_witnesses": [
+        {
+          "numerator": -4720056,
+          "denominator": 526977936,
+          "a_flips": [
+            9,
+            111,
+            154,
+            171,
+            180,
+            202,
+            1492,
+            1517,
+            1552,
+            1568
+          ],
+          "b_flips": [
+            58,
+            78,
+            83,
+            98,
+            112,
+            129,
+            157,
+            202,
+            208,
+            1125
+          ]
+        },
+        {
+          "numerator": -179016,
+          "denominator": 526977936,
+          "a_flips": [
+            137,
+            177,
+            208,
+            1463,
+            1481,
+            1494,
+            1510,
+            1526,
+            1530,
+            1549
+          ],
+          "b_flips": [
+            338,
+            394,
+            618,
+            1135,
+            1230,
+            1297,
+            1366,
+            1389,
+            1710,
+            1715
+          ]
+        }
+      ],
+      "opposite_signs_proved": false,
+      "count_slice_reference": {
+        "slices": [
+          {
+            "count_a": 993,
+            "status": 1,
+            "seconds": 1.7740363749908283,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 994,
+            "status": 1,
+            "seconds": 1.8710545409994666,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 995,
+            "status": 1,
+            "seconds": 1.7314520830113906,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 996,
+            "status": 1,
+            "seconds": 1.7240791659860406,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 997,
+            "status": 1,
+            "seconds": 5.957965457986575,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 998,
+            "status": 1,
+            "seconds": 6.048345041985158,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 999,
+            "status": 1,
+            "seconds": 6.051963999983855,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1000,
+            "status": 1,
+            "seconds": 6.694162625004537,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1001,
+            "status": 1,
+            "seconds": 6.195566083013546,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1002,
+            "status": 1,
+            "seconds": 6.028936832997715,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1003,
+            "status": 1,
+            "seconds": 6.298893416998908,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1004,
+            "status": 1,
+            "seconds": 6.197764000011375,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1005,
+            "status": 1,
+            "seconds": 5.597819749993505,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1006,
+            "status": 1,
+            "seconds": 5.755661041999701,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1007,
+            "status": 1,
+            "seconds": 6.343710707995342,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1008,
+            "status": 1,
+            "seconds": 6.559370292001404,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1009,
+            "status": 1,
+            "seconds": 6.100217125000199,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1010,
+            "status": 1,
+            "seconds": 5.969271749985637,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1011,
+            "status": 1,
+            "seconds": 5.962914832984097,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1012,
+            "status": 1,
+            "seconds": 5.853401917003794,
+            "upper_bound": null,
+            "witness": null
+          },
+          {
+            "count_a": 1013,
+            "status": 1,
+            "seconds": 5.937721708003664,
+            "upper_bound": null,
+            "witness": null
+          }
+        ],
+        "upper_bound": null,
+        "all_slices_optimal": false,
+        "missing_dual_slices": 21
+      }
+    },
+    {
+      "patient": "MB-0046",
+      "exact_witnesses": [
+        {
+          "numerator": -5286624,
+          "denominator": 298598400,
+          "a_flips": [
+            539,
+            975,
+            988,
+            1020,
+            1028,
+            1029,
+            1046,
+            1300
+          ],
+          "b_flips": [
+            1172,
+            1318,
+            1324,
+            1331,
+            1339,
+            1357,
+            1362,
+            1378
+          ]
+        },
+        {
+          "numerator": -1583040,
+          "denominator": 298598400,
+          "a_flips": [
+            551,
+            1129,
+            1143,
+            1165,
+            1176,
+            1185,
+            1189,
+            1205
+          ],
+          "b_flips": [
+            1166,
+            1288,
+            1292,
+            1332,
+            1347,
+            1374,
+            1393,
+            1432
+          ]
+        }
+      ],
+      "opposite_signs_proved": false
+    },
+    {
+      "patient": "MB-0050",
+      "exact_witnesses": [
+        {
+          "numerator": -1426536,
+          "denominator": 199826496,
+          "a_flips": [
+            1028,
+            1053,
+            1062,
+            1077,
+            1087,
+            1088
+          ],
+          "b_flips": [
+            1032,
+            1039,
+            1053,
+            1062,
+            1077,
+            1085
+          ]
+        },
+        {
+          "numerator": 141024,
+          "denominator": 199826496,
+          "a_flips": [
+            622,
+            669,
+            925,
+            973,
+            979,
+            992
+          ],
+          "b_flips": [
+            597,
+            613,
+            661,
+            681,
+            692,
+            697
+          ]
+        }
+      ],
+      "opposite_signs_proved": true
+    },
+    {
+      "patient": "MB-0056",
+      "exact_witnesses": [
+        {
+          "numerator": -1862256,
+          "denominator": 255872016,
+          "a_flips": [
+            181,
+            191,
+            206,
+            207,
+            221,
+            222,
+            226
+          ],
+          "b_flips": [
+            1036,
+            1050,
+            1061,
+            1072,
+            1081,
+            1084,
+            1278
+          ]
+        },
+        {
+          "numerator": 207936,
+          "denominator": 255872016,
+          "a_flips": [
+            212,
+            242,
+            255,
+            256,
+            279,
+            287,
+            971
+          ],
+          "b_flips": [
+            185,
+            529,
+            670,
+            1034,
+            1062,
+            1080,
+            1104
+          ]
+        }
+      ],
+      "opposite_signs_proved": true
+    }
+  ],
+  "structural_development": [
+    {
+      "patient": "MB-0040",
+      "k": 6,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.004689383538603006,
+          -0.0005283812426735784
+        ],
+        "signed_gain_caps": [
+          0.0015465215782093562,
+          0.0026144807157200715
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.4731938072196318,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0040",
+      "k": 6,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.007754246362025795,
+          0.003983491358066709
+        ],
+        "signed_gain_caps": [
+          0.004611384401632145,
+          0.007126353316460358
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.42609428433694674,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0040",
+      "k": 12,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.003648095073392005,
+          -0.00044516119679498993
+        ],
+        "signed_gain_caps": [
+          0.0011898013362006822,
+          0.0020131325383963327
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5241259425924553,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0040",
+      "k": 12,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.006361710174829882,
+          0.0034049767987731493
+        ],
+        "signed_gain_caps": [
+          0.003903416437638559,
+          0.005863270533964472
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.47702883852429745,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0040",
+      "k": 24,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.0030677563407571916,
+          -0.0006418888562698844
+        ],
+        "signed_gain_caps": [
+          0.0010157500384334452,
+          0.0014101174440538618
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5609624205344212,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0040",
+      "k": 24,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.005512211520566588,
+          0.0024238546025590257
+        ],
+        "signed_gain_caps": [
+          0.0034602052182428405,
+          0.004475860902882772
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5049586727587672,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0043",
+      "k": 6,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.006644745058232048,
+          -0.0034497398533184166
+        ],
+        "signed_gain_caps": [
+          0.001291987513007284,
+          0.0019030176899063474
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.4869898412266094,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0043",
+      "k": 6,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.010734096428332637,
+          0.0017481789812289297
+        ],
+        "signed_gain_caps": [
+          0.005381338883107873,
+          0.0071009365244536935
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.46015649373164946,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0043",
+      "k": 12,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.0052771418671116906,
+          -0.0027385362459649678
+        ],
+        "signed_gain_caps": [
+          0.0011342351716961498,
+          0.001404370447450572
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5615279539865698,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0043",
+      "k": 12,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.008485189040195283,
+          0.0014473812011387434
+        ],
+        "signed_gain_caps": [
+          0.004342282344779743,
+          0.005590287894554283
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5245530376991644,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0043",
+      "k": 24,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.0037146028452594523,
+          -0.0015035032941786335
+        ],
+        "signed_gain_caps": [
+          0.0009525494276795006,
+          0.001258550121401318
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.6385338578267695,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0043",
+      "k": 24,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.0065171002438026366,
+          0.002551786334680195
+        ],
+        "signed_gain_caps": [
+          0.0037550468262226846,
+          0.005313839750260146
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5999179808072286,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0045",
+      "k": 6,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.00804111085312494,
+          -0.00508620914913034
+        ],
+        "signed_gain_caps": [
+          0.001436599045771055,
+          0.0015183026562235425
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.48776694413278976,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0045",
+      "k": 6,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.013013053359651435,
+          0.0002789490612126427
+        ],
+        "signed_gain_caps": [
+          0.006408541552297552,
+          0.006883460866566526
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.4997617569956928,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0045",
+      "k": 12,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.0056151648833490785,
+          -0.0035153046701238404
+        ],
+        "signed_gain_caps": [
+          0.0011388180775750733,
+          0.0009610421336501649
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.575925499882349,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0045",
+      "k": 12,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.009887935802547487,
+          0.0007899381968185051
+        ],
+        "signed_gain_caps": [
+          0.005411588996773482,
+          0.00526628500059251
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5462201869555622,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0045",
+      "k": 24,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.00418548832854167,
+          -0.0024347926389711753
+        ],
+        "signed_gain_caps": [
+          0.0009855099512173884,
+          0.000765185736353106
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.6111154665401743,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0045",
+      "k": 24,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.008099917869288136,
+          0.0012491225069563008
+        ],
+        "signed_gain_caps": [
+          0.004899939491963854,
+          0.004449100882280582
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5729363327848174,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0046",
+      "k": 6,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.014533822017460904,
+          -0.009964956274720164
+        ],
+        "signed_gain_caps": [
+          0.0021881430041152264,
+          0.0023807227366255145
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.4845484220887095,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0046",
+      "k": 6,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.020520190330218104,
+          -0.003949331274720165
+        ],
+        "signed_gain_caps": [
+          0.008174511316872428,
+          0.008396347736625513
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.48139576999784006,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0046",
+      "k": 12,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.012990290638860081,
+          -0.009290203831304524
+        ],
+        "signed_gain_caps": [
+          0.0018020190329218109,
+          0.0018980677726337448
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5394796073204686,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0046",
+      "k": 12,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.018025012861082303,
+          -0.004126800410522631
+        ],
+        "signed_gain_caps": [
+          0.006836741255144033,
+          0.007061471193415637
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.514945804591421,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0046",
+      "k": 24,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.011976875965506175,
+          -0.008779578188300411
+        ],
+        "signed_gain_caps": [
+          0.0016084346064814815,
+          0.00158886316872428
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5421828873052408,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0046",
+      "k": 24,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.01652520576231687,
+          -0.004313753857024692
+        ],
+        "signed_gain_caps": [
+          0.006156764403292181,
+          0.0060546875
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.544749017123061,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0050",
+      "k": 6,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.005698223323696907,
+          -0.0017182105810441346
+        ],
+        "signed_gain_caps": [
+          0.002242345279376765,
+          0.0017376674612760061
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5826553486095752,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0050",
+      "k": 6,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.010418077891931941,
+          0.0022514731990287543
+        ],
+        "signed_gain_caps": [
+          0.006962199847611801,
+          0.005707351241348895
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5194168564526221,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0050",
+      "k": 12,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.00401784556238141,
+          -0.0012812715276765575
+        ],
+        "signed_gain_caps": [
+          0.0015217201226407932,
+          0.001214853910064059
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.6764413517287101,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0050",
+      "k": 12,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.007947534646255451,
+          0.0017269781891177559
+        ],
+        "signed_gain_caps": [
+          0.005451409206514835,
+          0.004223103626858372
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5826373056492115,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0050",
+      "k": 24,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.002815602592560229,
+          -0.0007592987058141342
+        ],
+        "signed_gain_caps": [
+          0.0011142065965066015,
+          0.0009420972882394935
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.7362957256486571,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0050",
+      "k": 24,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.005669338265331072,
+          0.001589338784181187
+        ],
+        "signed_gain_caps": [
+          0.003967942269277444,
+          0.0032907347782348147
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.6761295127660857,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0056",
+      "k": 6,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.004175743861946482,
+          -0.00047301772830104236
+        ],
+        "signed_gain_caps": [
+          0.002354583394535806,
+          0.0013481427371096336
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5259675539318776,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0056",
+      "k": 6,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.00943943787997462,
+          0.0029659515413982284
+        ],
+        "signed_gain_caps": [
+          0.007618277412563944,
+          0.004787112006808905
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.4723883305738049,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0056",
+      "k": 12,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.0036867337624598684,
+          -0.0004761130257563127
+        ],
+        "signed_gain_caps": [
+          0.0016625030226048636,
+          0.0015481177120986924
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.590436192274175,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0056",
+      "k": 12,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.008531108772191298,
+          0.002647933177092224
+        ],
+        "signed_gain_caps": [
+          0.006506878032336291,
+          0.004672163914947229
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.5343075675283318,
+      "sign_certified": false
+    },
+    {
+      "patient": "MB-0056",
+      "k": 24,
+      "fraction": 0.001,
+      "bounds": {
+        "outer_bounds": [
+          -0.003642039543143599,
+          -0.0007833681966383052
+        ],
+        "signed_gain_caps": [
+          0.0014922382133417827,
+          0.001366433131163511
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.6002655953727452,
+      "sign_certified": true
+    },
+    {
+      "patient": "MB-0056",
+      "k": 24,
+      "fraction": 0.005,
+      "bounds": {
+        "outer_bounds": [
+          -0.007405264670505709,
+          0.0016995996946218314
+        ],
+        "signed_gain_caps": [
+          0.005255463340703892,
+          0.0038494010224236477
+        ],
+        "stage": "Post-screen development tightening"
+      },
+      "width_reduction": 0.6043470064129604,
+      "sign_certified": false
+    }
+  ],
+  "development_summary": {
+    "median_width_reduction": 0.5294303026137481,
+    "sign_certified": 1,
+    "fresh_confirmation": false
+  }
+}
