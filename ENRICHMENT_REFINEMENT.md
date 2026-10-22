@@ -28,3 +28,24 @@ within the supplied fixed-graph Hamming model. A loose outer interval alone
 cannot prove ambiguity. Count slicing, MILP and McCormick linearization are
 classical, not new optimization primitives. This diagnoses where further
 optimization could help versus where additional measurements are necessary.
+
+## Structural bound after the limited MILP reference
+
+All 21 requested one-second MB-0045 slices stopped without dual bounds; measured
+wall time was about 111 seconds. This does not certify either sign. Before
+its outcomes, freeze a separate development tightening: for flip signs
+sA=1-2a, sB=1-2b and objective sign sigma, the positive sparse interaction has
+sigma*sA_i*sB_j>0; the positive rank-one interaction has the opposite sign.
+For each A vertex, cap the first by min(B_B,eligible outgoing degree)/m and
+the second by d_i/m^2 times the top-B_B incoming-degree sum in the appropriate
+B-label class. Add that row cap to the signed A linear gain BEFORE top-B_A
+selection; bound B linear gains separately. Repeat by columns and for both
+objective signs. Intersect with the original direct and separated bounds.
+
+This exploits row-specific coupling lost by adding a global interaction cap
+after separate linear maximization. It is a classical cardinality relaxation
+specialized to sparse-plus-rank-one structure, not a new optimizer. Re-evaluate
+all 36 already-read cases as DEVELOPMENT ONLY. Preserve original outcomes and
+the original failed gate. No additional patients are screened to hunt for a
+passing confirmation. Exhaustive binary-world checks must validate the new
+bound before interpreting its outcome.
