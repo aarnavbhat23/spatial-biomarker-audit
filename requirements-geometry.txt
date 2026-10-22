@@ -1,2 +1,2 @@
 scikit-image==0.26.0
-Pillow==12.1.1
+Pillow==13.0.0

@@ -1,5 +1,13 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Measured geometry update:** [manual-annotation calibration on BBBC039](GRAPH_ERROR_RESULTS.md)
+now includes missed/false nuclei and uncertain graph edges. **48/50 held-out
+images are covered, but the resulting diagnostic intervals are [0,1]**, so the
+useful-precision gate fails. A [numerator-and-denominator bound](GRAPH_ERROR_THEORY.md)
+composes graph errors with the existing marker bounds. This is a fluorescence
+nuclear-geometry study; measured marker errors, H&E transfer and real instrument
+savings remain unvalidated.
+
 **Which physical measurements are needed to certify a spatial claim?**
 
 The current direction is [shared spatial certification](MULTICLAIM_THEORY.md).
