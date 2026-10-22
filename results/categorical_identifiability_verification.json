@@ -1,0 +1,59 @@
+{
+  "spatial": [
+    {
+      "patient": "MB-0040",
+      "categorical_opposite_signs": true,
+      "integer_numerators": [
+        -1085952,
+        261900
+      ],
+      "source_labels_graph_witnesses_verified": true
+    },
+    {
+      "patient": "MB-0043",
+      "categorical_opposite_signs": false,
+      "integer_numerators": [
+        -701892,
+        -26328
+      ],
+      "source_labels_graph_witnesses_verified": true
+    },
+    {
+      "patient": "MB-0045",
+      "categorical_opposite_signs": false,
+      "integer_numerators": [
+        -4720056,
+        -421848
+      ],
+      "source_labels_graph_witnesses_verified": true
+    },
+    {
+      "patient": "MB-0046",
+      "categorical_opposite_signs": false,
+      "integer_numerators": [
+        -5286624,
+        -1643040
+      ],
+      "source_labels_graph_witnesses_verified": true
+    },
+    {
+      "patient": "MB-0050",
+      "categorical_opposite_signs": true,
+      "integer_numerators": [
+        -1426536,
+        91104
+      ],
+      "source_labels_graph_witnesses_verified": true
+    },
+    {
+      "patient": "MB-0056",
+      "categorical_opposite_signs": true,
+      "integer_numerators": [
+        -1859172,
+        168228
+      ],
+      "source_labels_graph_witnesses_verified": true
+    }
+  ],
+  "scope": "Separate all-pairs implementation; no third-party biological replication."
+}

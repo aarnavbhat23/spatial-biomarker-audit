@@ -1,0 +1,526 @@
+{
+  "protocol_commit": "d666fa1",
+  "input_note": "NUCLS_INPUT_NOTE.md",
+  "source_url": "https://drive.google.com/uc?export=download&id=1RTyfmkZW8um3qmWqtu2gbu3Sgql-DQQj",
+  "source_sha256": "07edc0db091a51f90e58fcc18332c347f5f62a9356320c9aba7377e666469ff6",
+  "license": "CC0 1.0",
+  "source_doi": "10.1093/gigascience/giac037",
+  "source_rows": 1569,
+  "class_encodings": [
+    "DidNotAnnotateFOV",
+    "apoptotic_body",
+    "fibroblast",
+    "lymphocyte",
+    "macrophage",
+    "mitotic_figure",
+    "myoepithelium",
+    "neutrophil",
+    "plasma_cell",
+    "tumor",
+    "undetected",
+    "unlabeled",
+    "vascular_endothelium"
+  ],
+  "scope": "Independent external measured reference-choice study; tumor/lymphocyte identity, not protein truth.",
+  "fields": [
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-10124_top-56533_bottom-56789_right-10380",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 17,
+      "common_detected_labeled": 0,
+      "excluded": 17,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-7308_top-55253_bottom-55509_right-7564",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 25,
+      "common_detected_labeled": 0,
+      "excluded": 25,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-8076_top-55509_bottom-55765_right-8332",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 40,
+      "common_detected_labeled": 0,
+      "excluded": 40,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-8076_top-56021_bottom-56277_right-8332",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 36,
+      "common_detected_labeled": 0,
+      "excluded": 36,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-8076_top-57045_bottom-57301_right-8332",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 56,
+      "common_detected_labeled": 0,
+      "excluded": 56,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-8332_top-54485_bottom-54741_right-8588",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 83,
+      "common_detected_labeled": 0,
+      "excluded": 83,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-8332_top-57045_bottom-57301_right-8588",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 51,
+      "common_detected_labeled": 0,
+      "excluded": 51,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-8844_top-57301_bottom-57557_right-9100",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 47,
+      "common_detected_labeled": 0,
+      "excluded": 47,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-9100_top-55765_bottom-56021_right-9356",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 13,
+      "common_detected_labeled": 0,
+      "excluded": 13,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-9356_top-53973_bottom-54229_right-9612",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 43,
+      "common_detected_labeled": 0,
+      "excluded": 43,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A1-A0SP-01Z-00-DX1_left-9356_top-55765_bottom-56021_right-9612",
+      "patient": "TCGA-A1-A0SP",
+      "source_anchors": 15,
+      "common_detected_labeled": 0,
+      "excluded": 15,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-44241_top-19965_bottom-20221_right-44497",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 27,
+      "common_detected_labeled": 0,
+      "excluded": 27,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-44241_top-25853_bottom-26109_right-44497",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 36,
+      "common_detected_labeled": 0,
+      "excluded": 36,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-44497_top-19197_bottom-19453_right-44753",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 15,
+      "common_detected_labeled": 0,
+      "excluded": 15,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-44497_top-19453_bottom-19709_right-44753",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 14,
+      "common_detected_labeled": 0,
+      "excluded": 14,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-44497_top-23549_bottom-23805_right-44753",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 47,
+      "common_detected_labeled": 0,
+      "excluded": 47,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-44497_top-25085_bottom-25341_right-44753",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 24,
+      "common_detected_labeled": 0,
+      "excluded": 24,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-45265_top-22525_bottom-22781_right-45521",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 33,
+      "common_detected_labeled": 0,
+      "excluded": 33,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-45777_top-22269_bottom-22525_right-46033",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 31,
+      "common_detected_labeled": 0,
+      "excluded": 31,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-45777_top-22781_bottom-23037_right-46033",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 22,
+      "common_detected_labeled": 0,
+      "excluded": 22,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-46545_top-26365_bottom-26621_right-46801",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 27,
+      "common_detected_labeled": 0,
+      "excluded": 27,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-46801_top-21245_bottom-21501_right-47057",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 39,
+      "common_detected_labeled": 0,
+      "excluded": 39,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-47313_top-21501_bottom-21757_right-47569",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 14,
+      "common_detected_labeled": 0,
+      "excluded": 14,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-47313_top-24573_bottom-24829_right-47569",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 17,
+      "common_detected_labeled": 0,
+      "excluded": 17,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-47313_top-24829_bottom-25085_right-47569",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 20,
+      "common_detected_labeled": 0,
+      "excluded": 20,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-47825_top-20989_bottom-21245_right-48081",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 26,
+      "common_detected_labeled": 0,
+      "excluded": 26,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-48081_top-20221_bottom-20477_right-48337",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 17,
+      "common_detected_labeled": 0,
+      "excluded": 17,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-48337_top-20989_bottom-21245_right-48593",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 26,
+      "common_detected_labeled": 0,
+      "excluded": 26,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-A7-A0DA-01Z-00-DX1_left-48849_top-20989_bottom-21245_right-49105",
+      "patient": "TCGA-A7-A0DA",
+      "source_anchors": 13,
+      "common_detected_labeled": 0,
+      "excluded": 13,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-AR-A1AR-01Z-00-DX1_left-14242_top-31914_bottom-32170_right-14498",
+      "patient": "TCGA-AR-A1AR",
+      "source_anchors": 33,
+      "common_detected_labeled": 0,
+      "excluded": 33,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-AR-A1AR-01Z-00-DX1_left-16034_top-30378_bottom-30634_right-16290",
+      "patient": "TCGA-AR-A1AR",
+      "source_anchors": 24,
+      "common_detected_labeled": 0,
+      "excluded": 24,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-AR-A1AR-01Z-00-DX1_left-16546_top-31146_bottom-31402_right-16802",
+      "patient": "TCGA-AR-A1AR",
+      "source_anchors": 27,
+      "common_detected_labeled": 0,
+      "excluded": 27,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-AR-A1AR-01Z-00-DX1_left-16802_top-29866_bottom-30122_right-17058",
+      "patient": "TCGA-AR-A1AR",
+      "source_anchors": 24,
+      "common_detected_labeled": 0,
+      "excluded": 24,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-AR-A1AR-01Z-00-DX1_left-17058_top-29866_bottom-30122_right-17314",
+      "patient": "TCGA-AR-A1AR",
+      "source_anchors": 39,
+      "common_detected_labeled": 0,
+      "excluded": 39,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-11566_top-57983_bottom-58239_right-11822",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 28,
+      "common_detected_labeled": 0,
+      "excluded": 28,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-11822_top-57215_bottom-57471_right-12078",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 37,
+      "common_detected_labeled": 0,
+      "excluded": 37,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-12078_top-57471_bottom-57727_right-12334",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 23,
+      "common_detected_labeled": 0,
+      "excluded": 23,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-13102_top-56447_bottom-56703_right-13358",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 85,
+      "common_detected_labeled": 0,
+      "excluded": 85,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-13358_top-57471_bottom-57727_right-13614",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 26,
+      "common_detected_labeled": 0,
+      "excluded": 26,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-14126_top-57471_bottom-57727_right-14382",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 26,
+      "common_detected_labeled": 0,
+      "excluded": 26,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-14894_top-56447_bottom-56703_right-15150",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 18,
+      "common_detected_labeled": 0,
+      "excluded": 18,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-14894_top-57215_bottom-57471_right-15150",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 20,
+      "common_detected_labeled": 0,
+      "excluded": 20,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-15150_top-57215_bottom-57471_right-15406",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 25,
+      "common_detected_labeled": 0,
+      "excluded": 25,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-16430_top-56703_bottom-56959_right-16686",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 45,
+      "common_detected_labeled": 0,
+      "excluded": 45,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-16942_top-55679_bottom-55935_right-17198",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 22,
+      "common_detected_labeled": 0,
+      "excluded": 22,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-16942_top-55935_bottom-56191_right-17198",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 50,
+      "common_detected_labeled": 0,
+      "excluded": 50,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-C8-A12V-01Z-00-DX1_left-17454_top-58239_bottom-58495_right-17710",
+      "patient": "TCGA-C8-A12V",
+      "source_anchors": 35,
+      "common_detected_labeled": 0,
+      "excluded": 35,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-56337_top-26126_bottom-26382_right-56593",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 12,
+      "common_detected_labeled": 0,
+      "excluded": 12,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-56849_top-27406_bottom-27662_right-57105",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 8,
+      "common_detected_labeled": 0,
+      "excluded": 8,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-57105_top-27150_bottom-27406_right-57361",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 14,
+      "common_detected_labeled": 0,
+      "excluded": 14,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-58129_top-27662_bottom-27918_right-58385",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 20,
+      "common_detected_labeled": 0,
+      "excluded": 20,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-58385_top-26894_bottom-27150_right-58641",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 19,
+      "common_detected_labeled": 0,
+      "excluded": 19,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-59153_top-26894_bottom-27150_right-59409",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 21,
+      "common_detected_labeled": 0,
+      "excluded": 21,
+      "eligible": false
+    },
+    {
+      "fov": "TCGA-E2-A158-01Z-00-DX1_left-59153_top-27918_bottom-28174_right-59409",
+      "patient": "TCGA-E2-A158",
+      "source_anchors": 14,
+      "common_detected_labeled": 0,
+      "excluded": 14,
+      "eligible": false
+    }
+  ],
+  "patients": [
+    {
+      "patient": "TCGA-A1-A0SP",
+      "eligible_fields": 0,
+      "experts": {
+        "SP.1": null,
+        "SP.2": null,
+        "SP.3": null
+      },
+      "observed_reference_sign_stable": false,
+      "opposite_reference_signs": false
+    },
+    {
+      "patient": "TCGA-A7-A0DA",
+      "eligible_fields": 0,
+      "experts": {
+        "SP.1": null,
+        "SP.2": null,
+        "SP.3": null
+      },
+      "observed_reference_sign_stable": false,
+      "opposite_reference_signs": false
+    },
+    {
+      "patient": "TCGA-AR-A1AR",
+      "eligible_fields": 0,
+      "experts": {
+        "SP.1": null,
+        "SP.2": null,
+        "SP.3": null
+      },
+      "observed_reference_sign_stable": false,
+      "opposite_reference_signs": false
+    },
+    {
+      "patient": "TCGA-C8-A12V",
+      "eligible_fields": 0,
+      "experts": {
+        "SP.1": null,
+        "SP.2": null,
+        "SP.3": null
+      },
+      "observed_reference_sign_stable": false,
+      "opposite_reference_signs": false
+    },
+    {
+      "patient": "TCGA-E2-A158",
+      "eligible_fields": 0,
+      "experts": {
+        "SP.1": null,
+        "SP.2": null,
+        "SP.3": null
+      },
+      "observed_reference_sign_stable": false,
+      "opposite_reference_signs": false
+    }
+  ],
+  "summary": {
+    "patients": 5,
+    "eligible_fields": 0,
+    "common_cells_in_eligible_fields": 0,
+    "reference_sign_stable_patients": 0,
+    "opposite_reference_sign_patients": 0,
+    "expert_field_pairs": 0,
+    "one_wrong_cell_pair_compatibility_failures": 0,
+    "half_percent_marker_pair_compatibility_failures": 0
+  }
+}

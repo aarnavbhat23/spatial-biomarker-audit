@@ -1,0 +1,49 @@
+{
+  "fields": [
+    {
+      "patient": "TCGA-A1-A0SP",
+      "cells": 22,
+      "mapped_reference_disagreements": 4,
+      "graph_and_integer_readout_verified": true
+    },
+    {
+      "patient": "TCGA-A1-A0SP",
+      "cells": 32,
+      "mapped_reference_disagreements": 5,
+      "graph_and_integer_readout_verified": true
+    },
+    {
+      "patient": "TCGA-A1-A0SP",
+      "cells": 21,
+      "mapped_reference_disagreements": 5,
+      "graph_and_integer_readout_verified": true
+    },
+    {
+      "patient": "TCGA-AR-A1AR",
+      "cells": 22,
+      "mapped_reference_disagreements": 0,
+      "graph_and_integer_readout_verified": true
+    },
+    {
+      "patient": "TCGA-AR-A1AR",
+      "cells": 23,
+      "mapped_reference_disagreements": 4,
+      "graph_and_integer_readout_verified": true
+    },
+    {
+      "patient": "TCGA-C8-A12V",
+      "cells": 39,
+      "mapped_reference_disagreements": 13,
+      "graph_and_integer_readout_verified": true
+    },
+    {
+      "patient": "TCGA-C8-A12V",
+      "cells": 28,
+      "mapped_reference_disagreements": 19,
+      "graph_and_integer_readout_verified": true
+    }
+  ],
+  "initial_three_expert_screen_unevaluable": true,
+  "all_pair_readouts_verified": true,
+  "scope": "Independent computational replay of external measured annotations, not biological truth or independent laboratory replication."
+}

@@ -14,8 +14,17 @@ frozen bounds are **34% narrower at the median** than separate contact/abundance
 bounds, but only **1/6** signs is certified at the supplied .5% marker-error
 budgets. A sparse interaction tightening reaches 53% on the same cases as
 post-screen development. Exact integer witnesses establish sign ambiguity in
-four cases under the stated Hamming model; geometry and measured assay-error
-calibration remain open.
+four cases under the stated Hamming model. A subsequent
+[categorical audit](CATEGORICAL_IDENTIFIABILITY_RESULTS.md) proves that three
+remain ambiguous with mutually exclusive cell identities. The other local
+searches are inconclusive; geometry and measured assay-error calibration remain
+open.
+An [external expert-reference screen](NUCLS_REFERENCE_RESULTS.md) now finds that
+6/7 eligible NuCLS field comparisons cannot place both experts within one wrong
+target-category cell of a common truth. This is measured reference disagreement
+on a different H&E identity target, not a protein error-rate estimate. The sign
+comparison is uninformative because one expert has zero contrast throughout;
+the initially planned three-expert screen had no eligible fields.
 
 **Which physical measurements are needed to certify a spatial claim?**
 
