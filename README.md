@@ -1,5 +1,12 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Joint measurement update:** a [complete finite-population audit](JOINT_MEASUREMENT_RESULTS.md)
+finds exact minimum costs for deciding spatial association under simultaneous
+cell-identity, geometry and review uncertainty. Different cases require different
+measurement types. A redundancy-pruned greedy control matches all six optima,
+so this screen establishes no algorithmic advantage. Costs and exact references
+are hypothetical; independent biological validation remains open.
+
 **Measured geometry update:** [manual-annotation calibration on BBBC039](GRAPH_ERROR_RESULTS.md)
 now includes missed/false nuclei and uncertain graph edges. **48/50 held-out
 images are covered, but the resulting diagnostic intervals are [0,1]**, so the

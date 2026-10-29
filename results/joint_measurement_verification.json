@@ -1,0 +1,70 @@
+{
+  "rows": [
+    {
+      "case": 1,
+      "error_cells": 0,
+      "worlds": 48,
+      "all_lower_cost_plans_rejected": 5,
+      "transcripts_verified": {
+        "optimal": 6,
+        "greedy": 16,
+        "pruned_greedy": 6
+      }
+    },
+    {
+      "case": 1,
+      "error_cells": 1,
+      "worlds": 48,
+      "all_lower_cost_plans_rejected": 163,
+      "transcripts_verified": {
+        "optimal": 6,
+        "greedy": 312,
+        "pruned_greedy": 6
+      }
+    },
+    {
+      "case": 2,
+      "error_cells": 0,
+      "worlds": 48,
+      "all_lower_cost_plans_rejected": 163,
+      "transcripts_verified": {
+        "optimal": 48,
+        "greedy": 48,
+        "pruned_greedy": 48
+      }
+    },
+    {
+      "case": 2,
+      "error_cells": 1,
+      "worlds": 48,
+      "all_lower_cost_plans_rejected": 981,
+      "transcripts_verified": {
+        "optimal": 48,
+        "greedy": 432,
+        "pruned_greedy": 48
+      }
+    },
+    {
+      "case": 3,
+      "error_cells": 0,
+      "worlds": 39,
+      "all_lower_cost_plans_rejected": 71,
+      "transcripts_verified": {
+        "optimal": 18,
+        "greedy": 27,
+        "pruned_greedy": 18
+      }
+    },
+    {
+      "case": 3,
+      "error_cells": 1,
+      "worlds": 39,
+      "all_lower_cost_plans_rejected": 466,
+      "transcripts_verified": {
+        "optimal": 18,
+        "greedy": 270,
+        "pruned_greedy": 18
+      }
+    }
+  ]
+}
