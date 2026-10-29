@@ -1,0 +1,277 @@
+{
+  "scope": "Post-outcome diagnostic based on established MMD algebra; no new p-values or confirmation claim.",
+  "rows": [
+    {
+      "region": "left_development",
+      "genes": [
+        "Gad2",
+        "Pvalb"
+      ],
+      "bandwidth_um": 5.0,
+      "biased_mmd_squared": 0.016006973766471057,
+      "score": 0.0024317539740847318,
+      "global_permutation_mean": 0.003943355805215535,
+      "excess_over_global_mean": -0.001511601831130803,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Gad2",
+        "Pvalb"
+      ],
+      "bandwidth_um": 10.0,
+      "biased_mmd_squared": 0.020225939692697467,
+      "score": 0.0053916061420352865,
+      "global_permutation_mean": 0.007968011092942007,
+      "excess_over_global_mean": -0.0025764049509067206,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Gad2",
+        "Pvalb"
+      ],
+      "bandwidth_um": 20.0,
+      "biased_mmd_squared": 0.022274621917331483,
+      "score": 0.009700156090796316,
+      "global_permutation_mean": 0.01280081360413954,
+      "excess_over_global_mean": -0.0031006575133432236,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Gad2",
+        "Cux2"
+      ],
+      "bandwidth_um": 5.0,
+      "biased_mmd_squared": 0.014152488253747925,
+      "score": 0.00032092259769230116,
+      "global_permutation_mean": 0.0013624507880995308,
+      "excess_over_global_mean": -0.0010415281904072296,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Gad2",
+        "Cux2"
+      ],
+      "bandwidth_um": 10.0,
+      "biased_mmd_squared": 0.017417988985085783,
+      "score": 0.0010925041082395083,
+      "global_permutation_mean": 0.002954387322817998,
+      "excess_over_global_mean": -0.00186188321457849,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Gad2",
+        "Cux2"
+      ],
+      "bandwidth_um": 20.0,
+      "biased_mmd_squared": 0.020987709579830167,
+      "score": 0.0036631304026610565,
+      "global_permutation_mean": 0.006426123105382053,
+      "excess_over_global_mean": -0.002762992702720996,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Pvalb",
+        "Cux2"
+      ],
+      "bandwidth_um": 5.0,
+      "biased_mmd_squared": 0.017211583662170453,
+      "score": 0.00047320076572658377,
+      "global_permutation_mean": 0.0022818011842297707,
+      "excess_over_global_mean": -0.001808600418503187,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Pvalb",
+        "Cux2"
+      ],
+      "bandwidth_um": 10.0,
+      "biased_mmd_squared": 0.02449285262408413,
+      "score": 0.0012224751497496213,
+      "global_permutation_mean": 0.004857832887990632,
+      "excess_over_global_mean": -0.0036353577382410105,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "left_development",
+      "genes": [
+        "Pvalb",
+        "Cux2"
+      ],
+      "bandwidth_um": 20.0,
+      "biased_mmd_squared": 0.030571002246417477,
+      "score": 0.004055766783908795,
+      "global_permutation_mean": 0.009221571273697408,
+      "excess_over_global_mean": -0.005165804489788613,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Gad2",
+        "Pvalb"
+      ],
+      "bandwidth_um": 5.0,
+      "biased_mmd_squared": 0.014890742976070851,
+      "score": 0.002066987254810678,
+      "global_permutation_mean": 0.0032979177933116707,
+      "excess_over_global_mean": -0.0012309305385009928,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Gad2",
+        "Pvalb"
+      ],
+      "bandwidth_um": 10.0,
+      "biased_mmd_squared": 0.018650924953228256,
+      "score": 0.004359376595367217,
+      "global_permutation_mean": 0.00653845396859577,
+      "excess_over_global_mean": -0.002179077373228553,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Gad2",
+        "Pvalb"
+      ],
+      "bandwidth_um": 20.0,
+      "biased_mmd_squared": 0.02174105897435389,
+      "score": 0.007482404112778932,
+      "global_permutation_mean": 0.01044377830212271,
+      "excess_over_global_mean": -0.0029613741893437778,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Gad2",
+        "Cux2"
+      ],
+      "bandwidth_um": 5.0,
+      "biased_mmd_squared": 0.013125542866076848,
+      "score": 0.0004960675158257185,
+      "global_permutation_mean": 0.0012806548695187268,
+      "excess_over_global_mean": -0.0007845873536930083,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Gad2",
+        "Cux2"
+      ],
+      "bandwidth_um": 10.0,
+      "biased_mmd_squared": 0.015849268234065864,
+      "score": 0.0013406717498806956,
+      "global_permutation_mean": 0.002810013843004673,
+      "excess_over_global_mean": -0.0014693420931239775,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Gad2",
+        "Cux2"
+      ],
+      "bandwidth_um": 20.0,
+      "biased_mmd_squared": 0.020024129192323683,
+      "score": 0.0035374759039118694,
+      "global_permutation_mean": 0.006058654839090517,
+      "excess_over_global_mean": -0.0025211789351786474,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Pvalb",
+        "Cux2"
+      ],
+      "bandwidth_um": 5.0,
+      "biased_mmd_squared": 0.016088400971014924,
+      "score": 0.0004829060757745294,
+      "global_permutation_mean": 0.002010031397020812,
+      "excess_over_global_mean": -0.0015271253212462825,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Pvalb",
+        "Cux2"
+      ],
+      "bandwidth_um": 10.0,
+      "biased_mmd_squared": 0.021275110111621746,
+      "score": 0.001325824970833061,
+      "global_permutation_mean": 0.004154989973672679,
+      "excess_over_global_mean": -0.002829165002839618,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    },
+    {
+      "region": "right_confirmation",
+      "genes": [
+        "Pvalb",
+        "Cux2"
+      ],
+      "bandwidth_um": 20.0,
+      "biased_mmd_squared": 0.026511153451787606,
+      "score": 0.00402413398766907,
+      "global_permutation_mean": 0.008172353233700221,
+      "excess_over_global_mean": -0.004148219246031151,
+      "positive_excess_ceiling": 0.002506265664160401,
+      "one_swap_allowance": 0.01,
+      "zero_lower_at_half_um_one_swap": true
+    }
+  ],
+  "below_global_mean": 18,
+  "zero_lower_at_half_um_one_swap": 18
+}

@@ -1,11 +1,14 @@
 # Measuring confidence in virtual spatial marker readouts
 
-**Research direction:** a [conserved molecular-position screen](CONSERVED_MASS_RESULTS.md)
-tests raw proximity before cell assignment. Conventional distance bounds separate
-12/12 synthetic cluster pairs under declared localization errors; the simpler
-uniform bound already separates 9/12. Public coordinate-table feasibility is
-verified. This changes the observable and establishes no new algorithm or
-biological validation. Full manuscript work remains deferred.
+**Public-data decision:** the [frozen molecular-proximity study](MOLECULAR_CONFIRMATION_RESULTS.md)
+fails its usefulness gate: **0/9 corrected positive-proximity tests** in each
+technical half of a public VISp field. Three prespecified markers are unavailable
+and remain unevaluable. Conditional robustness bounds pass exact small-world
+checks, but a one-swap allowance makes all 18 evaluated lower bounds zero.
+A post-outcome algebraic diagnostic connects the balanced statistic to established
+kernel discrepancy and exposes the limits of the biological null. Source replay
+verifies all 72 sensitivity results. No new association or biological validation
+is claimed; full manuscript work remains deferred.
 
 **Position-uncertainty decision:** [joint position/identity bounds](POSITION_UNCERTAINTY_RESULTS.md)
 cover all 12 exhaustive small cases but fail their usefulness gate: median width

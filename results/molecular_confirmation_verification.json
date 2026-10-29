@@ -1,0 +1,33 @@
+{
+  "verified_sensitivity_results": 72,
+  "maximum_statistic_discrepancy": 7.806255641895632e-18,
+  "source_sha256": "7121a8c65e0e493f995d84e764485759ad14b1eae2338b322ed2654b832ce9c6",
+  "summary": {
+    "left_development": {
+      "evaluated_tests": 9,
+      "missing_or_sparse_pairs": 12,
+      "global_nominal_rejections": 0,
+      "stratified_nominal_rejections": 0,
+      "robust_rejections": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "right_confirmation": {
+      "evaluated_tests": 9,
+      "missing_or_sparse_pairs": 12,
+      "global_nominal_rejections": 0,
+      "stratified_nominal_rejections": 0,
+      "robust_rejections": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "continuation_gate_passed": false,
+  "scope": "Separate source replay and arithmetic; not independent biological replication."
+}

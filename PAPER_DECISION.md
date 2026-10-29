@@ -1,10 +1,19 @@
-# Paper decision after the position-uncertainty round
+# Paper decision after the public molecular-proximity round
 
-**2026-10-29 continuation:** full manuscript work remains deferred. The
-[conserved molecular-position direction](CONSERVED_MASS_RESULTS.md) passes its
-synthetic observable screen. Its statistic and bounds are conventional, so this
-does not yet change the grades below. It is a separate target from cell-type
-contrast and needs its own calibrated measurement and validation protocol.
+**2026-10-29 latest decision:** full manuscript work remains deferred. The
+[frozen public molecular-proximity screen](MOLECULAR_CONFIRMATION_RESULTS.md)
+finds no adjusted positive-proximity rejections among nine evaluable tests in
+either half. Three fixed genes are missing, without replacement. The one-swap
+sensitivity bound is vacuous in all 18 evaluated cases. A post-outcome identity
+shows the balanced score is a reverse ranking of established kernel discrepancy;
+shared tissue anatomy alone need not produce rejection under label exchangeability.
+Stop this marker/scale/null combination as a validated method claim. Next specify
+the biological alternative and a falsification benchmark for the null before
+testing a fresh field. Independent assay-error calibration and cohort validation
+remain missing. Keep the grades below; verification is stronger, novelty is not.
+
+The following 2026-10-28 plan remains relevant to the original cell-type contrast.
+The new molecular target is separate and must not inherit its validation claims.
 
 Date: 2026-10-28. **Defer the full manuscript and stop this bound variant.**
 Keep a measurement-audit paper outline and the verified code. The latest method
