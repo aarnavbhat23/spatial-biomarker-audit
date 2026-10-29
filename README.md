@@ -1,5 +1,12 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Research direction:** a [conserved molecular-position screen](CONSERVED_MASS_RESULTS.md)
+tests raw proximity before cell assignment. Conventional distance bounds separate
+12/12 synthetic cluster pairs under declared localization errors; the simpler
+uniform bound already separates 9/12. Public coordinate-table feasibility is
+verified. This changes the observable and establishes no new algorithm or
+biological validation. Full manuscript work remains deferred.
+
 **Position-uncertainty decision:** [joint position/identity bounds](POSITION_UNCERTAINTY_RESULTS.md)
 cover all 12 exhaustive small cases but fail their usefulness gate: median width
 reduction is **9.38%** against a 10% requirement, and scaling intervals span

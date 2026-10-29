@@ -1,0 +1,679 @@
+{
+  "protocol_commit": "1215d93",
+  "scope": "Known kernel observable; development feasibility only, no novelty or biological coverage claim.",
+  "small": [
+    {
+      "seed": 31,
+      "bandwidth": 4.0,
+      "a": [
+        [
+          18.0,
+          1.0
+        ],
+        [
+          13.0,
+          9.0
+        ],
+        [
+          14.0,
+          1.0
+        ]
+      ],
+      "b": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          20.0,
+          6.0
+        ],
+        [
+          12.0,
+          20.0
+        ]
+      ],
+      "bound": {
+        "score": 0.08300470969178118,
+        "pairwise_bounds": [
+          0.03259295471730708,
+          0.17106515494702135
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.3862700395480979
+        ]
+      },
+      "exact_discrete_extrema": [
+        0.04786991856780417,
+        0.12358196731922072
+      ],
+      "worlds": 729
+    },
+    {
+      "seed": 31,
+      "bandwidth": 8.0,
+      "a": [
+        [
+          18.0,
+          1.0
+        ],
+        [
+          13.0,
+          9.0
+        ],
+        [
+          14.0,
+          1.0
+        ]
+      ],
+      "b": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          20.0,
+          6.0
+        ],
+        [
+          12.0,
+          20.0
+        ]
+      ],
+      "bound": {
+        "score": 0.3506154878970384,
+        "pairwise_bounds": [
+          0.2572719756950468,
+          0.45460897058342037
+        ],
+        "lipschitz_bounds": [
+          0.19898282296888004,
+          0.5022481528251967
+        ]
+      },
+      "exact_discrete_extrema": [
+        0.31351040505499467,
+        0.38583999712675465
+      ],
+      "worlds": 729
+    },
+    {
+      "seed": 47,
+      "bandwidth": 4.0,
+      "a": [
+        [
+          15.0,
+          15.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          19.0,
+          6.0
+        ]
+      ],
+      "b": [
+        [
+          4.0,
+          17.0
+        ],
+        [
+          10.0,
+          4.0
+        ],
+        [
+          15.0,
+          16.0
+        ]
+      ],
+      "bound": {
+        "score": 0.2170139305866116,
+        "pairwise_bounds": [
+          0.15087477194925655,
+          0.26725430199930744
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.5202792604429283
+        ]
+      },
+      "exact_discrete_extrema": [
+        0.180222901641805,
+        0.2368161475341855
+      ],
+      "worlds": 729
+    },
+    {
+      "seed": 47,
+      "bandwidth": 8.0,
+      "a": [
+        [
+          15.0,
+          15.0
+        ],
+        [
+          9.0,
+          2.0
+        ],
+        [
+          19.0,
+          6.0
+        ]
+      ],
+      "b": [
+        [
+          4.0,
+          17.0
+        ],
+        [
+          10.0,
+          4.0
+        ],
+        [
+          15.0,
+          16.0
+        ]
+      ],
+      "bound": {
+        "score": 0.437888343521323,
+        "pairwise_bounds": [
+          0.34924846264175896,
+          0.5310068479386486
+        ],
+        "lipschitz_bounds": [
+          0.28625567859316464,
+          0.5895210084494813
+        ]
+      },
+      "exact_discrete_extrema": [
+        0.3905661371493492,
+        0.48159070826496425
+      ],
+      "worlds": 729
+    },
+    {
+      "seed": 83,
+      "bandwidth": 4.0,
+      "a": [
+        [
+          6.0,
+          1.0
+        ],
+        [
+          13.0,
+          6.0
+        ],
+        [
+          7.0,
+          5.0
+        ]
+      ],
+      "b": [
+        [
+          18.0,
+          8.0
+        ],
+        [
+          7.0,
+          12.0
+        ],
+        [
+          10.0,
+          11.0
+        ]
+      ],
+      "bound": {
+        "score": 0.15385584681050213,
+        "pairwise_bounds": [
+          0.061037063842100926,
+          0.31121808049148125
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.45712117666681884
+        ]
+      },
+      "exact_discrete_extrema": [
+        0.12728568089499676,
+        0.18852866278828062
+      ],
+      "worlds": 729
+    },
+    {
+      "seed": 83,
+      "bandwidth": 8.0,
+      "a": [
+        [
+          6.0,
+          1.0
+        ],
+        [
+          13.0,
+          6.0
+        ],
+        [
+          7.0,
+          5.0
+        ]
+      ],
+      "b": [
+        [
+          18.0,
+          8.0
+        ],
+        [
+          7.0,
+          12.0
+        ],
+        [
+          10.0,
+          11.0
+        ]
+      ],
+      "bound": {
+        "score": 0.543605352459327,
+        "pairwise_bounds": [
+          0.41213360191482684,
+          0.6775644560259703
+        ],
+        "lipschitz_bounds": [
+          0.3919726875311686,
+          0.6952380173874853
+        ]
+      },
+      "exact_discrete_extrema": [
+        0.49468990539218843,
+        0.5886198489785657
+      ],
+      "worlds": 729
+    }
+  ],
+  "paired_scaling": [
+    {
+      "seed": 101,
+      "bandwidth": 10.0,
+      "radius": 1.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.31304412984173396,
+        "pairwise_bounds": [
+          0.2504382646167858,
+          0.3804587061104154
+        ],
+        "lipschitz_bounds": [
+          0.19173799789920729,
+          0.4343502617842606
+        ]
+      },
+      "separated": {
+        "score": 0.024408844593410098,
+        "pairwise_bounds": [
+          0.01763164918718652,
+          0.03311439060328749
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.1457149765359368
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 101,
+      "bandwidth": 10.0,
+      "radius": 3.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.31304412984173396,
+        "pairwise_bounds": [
+          0.14684346632888892,
+          0.5203117537397176
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.676962525669314
+        ]
+      },
+      "separated": {
+        "score": 0.024408844593410098,
+        "pairwise_bounds": [
+          0.008623215590932294,
+          0.0576236792892408
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.38832724042099015
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 101,
+      "bandwidth": 20.0,
+      "radius": 1.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.6483998113288075,
+        "pairwise_bounds": [
+          0.5991598635975356,
+          0.6957503689491363
+        ],
+        "lipschitz_bounds": [
+          0.5877467453575442,
+          0.7090528773000708
+        ]
+      },
+      "separated": {
+        "score": 0.17118078437816558,
+        "pairwise_bounds": [
+          0.14762384685418936,
+          0.19713098194839596
+        ],
+        "lipschitz_bounds": [
+          0.11052771840690225,
+          0.23183385034942894
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 101,
+      "bandwidth": 20.0,
+      "radius": 3.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.6483998113288075,
+        "pairwise_bounds": [
+          0.4986555570268169,
+          0.7815769295996763
+        ],
+        "lipschitz_bounds": [
+          0.4664406134150175,
+          0.8303590092425975
+        ]
+      },
+      "separated": {
+        "score": 0.17118078437816558,
+        "pairwise_bounds": [
+          0.10752268629898712,
+          0.256117648073133
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.35313998229195565
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 202,
+      "bandwidth": 10.0,
+      "radius": 1.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.3257877450038516,
+        "pairwise_bounds": [
+          0.261322415871129,
+          0.39481055826727685
+        ],
+        "lipschitz_bounds": [
+          0.20448161306132492,
+          0.44709387694637825
+        ]
+      },
+      "separated": {
+        "score": 0.021118465655638033,
+        "pairwise_bounds": [
+          0.015015125246525362,
+          0.029111219264589937
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.14242459759816473
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 202,
+      "bandwidth": 10.0,
+      "radius": 3.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.3257877450038516,
+        "pairwise_bounds": [
+          0.1539274099702714,
+          0.5364928033015193
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.6897061408314317
+        ]
+      },
+      "separated": {
+        "score": 0.021118465655638033,
+        "pairwise_bounds": [
+          0.007122491481226267,
+          0.05226237620084518
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.3850368614832181
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 202,
+      "bandwidth": 20.0,
+      "radius": 1.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.6601869465670758,
+        "pairwise_bounds": [
+          0.6109319014141884,
+          0.7073514625828694
+        ],
+        "lipschitz_bounds": [
+          0.5995338805958125,
+          0.7208400125383391
+        ]
+      },
+      "separated": {
+        "score": 0.16703240716873918,
+        "pairwise_bounds": [
+          0.14356133770608093,
+          0.19296943981207834
+        ],
+        "lipschitz_bounds": [
+          0.10637934119747584,
+          0.22768547314000254
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 202,
+      "bandwidth": 20.0,
+      "radius": 3.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.6601869465670758,
+        "pairwise_bounds": [
+          0.5098633200822401,
+          0.7921878041334337
+        ],
+        "lipschitz_bounds": [
+          0.47822774865328577,
+          0.8421461444808658
+        ]
+      },
+      "separated": {
+        "score": 0.16703240716873918,
+        "pairwise_bounds": [
+          0.10380715555546248,
+          0.2521786269470086
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.34899160508252924
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 303,
+      "bandwidth": 10.0,
+      "radius": 1.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.3542987236599118,
+        "pairwise_bounds": [
+          0.2861373535206666,
+          0.426259028798326
+        ],
+        "lipschitz_bounds": [
+          0.2329925917173851,
+          0.4756048556024385
+        ]
+      },
+      "separated": {
+        "score": 0.020793661687534777,
+        "pairwise_bounds": [
+          0.014733274478509913,
+          0.028776043357521652
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.14209979363006145
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 303,
+      "bandwidth": 10.0,
+      "radius": 3.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.3542987236599118,
+        "pairwise_bounds": [
+          0.17064242596225176,
+          0.5704301014427621
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.7182171194874918
+        ]
+      },
+      "separated": {
+        "score": 0.020793661687534777,
+        "pairwise_bounds": [
+          0.006952377139991383,
+          0.052129314010277206
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.38471205751511484
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 303,
+      "bandwidth": 20.0,
+      "radius": 1.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.6834998393587151,
+        "pairwise_bounds": [
+          0.6345676543971133,
+          0.7299024461141831
+        ],
+        "lipschitz_bounds": [
+          0.6228467733874518,
+          0.7441529053299784
+        ]
+      },
+      "separated": {
+        "score": 0.17301666130780846,
+        "pairwise_bounds": [
+          0.14847876397871348,
+          0.20016679874877166
+        ],
+        "lipschitz_bounds": [
+          0.11236359533654512,
+          0.23366972727907181
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    },
+    {
+      "seed": 303,
+      "bandwidth": 20.0,
+      "radius": 3.0,
+      "per_channel_molecules": 256,
+      "shared": {
+        "score": 0.6834998393587151,
+        "pairwise_bounds": [
+          0.532941648450853,
+          0.8119718051975293
+        ],
+        "lipschitz_bounds": [
+          0.501540641444925,
+          0.8654590372725051
+        ]
+      },
+      "separated": {
+        "score": 0.17301666130780846,
+        "pairwise_bounds": [
+          0.10700951562026079,
+          0.2622349737799584
+        ],
+        "lipschitz_bounds": [
+          0.0,
+          0.35497585922159847
+        ]
+      },
+      "intervals_disjoint": true,
+      "missing_mass_error_per_specimen": 0.007782101167315175,
+      "disjoint_allowing_one_missing_per_channel": true
+    }
+  ],
+  "disjoint_pairs": 12,
+  "continuation_gate_passed": true,
+  "out_of_budget_counterexample": {
+    "declared_radius": 1.0,
+    "actual_shift_each": 20.0,
+    "declared_bounds": [
+      0.00014774835923203364,
+      0.0007318024198804728
+    ],
+    "actual_proximity": 1.0
+  }
+}

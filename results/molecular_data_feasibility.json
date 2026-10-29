@@ -1,0 +1,40 @@
+{
+  "source": "https://zenodo.org/records/5517607/files/SSAM-lite_test_data.zip?download=1",
+  "record": "https://zenodo.org/records/5517607",
+  "md5": "cf41486dc42f3495a26712e54caf126e",
+  "sha256": "da4862b4e11d860f081b8e74b90e2119f8b6eaf9bf35869f515da3be95cda17c",
+  "bytes": 26103043,
+  "files": [
+    {
+      "path": "SSAM-lite_test_data/Codeluppi_osmFISH/coordinates.csv",
+      "uncompressed_bytes": 76591468,
+      "header": "genes,X,Y"
+    },
+    {
+      "path": "SSAM-lite_test_data/Codeluppi_osmFISH/README.txt",
+      "uncompressed_bytes": 337,
+      "readme": "Modified dataset from Codeluppi, Simone, et al. \"Spatial organization of the somatosensory cortex revealed by osmFISH.\" Nature methods 15.11 (2018): 932-935.\n\nDataset specification:\n- method: osmFISH\n- tissue: mouse brain somatosensory cortex\n- mRNA spots: 1802589\n- genes: 33\n- signatures: 31 cell types\n- DOI: 10.1038/s41592-018-0175-z"
+    },
+    {
+      "path": "SSAM-lite_test_data/Codeluppi_osmFISH/signatures.csv",
+      "uncompressed_bytes": 21352,
+      "header": ",Acta2,Aldoc,Anln,Apln,Bmp4,Cnr1,Cpne5,Crh,Crhbp,Ctps,Flt1,Foxj1,Gad2,Gfap,Hexb,Itpr2,Kcnip2,Lamp5,Mfge8,Mrc1,Pdgfra,Plp1,Pthlh,Rorb,Serpinf1,Slc32a1,Sox10,Syt6,Tbr1,Tmem2,Ttr,Vip,Vtn"
+    },
+    {
+      "path": "SSAM-lite_test_data/Tosti_ISS_Pancreas/coordinates.csv",
+      "uncompressed_bytes": 10708812,
+      "header": "gene,X,Y"
+    },
+    {
+      "path": "SSAM-lite_test_data/Tosti_ISS_Pancreas/README.txt",
+      "uncompressed_bytes": 339,
+      "readme": "Modified dataset from: Tosti, Luca, et al. \"Single-nucleus and in situ RNA\u2013sequencing reveal cell topographies in the human pancreas.\" Gastroenterology 160.4 (2021): 1330-1344.\n\nDataset specification:\n- method: ISS\n- tissue: human pancreas\n- mRNA spots: 461078\n- genes: 138\n- signatures: 16 cell types\n- DOI: 10.1053/j.gastro.2020.11.010"
+    },
+    {
+      "path": "SSAM-lite_test_data/Tosti_ISS_Pancreas/signatures.csv",
+      "uncompressed_bytes": 10777,
+      "header": ",ABCC8,ACTA2,ADIRF,AMY2A,ANXA4,APOD,AQP2,ARX,B2M,BICC1,CALD1,CCL5,CD14,CD163,CD2,CD37,CD3D,CD7,CD74,CD79A,CD79B,CDH19,CELA2B,CFD,CFTR,CHN2,CHRM3,CLPS,COL25A1,CPA2,CRYAB,CTRB1,CTRB2,CTRC,CTSW,CUZD1,CXCR4,DCDC2,DCN,ERRFI1,EYS,FABP4,FABP5,FAP,FBLN1,FLT1,FOLR1,FOXP2,FTL,G6PC2,GC,GCG,GLIS3,GPC6,HLA-DRA,IAPP,ID1,IGLL5,INS,INSR,IRX2,ITGA7,JCHAIN,KCNMB2,KCNT2,KLRB1,KRT19,LAMA3,LCN2,LDB2,LOXL4,LRFN5,LRIG1,LTB,MECOM,MEG3,MS4A1,MUC5B,MUC6,MYL9,NEGR1,NPFFR2,PDE3A,PDK4,PIGR,PIK3R3,PKHD1,PLA2G1B,PLP1,PLVAP,PMP22,PNLIP,PNLIPRP1,PPY,PRSS1,PRSS2,PTPRCAP,RBP4,RBPJL,REG1A,REG1B,REG3A,REG3G,RGS5,S100B,SCG5,SCN7A,SCTR,SERPINE1,SLC4A4,SLC8A1,SLCO2A1,SLPI,SOX10,SPARCL1,SPINK1,SPP1,SST,SYCN,SYT8,TCL1A,TENM2,TFF2,TFF3,TGFBR3,THSD7A,TIMP3,TMPRSS15,TRHDE,TRPM3,TSHZ2,TTR,TYROBP,VCAN,VPREB3,VWF,ZEB2,ZNF385D"
+    }
+  ],
+  "scope": "Metadata, readmes and CSV headers only. No association scores, marker selection or held-out outcomes evaluated."
+}

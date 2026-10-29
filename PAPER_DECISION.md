@@ -1,5 +1,11 @@
 # Paper decision after the position-uncertainty round
 
+**2026-10-29 continuation:** full manuscript work remains deferred. The
+[conserved molecular-position direction](CONSERVED_MASS_RESULTS.md) passes its
+synthetic observable screen. Its statistic and bounds are conventional, so this
+does not yet change the grades below. It is a separate target from cell-type
+contrast and needs its own calibrated measurement and validation protocol.
+
 Date: 2026-10-28. **Defer the full manuscript and stop this bound variant.**
 Keep a measurement-audit paper outline and the verified code. The latest method
 is valid on its finite contract but failed the frozen usefulness gate. Recasting
