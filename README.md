@@ -1,5 +1,12 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Position-uncertainty decision:** [joint position/identity bounds](POSITION_UNCERTAINTY_RESULTS.md)
+cover all 12 exhaustive small cases but fail their usefulness gate: median width
+reduction is **9.38%** against a 10% requirement, and scaling intervals span
+86–100% of the possible contrast range. An independent verifier checks 3,669
+distinct graph/label worlds. This variant is stopped as an algorithmic paper
+claim; the [paper decision](PAPER_DECISION.md) prioritizes measurement validation.
+
 **Joint measurement update:** a [complete finite-population audit](JOINT_MEASUREMENT_RESULTS.md)
 finds exact minimum costs for deciding spatial association under simultaneous
 cell-identity, geometry and review uncertainty. Different cases require different

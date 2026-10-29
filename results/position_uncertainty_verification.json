@@ -1,0 +1,8 @@
+{
+  "verified_small_cases": 12,
+  "distinct_graph_label_worlds_checked": 3669,
+  "component_bounds_and_rational_witnesses_verified": true,
+  "median_relative_width_reduction": 0.09377535185823699,
+  "continuation_gate_passed": false,
+  "limitations": "Finite discrete contract only. Scaling summaries checked arithmetically, not exhaustively; no biological coverage calibration."
+}

@@ -1,0 +1,3016 @@
+{
+  "protocol_commit": "b96dac4",
+  "scope": "Complete discrete-position sensitivity model; no calibrated biological error or continuous geometry guarantee.",
+  "small": [
+    {
+      "n": 5,
+      "seed": 19,
+      "budget": 0,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.10000000000100001,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.10000000000100001,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.097656249999,
+          0.097656250001
+        ],
+        "directed_edge_count_bounds": [
+          10,
+          20
+        ],
+        "contact_count_bounds": [
+          3,
+          6
+        ],
+        "a_degree_bounds": [
+          3,
+          8
+        ],
+        "b_degree_bounds": [
+          7,
+          12
+        ],
+        "edit_caps": {
+          "independent": [
+            8,
+            4
+          ],
+          "local": [
+            6,
+            4
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 10,
+        "raw_edges": 16
+      },
+      "exact": {
+        "bounds": [
+          0.040123456790123455,
+          0.1736111111111111
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            "labels": [
+              2,
+              2,
+              1,
+              1,
+              2
+            ],
+            "numerator": 13,
+            "denominator": 324
+          },
+          {
+            "positions": [
+              1,
+              2,
+              0,
+              0,
+              2
+            ],
+            "labels": [
+              2,
+              2,
+              1,
+              1,
+              2
+            ],
+            "numerator": 25,
+            "denominator": 144
+          }
+        ],
+        "unique_graphs": 15,
+        "empty_graphs": 0,
+        "admissible_labelings": 1,
+        "position_assignments": 243
+      }
+    },
+    {
+      "n": 5,
+      "seed": 19,
+      "budget": 1,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.117187500001,
+          0.203125000001
+        ],
+        "directed_edge_count_bounds": [
+          10,
+          20
+        ],
+        "contact_count_bounds": [
+          0,
+          11
+        ],
+        "a_degree_bounds": [
+          0,
+          12
+        ],
+        "b_degree_bounds": [
+          4,
+          16
+        ],
+        "edit_caps": {
+          "independent": [
+            8,
+            4
+          ],
+          "local": [
+            6,
+            4
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 10,
+        "raw_edges": 16
+      },
+      "exact": {
+        "bounds": [
+          -0.034722222222222224,
+          0.1736111111111111
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              1,
+              1,
+              2,
+              0,
+              2
+            ],
+            "labels": [
+              2,
+              2,
+              1,
+              0,
+              0
+            ],
+            "numerator": -5,
+            "denominator": 144
+          },
+          {
+            "positions": [
+              1,
+              1,
+              2,
+              0,
+              2
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "numerator": 25,
+            "denominator": 144
+          }
+        ],
+        "unique_graphs": 15,
+        "empty_graphs": 0,
+        "admissible_labelings": 17,
+        "position_assignments": 243
+      }
+    },
+    {
+      "n": 5,
+      "seed": 43,
+      "budget": 0,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            4,
+            -1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            4
+          ],
+          [
+            -2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      ],
+      "labels": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.109375000001,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.109375000001,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.04591836734593877,
+          0.04591836734793876
+        ],
+        "directed_edge_count_bounds": [
+          8,
+          16
+        ],
+        "contact_count_bounds": [
+          2,
+          3
+        ],
+        "a_degree_bounds": [
+          5,
+          13
+        ],
+        "b_degree_bounds": [
+          2,
+          3
+        ],
+        "edit_caps": {
+          "independent": [
+            8,
+            2
+          ],
+          "local": [
+            6,
+            2
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 8,
+        "raw_edges": 14
+      },
+      "exact": {
+        "bounds": [
+          0.027777777777777776,
+          0.09
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              1,
+              2,
+              0,
+              0,
+              0
+            ],
+            "labels": [
+              1,
+              2,
+              1,
+              1,
+              1
+            ],
+            "numerator": 1,
+            "denominator": 36
+          },
+          {
+            "positions": [
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            "labels": [
+              1,
+              2,
+              1,
+              1,
+              1
+            ],
+            "numerator": 9,
+            "denominator": 100
+          }
+        ],
+        "unique_graphs": 14,
+        "empty_graphs": 0,
+        "admissible_labelings": 1,
+        "position_assignments": 243
+      }
+    },
+    {
+      "n": 5,
+      "seed": 43,
+      "budget": 1,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            4,
+            -1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            4
+          ],
+          [
+            -2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      ],
+      "labels": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.14285714285814285,
+          0.2193877551030408
+        ],
+        "directed_edge_count_bounds": [
+          8,
+          16
+        ],
+        "contact_count_bounds": [
+          0,
+          8
+        ],
+        "a_degree_bounds": [
+          3,
+          16
+        ],
+        "b_degree_bounds": [
+          0,
+          7
+        ],
+        "edit_caps": {
+          "independent": [
+            8,
+            2
+          ],
+          "local": [
+            6,
+            2
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 8,
+        "raw_edges": 14
+      },
+      "exact": {
+        "bounds": [
+          -0.11,
+          0.25
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              1,
+              2,
+              0,
+              0,
+              1
+            ],
+            "labels": [
+              1,
+              2,
+              2,
+              1,
+              1
+            ],
+            "numerator": -11,
+            "denominator": 100
+          },
+          {
+            "positions": [
+              1,
+              2,
+              2,
+              1,
+              0
+            ],
+            "labels": [
+              2,
+              2,
+              1,
+              1,
+              1
+            ],
+            "numerator": 1,
+            "denominator": 4
+          }
+        ],
+        "unique_graphs": 14,
+        "empty_graphs": 0,
+        "admissible_labelings": 15,
+        "position_assignments": 243
+      }
+    },
+    {
+      "n": 5,
+      "seed": 71,
+      "budget": 0,
+      "positions": [
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bound": {
+        "outer_bounds": [
+          -1e-12,
+          1e-12
+        ],
+        "moment_bounds": [
+          -1e-12,
+          1e-12
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -1e-12,
+          1e-12
+        ],
+        "directed_edge_count_bounds": [
+          10,
+          20
+        ],
+        "contact_count_bounds": [
+          0,
+          0
+        ],
+        "a_degree_bounds": [
+          4,
+          12
+        ],
+        "b_degree_bounds": [
+          0,
+          0
+        ],
+        "edit_caps": {
+          "independent": [
+            8,
+            4
+          ],
+          "local": [
+            6,
+            4
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 10,
+        "raw_edges": 16
+      },
+      "exact": {
+        "bounds": [
+          0.0,
+          0.0
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "labels": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "positions": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "labels": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        "unique_graphs": 15,
+        "empty_graphs": 0,
+        "admissible_labelings": 1,
+        "position_assignments": 243
+      }
+    },
+    {
+      "n": 5,
+      "seed": 71,
+      "budget": 1,
+      "positions": [
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.240000000001,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.240000000001,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.105468750001,
+          0.109375000001
+        ],
+        "directed_edge_count_bounds": [
+          10,
+          20
+        ],
+        "contact_count_bounds": [
+          0,
+          4
+        ],
+        "a_degree_bounds": [
+          1,
+          16
+        ],
+        "b_degree_bounds": [
+          0,
+          4
+        ],
+        "edit_caps": {
+          "independent": [
+            8,
+            4
+          ],
+          "local": [
+            6,
+            4
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 10,
+        "raw_edges": 16
+      },
+      "exact": {
+        "bounds": [
+          -0.05555555555555555,
+          0.08333333333333333
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              0,
+              2,
+              2,
+              1,
+              1
+            ],
+            "labels": [
+              0,
+              1,
+              1,
+              2,
+              0
+            ],
+            "numerator": -1,
+            "denominator": 18
+          },
+          {
+            "positions": [
+              0,
+              1,
+              2,
+              1,
+              2
+            ],
+            "labels": [
+              0,
+              1,
+              1,
+              0,
+              2
+            ],
+            "numerator": 1,
+            "denominator": 12
+          }
+        ],
+        "unique_graphs": 15,
+        "empty_graphs": 0,
+        "admissible_labelings": 19,
+        "position_assignments": 243
+      }
+    },
+    {
+      "n": 6,
+      "seed": 19,
+      "budget": 0,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      ],
+      "labels": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.14285714285814285,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.14285714285814285,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.024793388428752068,
+          0.02479338843075205
+        ],
+        "directed_edge_count_bounds": [
+          14,
+          28
+        ],
+        "contact_count_bounds": [
+          3,
+          9
+        ],
+        "a_degree_bounds": [
+          6,
+          14
+        ],
+        "b_degree_bounds": [
+          8,
+          15
+        ],
+        "edit_caps": {
+          "independent": [
+            10,
+            8
+          ],
+          "local": [
+            8,
+            6
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 15,
+        "raw_edges": 22
+      },
+      "exact": {
+        "bounds": [
+          -0.05859375,
+          0.08641975308641975
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              1,
+              2,
+              2,
+              0,
+              1,
+              2
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              2,
+              2,
+              1
+            ],
+            "numerator": -15,
+            "denominator": 256
+          },
+          {
+            "positions": [
+              1,
+              1,
+              2,
+              0,
+              2,
+              0
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              2,
+              2,
+              1
+            ],
+            "numerator": 7,
+            "denominator": 81
+          }
+        ],
+        "unique_graphs": 46,
+        "empty_graphs": 0,
+        "admissible_labelings": 1,
+        "position_assignments": 729
+      }
+    },
+    {
+      "n": 6,
+      "seed": 19,
+      "budget": 1,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      ],
+      "labels": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.13842975206711572,
+          0.13429752066215703
+        ],
+        "directed_edge_count_bounds": [
+          14,
+          28
+        ],
+        "contact_count_bounds": [
+          0,
+          15
+        ],
+        "a_degree_bounds": [
+          2,
+          19
+        ],
+        "b_degree_bounds": [
+          4,
+          20
+        ],
+        "edit_caps": {
+          "independent": [
+            10,
+            8
+          ],
+          "local": [
+            8,
+            6
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 15,
+        "raw_edges": 22
+      },
+      "exact": {
+        "bounds": [
+          -0.075,
+          0.140625
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              1,
+              0,
+              0,
+              0,
+              2,
+              2
+            ],
+            "labels": [
+              2,
+              0,
+              1,
+              2,
+              0,
+              1
+            ],
+            "numerator": -3,
+            "denominator": 40
+          },
+          {
+            "positions": [
+              1,
+              1,
+              2,
+              0,
+              2,
+              2
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              1,
+              2,
+              1
+            ],
+            "numerator": 9,
+            "denominator": 64
+          }
+        ],
+        "unique_graphs": 46,
+        "empty_graphs": 0,
+        "admissible_labelings": 22,
+        "position_assignments": 729
+      }
+    },
+    {
+      "n": 6,
+      "seed": 43,
+      "budget": 0,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            4,
+            -1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            4
+          ],
+          [
+            -2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.06818181818281818,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.06818181818281818,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.10249999999899999,
+          0.10250000000099996
+        ],
+        "directed_edge_count_bounds": [
+          10,
+          22
+        ],
+        "contact_count_bounds": [
+          4,
+          8
+        ],
+        "a_degree_bounds": [
+          6,
+          10
+        ],
+        "b_degree_bounds": [
+          4,
+          12
+        ],
+        "edit_caps": {
+          "independent": [
+            12,
+            2
+          ],
+          "local": [
+            10,
+            2
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 11,
+        "raw_edges": 20
+      },
+      "exact": {
+        "bounds": [
+          0.04081632653061224,
+          0.15
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              0,
+              1,
+              2,
+              1,
+              0,
+              0
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "numerator": 2,
+            "denominator": 49
+          },
+          {
+            "positions": [
+              2,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "numerator": 3,
+            "denominator": 20
+          }
+        ],
+        "unique_graphs": 38,
+        "empty_graphs": 0,
+        "admissible_labelings": 1,
+        "position_assignments": 729
+      }
+    },
+    {
+      "n": 6,
+      "seed": 43,
+      "budget": 1,
+      "positions": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            4,
+            -1
+          ]
+        ],
+        [
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            7,
+            -1
+          ]
+        ],
+        [
+          [
+            -1,
+            4
+          ],
+          [
+            -2,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          [
+            7,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.08250000000100001,
+          0.177500000001
+        ],
+        "directed_edge_count_bounds": [
+          10,
+          22
+        ],
+        "contact_count_bounds": [
+          0,
+          13
+        ],
+        "a_degree_bounds": [
+          3,
+          15
+        ],
+        "b_degree_bounds": [
+          2,
+          16
+        ],
+        "edit_caps": {
+          "independent": [
+            12,
+            2
+          ],
+          "local": [
+            10,
+            2
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 11,
+        "raw_edges": 20
+      },
+      "exact": {
+        "bounds": [
+          -0.05612244897959184,
+          0.15
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              1,
+              2,
+              0,
+              0,
+              1,
+              0
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              0,
+              2,
+              0
+            ],
+            "numerator": -11,
+            "denominator": 196
+          },
+          {
+            "positions": [
+              2,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "labels": [
+              2,
+              1,
+              1,
+              1,
+              2,
+              2
+            ],
+            "numerator": 3,
+            "denominator": 20
+          }
+        ],
+        "unique_graphs": 38,
+        "empty_graphs": 0,
+        "admissible_labelings": 22,
+        "position_assignments": 729
+      }
+    },
+    {
+      "n": 6,
+      "seed": 71,
+      "budget": 0,
+      "positions": [
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        1
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.114843750001,
+          0.20111111111211114
+        ],
+        "moment_bounds": [
+          -0.114843750001,
+          0.20111111111211114
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.027777777776777767,
+          0.02777777777877776
+        ],
+        "directed_edge_count_bounds": [
+          16,
+          30
+        ],
+        "contact_count_bounds": [
+          3,
+          4
+        ],
+        "a_degree_bounds": [
+          11,
+          20
+        ],
+        "b_degree_bounds": [
+          4,
+          5
+        ],
+        "edit_caps": {
+          "independent": [
+            10,
+            6
+          ],
+          "local": [
+            8,
+            6
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 15,
+        "raw_edges": 24
+      },
+      "exact": {
+        "bounds": [
+          0.01,
+          0.07407407407407407
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              0,
+              2,
+              2,
+              1,
+              1,
+              0
+            ],
+            "labels": [
+              1,
+              1,
+              1,
+              0,
+              2,
+              1
+            ],
+            "numerator": 1,
+            "denominator": 100
+          },
+          {
+            "positions": [
+              0,
+              1,
+              2,
+              1,
+              2,
+              2
+            ],
+            "labels": [
+              1,
+              1,
+              1,
+              0,
+              2,
+              1
+            ],
+            "numerator": 2,
+            "denominator": 27
+          }
+        ],
+        "unique_graphs": 41,
+        "empty_graphs": 0,
+        "admissible_labelings": 1,
+        "position_assignments": 729
+      }
+    },
+    {
+      "n": 6,
+      "seed": 71,
+      "budget": 1,
+      "positions": [
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        1
+      ],
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.08680555555655557,
+          0.12847222222322222
+        ],
+        "directed_edge_count_bounds": [
+          16,
+          30
+        ],
+        "contact_count_bounds": [
+          0,
+          10
+        ],
+        "a_degree_bounds": [
+          7,
+          25
+        ],
+        "b_degree_bounds": [
+          0,
+          10
+        ],
+        "edit_caps": {
+          "independent": [
+            10,
+            6
+          ],
+          "local": [
+            8,
+            6
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 15,
+        "raw_edges": 24
+      },
+      "exact": {
+        "bounds": [
+          -0.05555555555555555,
+          0.1111111111111111
+        ],
+        "witnesses": [
+          {
+            "positions": [
+              0,
+              2,
+              2,
+              1,
+              1,
+              2
+            ],
+            "labels": [
+              0,
+              1,
+              1,
+              2,
+              2,
+              1
+            ],
+            "numerator": -1,
+            "denominator": 18
+          },
+          {
+            "positions": [
+              0,
+              1,
+              2,
+              1,
+              2,
+              2
+            ],
+            "labels": [
+              1,
+              1,
+              1,
+              2,
+              2,
+              0
+            ],
+            "numerator": 1,
+            "denominator": 9
+          }
+        ],
+        "unique_graphs": 41,
+        "empty_graphs": 0,
+        "admissible_labelings": 22,
+        "position_assignments": 729
+      }
+    }
+  ],
+  "scale": [
+    {
+      "n": 128,
+      "seed": 101,
+      "budget": 0,
+      "bound": {
+        "outer_bounds": [
+          -0.1858161648187496,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.1858161648187496,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.006118160430528036,
+          -0.006118160428528042
+        ],
+        "directed_edge_count_bounds": [
+          566,
+          1262
+        ],
+        "contact_count_bounds": [
+          81,
+          212
+        ],
+        "a_degree_bounds": [
+          234,
+          515
+        ],
+        "b_degree_bounds": [
+          225,
+          498
+        ],
+        "edit_caps": {
+          "independent": [
+            452,
+            494
+          ],
+          "local": [
+            326,
+            370
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 693,
+        "raw_edges": 892
+      },
+      "seconds": 0.002057291043456644,
+      "relative_width_reduction": 0.12836767036250074
+    },
+    {
+      "n": 128,
+      "seed": 101,
+      "budget": 1,
+      "bound": {
+        "outer_bounds": [
+          -0.21909667195028684,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.21909667195028684,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.014694644976768667,
+          0.002845422189260371
+        ],
+        "directed_edge_count_bounds": [
+          566,
+          1262
+        ],
+        "contact_count_bounds": [
+          39,
+          274
+        ],
+        "a_degree_bounds": [
+          227,
+          528
+        ],
+        "b_degree_bounds": [
+          218,
+          513
+        ],
+        "edit_caps": {
+          "independent": [
+            452,
+            494
+          ],
+          "local": [
+            326,
+            370
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 693,
+        "raw_edges": 892
+      },
+      "seconds": 0.002578833024017513,
+      "relative_width_reduction": 0.06180665609942637
+    },
+    {
+      "n": 128,
+      "seed": 202,
+      "budget": 0,
+      "bound": {
+        "outer_bounds": [
+          -0.18553459119596857,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.18553459119596857,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.0067969570272852445,
+          -0.0067969570252852515
+        ],
+        "directed_edge_count_bounds": [
+          572,
+          1272
+        ],
+        "contact_count_bounds": [
+          82,
+          219
+        ],
+        "a_degree_bounds": [
+          232,
+          505
+        ],
+        "b_degree_bounds": [
+          237,
+          555
+        ],
+        "edit_caps": {
+          "independent": [
+            504,
+            466
+          ],
+          "local": [
+            360,
+            340
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 699,
+        "raw_edges": 932
+      },
+      "seconds": 0.002080083009786904,
+      "relative_width_reduction": 0.1289308176080628
+    },
+    {
+      "n": 128,
+      "seed": 202,
+      "budget": 1,
+      "bound": {
+        "outer_bounds": [
+          -0.21933962264250945,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.21933962264250945,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.014889065925957174,
+          0.0018569599744752891
+        ],
+        "directed_edge_count_bounds": [
+          572,
+          1272
+        ],
+        "contact_count_bounds": [
+          39,
+          280
+        ],
+        "a_degree_bounds": [
+          224,
+          519
+        ],
+        "b_degree_bounds": [
+          230,
+          570
+        ],
+        "edit_caps": {
+          "independent": [
+            504,
+            466
+          ],
+          "local": [
+            360,
+            340
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 699,
+        "raw_edges": 932
+      },
+      "seconds": 0.0023724170168861747,
+      "relative_width_reduction": 0.06132075471498111
+    },
+    {
+      "n": 512,
+      "seed": 101,
+      "budget": 0,
+      "bound": {
+        "outer_bounds": [
+          -0.18575418994513407,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.18575418994513407,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.0030173304408622017,
+          0.0030173304428621982
+        ],
+        "directed_edge_count_bounds": [
+          2386,
+          5370
+        ],
+        "contact_count_bounds": [
+          345,
+          891
+        ],
+        "a_degree_bounds": [
+          959,
+          2174
+        ],
+        "b_degree_bounds": [
+          955,
+          2105
+        ],
+        "edit_caps": {
+          "independent": [
+            2012,
+            2198
+          ],
+          "local": [
+            1432,
+            1552
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 3008,
+        "raw_edges": 3818
+      },
+      "seconds": 0.007849459012504667,
+      "relative_width_reduction": 0.12849162010973192
+    },
+    {
+      "n": 512,
+      "seed": 101,
+      "budget": 3,
+      "bound": {
+        "outer_bounds": [
+          -0.24832402234736872,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.24832402234736872,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.004196781204205784,
+          0.010268349230930411
+        ],
+        "directed_edge_count_bounds": [
+          2386,
+          5370
+        ],
+        "contact_count_bounds": [
+          9,
+          1540
+        ],
+        "a_degree_bounds": [
+          937,
+          2216
+        ],
+        "b_degree_bounds": [
+          933,
+          2148
+        ],
+        "edit_caps": {
+          "independent": [
+            2012,
+            2198
+          ],
+          "local": [
+            1432,
+            1552
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 3008,
+        "raw_edges": 3818
+      },
+      "seconds": 0.00822075002361089,
+      "relative_width_reduction": 0.003351955305262555
+    },
+    {
+      "n": 512,
+      "seed": 202,
+      "budget": 0,
+      "bound": {
+        "outer_bounds": [
+          -0.1871279761914762,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.1871279761914762,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.0008503852718302132,
+          -0.0008503852698302284
+        ],
+        "directed_edge_count_bounds": [
+          2384,
+          5376
+        ],
+        "contact_count_bounds": [
+          338,
+          895
+        ],
+        "a_degree_bounds": [
+          1033,
+          2342
+        ],
+        "b_degree_bounds": [
+          876,
+          1960
+        ],
+        "edit_caps": {
+          "independent": [
+            1950,
+            2326
+          ],
+          "local": [
+            1380,
+            1612
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 3045,
+        "raw_edges": 3764
+      },
+      "seconds": 0.007380666036624461,
+      "relative_width_reduction": 0.1257440476170476
+    },
+    {
+      "n": 512,
+      "seed": 202,
+      "budget": 3,
+      "bound": {
+        "outer_bounds": [
+          -0.24795386904861905,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.24795386904861905,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.008239660140517401,
+          0.00669410185072912
+        ],
+        "directed_edge_count_bounds": [
+          2384,
+          5376
+        ],
+        "contact_count_bounds": [
+          11,
+          1602
+        ],
+        "a_degree_bounds": [
+          1012,
+          2387
+        ],
+        "b_degree_bounds": [
+          854,
+          2002
+        ],
+        "edit_caps": {
+          "independent": [
+            1950,
+            2326
+          ],
+          "local": [
+            1380,
+            1612
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 3045,
+        "raw_edges": 3764
+      },
+      "seconds": 0.00818691699532792,
+      "relative_width_reduction": 0.004092261902761907
+    },
+    {
+      "n": 2048,
+      "seed": 101,
+      "budget": 0,
+      "bound": {
+        "outer_bounds": [
+          -0.18441668905104924,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.18441668905104924,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.003755930795143482,
+          0.003755930797143475
+        ],
+        "directed_edge_count_bounds": [
+          9944,
+          22338
+        ],
+        "contact_count_bounds": [
+          1465,
+          3796
+        ],
+        "a_degree_bounds": [
+          3900,
+          8719
+        ],
+        "b_degree_bounds": [
+          4048,
+          9133
+        ],
+        "edit_caps": {
+          "independent": [
+            8416,
+            9396
+          ],
+          "local": [
+            5930,
+            6464
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 12635,
+        "raw_edges": 15874
+      },
+      "seconds": 0.030726541997864842,
+      "relative_width_reduction": 0.13116662189790151
+    },
+    {
+      "n": 2048,
+      "seed": 101,
+      "budget": 11,
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.0033540995307651494,
+          0.01097778176986207
+        ],
+        "directed_edge_count_bounds": [
+          9944,
+          22338
+        ],
+        "contact_count_bounds": [
+          0,
+          8877
+        ],
+        "a_degree_bounds": [
+          3813,
+          8877
+        ],
+        "b_degree_bounds": [
+          3968,
+          9292
+        ],
+        "edit_caps": {
+          "independent": [
+            8416,
+            9396
+          ],
+          "local": [
+            5930,
+            6464
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 12635,
+        "raw_edges": 15874
+      },
+      "seconds": 0.03219666698714718,
+      "relative_width_reduction": 0.0
+    },
+    {
+      "n": 2048,
+      "seed": 202,
+      "budget": 0,
+      "bound": {
+        "outer_bounds": [
+          -0.18225403621543226,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.18225403621543226,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          0.0026294535370126435,
+          0.0026294535390126383
+        ],
+        "directed_edge_count_bounds": [
+          9940,
+          22422
+        ],
+        "contact_count_bounds": [
+          1519,
+          3868
+        ],
+        "a_degree_bounds": [
+          3994,
+          9006
+        ],
+        "b_degree_bounds": [
+          4023,
+          9090
+        ],
+        "edit_caps": {
+          "independent": [
+            8222,
+            9618
+          ],
+          "local": [
+            5842,
+            6640
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 12700,
+        "raw_edges": 15782
+      },
+      "seconds": 0.030122750031296164,
+      "relative_width_reduction": 0.13549192756913553
+    },
+    {
+      "n": 2048,
+      "seed": 202,
+      "budget": 11,
+      "bound": {
+        "outer_bounds": [
+          -0.25,
+          0.25
+        ],
+        "moment_bounds": [
+          -0.25,
+          0.25
+        ],
+        "local_edit_bounds": [
+          -0.25,
+          0.25
+        ],
+        "independent_edge_bounds": [
+          -0.25,
+          0.25
+        ],
+        "fixed_graph_bounds": [
+          -0.004454543748843287,
+          0.009955337167524107
+        ],
+        "directed_edge_count_bounds": [
+          9940,
+          22422
+        ],
+        "contact_count_bounds": [
+          0,
+          9162
+        ],
+        "a_degree_bounds": [
+          3909,
+          9167
+        ],
+        "b_degree_bounds": [
+          3938,
+          9252
+        ],
+        "edit_caps": {
+          "independent": [
+            8222,
+            9618
+          ],
+          "local": [
+            5842,
+            6640
+          ]
+        },
+        "may_include_empty_graph": false,
+        "candidate_pairs": 12700,
+        "raw_edges": 15782
+      },
+      "seconds": 0.032035958021879196,
+      "relative_width_reduction": 0.0
+    }
+  ],
+  "median_relative_width_reduction": 0.09377535185823699,
+  "continuation_gate_passed": false
+}
