@@ -69,7 +69,15 @@ download. [All classes and outcomes](results/barcode_collisions.json),
 arrays are retained. [Independent verification](results/barcode_collision_verification.json)
 uses sorted integer sums and direct Poisson tail probabilities: 18,915 world
 checks across the two overlapping universes and 192,000 method/replicate decisions
-from 96,000 unique photon simulations. The full local suite has 94 passing tests.
+from 96,000 unique photon simulations. The full local suite has 95 passing tests.
+
+A separately labeled post-screen deduction extends a binary-sum collision to
+positive source separation d. If each readout has independent registration
+uncertainty rho, the two image sets overlap exactly for d<=2*rho in the stated
+two-source model. An independent Gaussian rendering test verifies the witness
+and disjoint-center boundary. This does not use measured registration bounds;
+shared fiducials/round transforms can invalidate its assumptions. It supplies
+a concrete calibration requirement, not a new claimed universal resolution law.
 
 ## Research decision
 

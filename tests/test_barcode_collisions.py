@@ -35,6 +35,25 @@ class BarcodeCollisionTests(unittest.TestCase):
                 poisson.pmf(np.arange(200), exposures*(positive_background+signal)),
                 poisson.pmf(np.arange(200), exposures*negative_background))
 
+    def test_nonzero_separation_registration_witness_and_boundary(self):
+        codes = np.array([[1, 1, 0, 0], [0, 0, 1, 1], [1, 0, 1, 0], [0, 1, 0, 1]])
+        grid = np.linspace(-5, 5, 101)
+        rho = .5
+        for separation in [.2, 1.]:
+            positions = np.array([-separation/2, separation/2])
+            images = []
+            for world in [(0, 1), (2, 3)]:
+                centers = codes[list(world)].T @ positions
+                registration = -centers
+                self.assertLessEqual(abs(registration).max(), rho)
+                images.append(np.exp(-.5*(grid[None, :]-centers[:, None]-registration[:, None])**2))
+            np.testing.assert_allclose(images[0], images[1], atol=1e-14)
+        # Readout 1 changes from the first source to the second. If d>2rho,
+        # even the nearest permitted translations retain a positive center gap.
+        separation = 1.01
+        left_upper, right_lower = -separation/2+rho, separation/2-rho
+        self.assertGreater(right_lower-left_upper, 0.)
+
 
 if __name__ == '__main__':
     unittest.main()

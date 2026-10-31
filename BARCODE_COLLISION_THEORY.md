@@ -63,6 +63,33 @@ in the raw field. Distinct positions or gene-specific brightness can break exact
 equality, while finite photons and uncertain PSFs can still make discrimination
 hard. Quantifying that near-collision regime is necessary before imaging claims.
 
+## 5. Post-screen deduction: nonzero separation with registration uncertainty
+
+This deduction was made after the frozen results; it is not another confirmation
+screen. Restrict to a collision with a binary sum (the two genes in each world
+have disjoint active bits), identical positive brightness and a known translated
+PSF. Fix two source positions at -d/2 and +d/2 on one axis. Each active readout
+then contains one PSF, at a position determined by which gene is active.
+
+Allow each readout its own unknown registration displacement in [-rho,rho].
+For d<=2*rho, each world can choose the displacement that moves its active
+PSF to zero. Every image is identical despite positive molecular separation.
+The displacements differ between the worlds, but both obey the same calibration
+bounds. For d>2*rho, a readout whose source assignment changes has source means
+separated by d; their allowed translated-center intervals are disjoint. Thus
+the fixed two-world image sets intersect exactly when d<=2*rho, assuming the
+PSF distinguishes unequal translations and retaining the stated geometry.
+
+This is a sharp boundary for this narrow calibration class, not a universal
+resolution limit. Independent per-readout translations are essential. Shared
+round transformations, precise common fiducials, multiple spatial anchors,
+different brightness constraints or measured channel correlations can rule out
+the constructed displacements. The prior data pipeline's per-round transforms
+do not by themselves justify this broader per-readout uncertainty model.
+The theorem concerns what follows from bounds alone, not a claim that the
+measured field is at this limit. Above the boundary, finite photons can still
+prevent reliable discrimination; exact set separation is not useful power.
+
 The candidate future contribution is a claim-specific measurement requirement
 with calibrated photon/registration uncertainty and explicit counterexamples.
 General mixture coding, overlap-aware decoding and experimental encoding design
