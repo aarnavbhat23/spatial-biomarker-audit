@@ -1,0 +1,317 @@
+[
+  {
+    "shift_y_pixels": 0.0,
+    "shift_x_pixels": 0.0,
+    "registration_error": 0.0017263349145650864,
+    "correlation_before": 1.0000000000000002,
+    "correlation_after": 1.0000000000000002,
+    "valid_fraction": 1.0,
+    "tile_shifts_yx": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.0,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 1,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 1.0,
+    "shift_x_pixels": 3.299999952316284,
+    "registration_error": 0.13408921658992767,
+    "correlation_before": 0.3722478464253475,
+    "correlation_after": 0.9910260426615376,
+    "valid_fraction": 0.9968920942550927,
+    "tile_shifts_yx": [
+      [
+        1.0,
+        3.299999952316284
+      ],
+      [
+        1.0,
+        3.299999952316284
+      ],
+      [
+        1.0,
+        3.299999952316284
+      ],
+      [
+        1.0,
+        3.200000047683716
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.09999990463256836,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 2,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 1.399999976158142,
+    "shift_x_pixels": 3.299999952316284,
+    "registration_error": 0.15158066153526306,
+    "correlation_before": 0.3376198843290594,
+    "correlation_after": 0.9884710554947014,
+    "valid_fraction": 0.9962717506992401,
+    "tile_shifts_yx": [
+      [
+        1.399999976158142,
+        3.299999952316284
+      ],
+      [
+        1.399999976158142,
+        3.299999952316284
+      ],
+      [
+        1.399999976158142,
+        3.299999952316284
+      ],
+      [
+        1.399999976158142,
+        3.299999952316284
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.0,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 3,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 0.8999999761581421,
+    "shift_x_pixels": 4.5,
+    "registration_error": 0.1575164943933487,
+    "correlation_before": 0.1641322530794626,
+    "correlation_after": 0.9875100019933274,
+    "valid_fraction": 0.9962705904556818,
+    "tile_shifts_yx": [
+      [
+        0.8999999761581421,
+        4.5
+      ],
+      [
+        0.8999999761581421,
+        4.5
+      ],
+      [
+        0.8999999761581421,
+        4.5
+      ],
+      [
+        0.800000011920929,
+        4.400000095367432
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.14142126351424905,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 4,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 1.600000023841858,
+    "shift_x_pixels": 4.699999809265137,
+    "registration_error": 0.1707993596792221,
+    "correlation_before": 0.11530886861341799,
+    "correlation_after": 0.9855489886518652,
+    "valid_fraction": 0.995650633647682,
+    "tile_shifts_yx": [
+      [
+        1.600000023841858,
+        4.699999809265137
+      ],
+      [
+        1.600000023841858,
+        4.599999904632568
+      ],
+      [
+        1.5,
+        4.699999809265137
+      ],
+      [
+        1.5,
+        4.599999904632568
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.1414213056611164,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 5,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 2.5999999046325684,
+    "shift_x_pixels": 5.800000190734863,
+    "registration_error": 0.1738651543855667,
+    "correlation_before": -0.0035481850597710763,
+    "correlation_after": 0.984776452372405,
+    "valid_fraction": 0.9944099465359768,
+    "tile_shifts_yx": [
+      [
+        2.5999999046325684,
+        5.800000190734863
+      ],
+      [
+        2.5999999046325684,
+        5.800000190734863
+      ],
+      [
+        2.5999999046325684,
+        5.699999809265137
+      ],
+      [
+        2.5,
+        5.699999809265137
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.1414215585425843,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 6,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 3.299999952316284,
+    "shift_x_pixels": 5.699999809265137,
+    "registration_error": 0.17939020693302155,
+    "correlation_before": -0.01896116021894908,
+    "correlation_after": 0.9843435745659672,
+    "valid_fraction": 0.9937903764758298,
+    "tile_shifts_yx": [
+      [
+        3.299999952316284,
+        5.699999809265137
+      ],
+      [
+        3.299999952316284,
+        5.699999809265137
+      ],
+      [
+        3.299999952316284,
+        5.699999809265137
+      ],
+      [
+        3.299999952316284,
+        5.699999809265137
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.0,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 7,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 3.5999999046325684,
+    "shift_x_pixels": 6.099999904632568,
+    "registration_error": 0.19548575580120087,
+    "correlation_before": -0.03825113598177802,
+    "correlation_after": 0.9808360398895631,
+    "valid_fraction": 0.9931700329199772,
+    "tile_shifts_yx": [
+      [
+        3.5999999046325684,
+        6.099999904632568
+      ],
+      [
+        3.5999999046325684,
+        6.199999809265137
+      ],
+      [
+        3.5999999046325684,
+        6.099999904632568
+      ],
+      [
+        3.5999999046325684,
+        6.099999904632568
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.09999990463256836,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 8,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  },
+  {
+    "shift_y_pixels": 4.300000190734863,
+    "shift_x_pixels": 5.900000095367432,
+    "registration_error": 0.19390684366226196,
+    "correlation_before": -0.04337918437508127,
+    "correlation_after": 0.9816717691507169,
+    "valid_fraction": 0.9931708064156828,
+    "tile_shifts_yx": [
+      [
+        4.300000190734863,
+        5.900000095367432
+      ],
+      [
+        4.300000190734863,
+        5.900000095367432
+      ],
+      [
+        4.300000190734863,
+        5.800000190734863
+      ],
+      [
+        4.300000190734863,
+        5.800000190734863
+      ]
+    ],
+    "max_tile_disagreement_pixels": 0.09999990463256836,
+    "interpretation": "estimated translation; tile disagreement is a diagnostic, not a calibrated error bound",
+    "round": 9,
+    "reference_round": 1,
+    "source_frame": 3,
+    "transform_space": "source-configured oriented row/column",
+    "method": "Gaussian bandpass sigma 1 minus sigma 8; phase cross-correlation; 0.1-pixel grid",
+    "split": "development",
+    "field_id": "000"
+  }
+]

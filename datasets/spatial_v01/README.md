@@ -12,6 +12,11 @@ same Tsui et al. source, retained under CC BY 4.0 with SHA-256
 It permits the barcode-collision audit without downloading raw images. The
 audit analyzes possible code combinations, not measured molecular collisions.
 
+`dataorganization.csv` is also an unchanged source metadata file from that
+release (CC BY 4.0). `registration.json` contains our previously recorded
+development-field translation estimates derived from its fiducials; these
+estimates and their tile disagreements are not calibrated target-error bounds.
+
 Allow about **5 GB free disk** and a **3.2 GB download**. There are no paid services.
 Run from the repository root after installing `requirements.txt` and
 `requirements-geometry.txt`:
