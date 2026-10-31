@@ -125,7 +125,7 @@ def run(codebook, output):
     np.savez_compressed(output/'barcode_probe_counts.npz', **saved)
     (output/'barcode_collisions.json').write_text(json.dumps(result, indent=2, allow_nan=False)+'\n')
     with (output/'barcode_probe_summary.csv').open('w') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader(); writer.writerows(rows)
     compact = {k:v for k,v in result.items() if k not in ['codebook', 'photon_settings']}
     compact['codebook'] = {k:{x:y for x,y in v.items() if x != 'collisions'} for k,v in audit.items()}
