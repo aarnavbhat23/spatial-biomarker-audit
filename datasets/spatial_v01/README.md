@@ -6,6 +6,12 @@ CC BY 4.0. Complete creator metadata are fetched and retained. It selects nine
 ZIP members by their fixed field identifier, validates their CRC32 and records
 SHA-256. It does not download the complete 171 GB parent archive.
 
+The small `codebook.csv` beside this README is an unmodified copy from that
+same Tsui et al. source, retained under CC BY 4.0 with SHA-256
+`416db756170566d6e46ed21a8272d41c75114d8c95e384d4f0289df92bcd8c34`.
+It permits the barcode-collision audit without downloading raw images. The
+audit analyzes possible code combinations, not measured molecular collisions.
+
 Allow about **5 GB free disk** and a **3.2 GB download**. There are no paid services.
 Run from the repository root after installing `requirements.txt` and
 `requirements-geometry.txt`:
