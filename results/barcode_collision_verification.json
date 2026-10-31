@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "codebook_worlds_checked": 18915,
+  "method_replicate_decisions_replayed": 192000,
+  "unique_photon_replicates": 96000,
+  "reference": "Sorted integer sums and direct Poisson survival probabilities",
+  "independent_molecular_ground_truth": false
+}

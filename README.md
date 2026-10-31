@@ -1,5 +1,13 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Measurement-identifiability update:** the [full-codebook audit](BARCODE_COLLISION_RESULTS.md)
+finds 858 ambiguous nonblank gene-pair classes under an unresolved,
+equal-brightness additive model. These are possible configurations, not measured
+tissue error rates. A [calibrated independent probe](BARCODE_COLLISION_THEORY.md)
+can distinguish a selected composition; unknown background can defeat it even
+with unlimited repetitions. [Prior-work comparison](BARCODE_COLLISION_PRIOR_ART.md)
+separates this audit from established overlap-aware decoding and coding theory.
+
 **Measured-image and null-model update:** the [frozen follow-up](MEASURED_SPATIAL_RESULTS.md)
 tests 1,000 simulated datasets and one measured MERFISH field. Uniform and coarse
 tile controls mistake shared anatomy for coupling in all structured null cases.

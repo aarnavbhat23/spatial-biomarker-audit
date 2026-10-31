@@ -1,5 +1,16 @@
 # Paper decision after the public molecular-proximity round
 
+**2026-10-30 measurement-identifiability follow-up:** the [six-step screen](BARCODE_COLLISION_RESULTS.md)
+verifies 858 ambiguous classes in the nonblank source-codebook pair universe,
+an independent-probe separator and a sharp background-overlap failure. These
+are restricted model/design results, not observed tissue collisions. The strong
+calibrated probe passes its synthetic feasibility gate; no novel decoder or
+scanner-efficiency advantage follows. [Prior work](BARCODE_COLLISION_PRIOR_ART.md)
+already covers additive-code uniqueness, overlap decoding and measurement design.
+Continue only toward claim-specific measurement requirements with realistic
+near-collision geometry and independent calibration. Grades/submission decision
+remain unchanged.
+
 **2026-10-30 measured-data decision:** continue targeted research; defer submission.
 The [new falsification and raw-image screen](MEASURED_SPATIAL_RESULTS.md) finds
 strong dependence on anatomy assumptions and registration tolerance. The
