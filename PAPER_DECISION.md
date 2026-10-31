@@ -1,6 +1,17 @@
 # Paper decision after the public molecular-proximity round
 
-**2026-10-29 latest decision:** full manuscript work remains deferred. The
+**2026-10-30 measured-data decision:** continue targeted research; defer submission.
+The [new falsification and raw-image screen](MEASURED_SPATIAL_RESULTS.md) finds
+strong dependence on anatomy assumptions and registration tolerance. The
+[conditional bound](CONDITIONAL_PROXIMITY_THEORY.md) is useful in a small-error
+oracle setting but does not handle an unknown tissue intensity, missed molecules
+or gene-call errors. Conventional global-label controls already perform well
+on the declared synthetic cases. Barcode acceptance stability on one field is
+not independent truth or a new decoding method. The next contribution must
+calibrate uncertainty in anatomy and measurement while retaining useful power,
+then validate on reference spots/repeat captures and identified specimens.
+
+**2026-10-29 previous decision:** full manuscript work remains deferred. The
 [frozen public molecular-proximity screen](MOLECULAR_CONFIRMATION_RESULTS.md)
 finds no adjusted positive-proximity rejections among nine evaluable tests in
 either half. Three fixed genes are missing, without replacement. The one-swap

@@ -1,0 +1,105 @@
+{
+  "source_doi": "10.5281/zenodo.15678603",
+  "source_images_sha256": "fbc4d3d0d034373ee896863f540cf11f7ad089f65128a8bb1a7bfa5490afb223",
+  "field_id": "000",
+  "z_index": 14,
+  "split": "development",
+  "codewords": 140,
+  "blank_codewords": 6,
+  "bit_scales": [
+    718.6364135742188,
+    795.5579833984375,
+    764.8229370117188,
+    615.940673828125,
+    569.3943481445312,
+    1436.004638671875,
+    1109.2841796875,
+    762.2711181640625,
+    1495.7337646484375,
+    729.4200439453125,
+    600.0934448242188,
+    697.7667846679688,
+    1650.097412109375,
+    1004.219482421875,
+    412.836181640625,
+    766.0325927734375
+  ],
+  "candidate_strength_threshold": 2.0376245975494385,
+  "acceptance_distance": 0.5,
+  "candidates_before_cap": 1295,
+  "retained_candidates": 1295,
+  "truncated": false,
+  "variants": [
+    {
+      "variant": "nominal",
+      "candidates": 1295,
+      "accepted": 112,
+      "accepted_gene_calls": 112,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 0,
+      "identity_changes_among_jointly_accepted": 0
+    },
+    {
+      "variant": "fiducial_tile_0",
+      "candidates": 1295,
+      "accepted": 112,
+      "accepted_gene_calls": 112,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 0,
+      "identity_changes_among_jointly_accepted": 0
+    },
+    {
+      "variant": "fiducial_tile_1",
+      "candidates": 1295,
+      "accepted": 109,
+      "accepted_gene_calls": 109,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 5,
+      "identity_changes_among_jointly_accepted": 0
+    },
+    {
+      "variant": "fiducial_tile_2",
+      "candidates": 1295,
+      "accepted": 111,
+      "accepted_gene_calls": 111,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 3,
+      "identity_changes_among_jointly_accepted": 0
+    },
+    {
+      "variant": "fiducial_tile_3",
+      "candidates": 1295,
+      "accepted": 108,
+      "accepted_gene_calls": 108,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 6,
+      "identity_changes_among_jointly_accepted": 0
+    },
+    {
+      "variant": "imposed_one_pixel_-1",
+      "candidates": 1295,
+      "accepted": 71,
+      "accepted_gene_calls": 71,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 49,
+      "identity_changes_among_jointly_accepted": 0
+    },
+    {
+      "variant": "imposed_one_pixel_+1",
+      "candidates": 1295,
+      "accepted": 76,
+      "accepted_gene_calls": 76,
+      "accepted_blank_calls": 0,
+      "acceptance_changes_from_nominal": 58,
+      "identity_changes_among_jointly_accepted": 0
+    }
+  ],
+  "nominal_accepted": 112,
+  "stable_across_fiducial_tiles": 105,
+  "stable_across_all_variants": 41,
+  "gene_call_truth_available": false,
+  "detection_recall_evaluated": false,
+  "calibrated_error_bound": false,
+  "independent_biological_validation": false,
+  "novelty": "Transparent conventional nearest-codeword sensitivity screen, not a new decoder."
+}

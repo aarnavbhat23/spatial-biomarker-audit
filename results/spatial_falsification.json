@@ -1,0 +1,411 @@
+{
+  "seed": 2026102907,
+  "repeats": 200,
+  "monte_carlo_draws": 199,
+  "n_per_channel": 128,
+  "radius": 3.0,
+  "periodic_window_side": 100.0,
+  "summary": [
+    {
+      "scenario": "coupled",
+      "method": "conditional_tiles",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "coupled",
+      "method": "global_labels",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "coupled",
+      "method": "oracle",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "coupled",
+      "method": "robust_oracle_rho_0.25",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "coupled",
+      "method": "robust_oracle_rho_0.75",
+      "repetitions": 200,
+      "rejections": 2,
+      "rejection_rate": 0.01,
+      "wilson_95": [
+        0.0027466581335444384,
+        0.0357217617161768
+      ]
+    },
+    {
+      "scenario": "coupled",
+      "method": "robust_oracle_rho_1.5",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "coupled",
+      "method": "uniform_b",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "conditional_tiles",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "global_labels",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "oracle",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "robust_oracle_rho_0.25",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "robust_oracle_rho_0.75",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "robust_oracle_rho_1.5",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "separated",
+      "method": "uniform_b",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "conditional_tiles",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "global_labels",
+      "repetitions": 200,
+      "rejections": 6,
+      "rejection_rate": 0.03,
+      "wilson_95": [
+        0.013820314340111346,
+        0.06389429245451925
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "oracle",
+      "repetitions": 200,
+      "rejections": 5,
+      "rejection_rate": 0.025,
+      "wilson_95": [
+        0.010724719651761264,
+        0.05717834040664198
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "robust_oracle_rho_0.25",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "robust_oracle_rho_0.75",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "robust_oracle_rho_1.5",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "shared_anatomy",
+      "method": "uniform_b",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "conditional_tiles",
+      "repetitions": 200,
+      "rejections": 13,
+      "rejection_rate": 0.065,
+      "wilson_95": [
+        0.03837635464915299,
+        0.10801907929906895
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "global_labels",
+      "repetitions": 200,
+      "rejections": 12,
+      "rejection_rate": 0.06,
+      "wilson_95": [
+        0.03465219425433187,
+        0.1019316929576627
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "oracle",
+      "repetitions": 200,
+      "rejections": 13,
+      "rejection_rate": 0.065,
+      "wilson_95": [
+        0.03837635464915299,
+        0.10801907929906895
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "robust_oracle_rho_0.25",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "robust_oracle_rho_0.75",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "robust_oracle_rho_1.5",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "uniform",
+      "method": "uniform_b",
+      "repetitions": 200,
+      "rejections": 14,
+      "rejection_rate": 0.07,
+      "wilson_95": [
+        0.042152171828342806,
+        0.11405480885610647
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "conditional_tiles",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "global_labels",
+      "repetitions": 200,
+      "rejections": 8,
+      "rejection_rate": 0.04,
+      "wilson_95": [
+        0.020405632066152306,
+        0.07693206820093293
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "oracle",
+      "repetitions": 200,
+      "rejections": 1,
+      "rejection_rate": 0.005,
+      "wilson_95": [
+        0.0008831687156009814,
+        0.02777370439789293
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "robust_oracle_rho_0.25",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "robust_oracle_rho_0.75",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "robust_oracle_rho_1.5",
+      "repetitions": 200,
+      "rejections": 0,
+      "rejection_rate": 0.0,
+      "wilson_95": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ]
+    },
+    {
+      "scenario": "within_cell",
+      "method": "uniform_b",
+      "repetitions": 200,
+      "rejections": 200,
+      "rejection_rate": 1.0,
+      "wilson_95": [
+        0.9811546736227335,
+        1.0
+      ]
+    }
+  ],
+  "gates": {
+    "oracle": {
+      "null_gate": false,
+      "power_gate": true,
+      "passed": false
+    },
+    "robust_oracle_rho_0.25": {
+      "null_gate": true,
+      "power_gate": true,
+      "passed": true
+    }
+  },
+  "pointwise_domination_violations": 0,
+  "measured_data": false,
+  "oracle_intensity_known": true,
+  "novelty": "Cross-nearest-neighbour statistic and conditional resampling are established controls; the bound uses conventional distance envelopes."
+}

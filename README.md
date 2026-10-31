@@ -1,5 +1,15 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Measured-image and null-model update:** the [frozen follow-up](MEASURED_SPATIAL_RESULTS.md)
+tests 1,000 simulated datasets and one measured MERFISH field. Uniform and coarse
+tile controls mistake shared anatomy for coupling in all structured null cases.
+A bounded-error oracle works at small imposed error but requires the true anatomy
+distribution; power collapses at larger error. Of 112 nominally accepted barcode
+calls, 105 survive all fiducial-tile alignments and 41 survive those plus imposed
+one-pixel shifts. This is assignment sensitivity, not biological accuracy.
+[Source acquisition](datasets/spatial_v01/README.md), complete outcomes and
+independent computation replays are available. Submission remains deferred.
+
 **Public-data decision:** the [frozen molecular-proximity study](MOLECULAR_CONFIRMATION_RESULTS.md)
 fails its usefulness gate: **0/9 corrected positive-proximity tests** in each
 technical half of a public VISp field. Three prespecified markers are unavailable

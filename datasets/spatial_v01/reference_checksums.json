@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "spatial/metadata/codebook.csv",
+      "bytes": 8012,
+      "sha256": "416db756170566d6e46ed21a8272d41c75114d8c95e384d4f0289df92bcd8c34"
+    },
+    {
+      "path": "spatial/middle_plane_map.csv",
+      "bytes": 2820,
+      "sha256": "f69902e69dfa99fc0ab37cccd5981c8f2ffcf9a6c5714fec14403b09921fd652"
+    },
+    {
+      "path": "spatial/middle_z14_oriented_unaligned.npy",
+      "bytes": 93084032,
+      "sha256": "fbc4d3d0d034373ee896863f540cf11f7ad089f65128a8bb1a7bfa5490afb223"
+    },
+    {
+      "path": "spatial/registration.json",
+      "bytes": 8894,
+      "sha256": "d74ce356afeafa4c4c89e1406964b1878a8f3c19a4814a13e3c4bb9e4c8d3e75"
+    }
+  ]
+}

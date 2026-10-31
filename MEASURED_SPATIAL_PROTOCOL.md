@@ -29,6 +29,12 @@ This dominates the same oracle Monte Carlo test on latent positions when every
 recorded error is within rho. It assumes the true null intensity is known.
 It is not a solution for unknown anatomy or a newly calibrated real-image bound.
 
+Numerical implementation correction: exhaustive boundary checks exposed floating
+point exclusion at a null upper-bound radius. Use a 1e-10 inward guard for the
+observed lower comparison and outward guard for the null upper comparison in
+this 100-unit window. This correction preserves the declared conservative bound;
+it does not change the scenarios, scientific thresholds or selection gates.
+
 Report all 200-replicate rejection counts, Wilson intervals, power and failures.
 Screen: oracle and rho=.25 robust oracle have 95% upper rejection-rate bounds
 <=.10 on each no-coupling case and 95% lower power bound >=.70 on coupling.

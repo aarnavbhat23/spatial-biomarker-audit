@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "candidate_variant_rows_checked": 9065,
+  "maximum_distance_replay_error": 2.4655727792755044e-08,
+  "reference_computation": "manual bilinear interpolation and direct Euclidean distances",
+  "verified_detection_recall": false,
+  "verified_biological_accuracy": false
+}

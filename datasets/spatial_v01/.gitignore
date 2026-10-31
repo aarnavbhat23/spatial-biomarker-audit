@@ -1,0 +1,10 @@
+source/
+spatial/raw/
+spatial/chunks/
+spatial/metadata/
+spatial/*.npy
+spatial/*.csv
+spatial/*.json
+spatial/*.parquet
+release_checksums.json
+__pycache__/
