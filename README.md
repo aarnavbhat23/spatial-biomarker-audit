@@ -1,5 +1,16 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Minimum-measurement update:** the [shared-fiducial study](FIDUCIAL_MEASUREMENT_RESULTS.md)
+conditions barcode ambiguity on the actual round/color layout and selected bead
+displacements. Small assumed displacement-error allowances are inconsistent with
+the retained matches; larger allowances yield explicit conditional ambiguity
+thresholds. An added specific-probe image with a calibrated background reference
+passes a frozen synthetic gate using a conventional joint-count control (worst
+strong-signal correctness 99.15%). The original conditional test fails (75.05%).
+[Assumptions and boundaries](FIDUCIAL_MEASUREMENT_THEORY.md) explain when even
+the added reference cannot identify the composition. Gene-color calibration and
+independent molecular truth remain missing; submission remains deferred.
+
 **Measurement-identifiability update:** the [full-codebook audit](BARCODE_COLLISION_RESULTS.md)
 finds 858 ambiguous nonblank gene-pair classes under an unresolved,
 equal-brightness additive model. These are possible configurations, not measured

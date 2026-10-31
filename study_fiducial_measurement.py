@@ -1,6 +1,7 @@
 """Structured registration ambiguity and one-image paired-reference feasibility."""
 import argparse
 import csv
+import gzip
 import hashlib
 import itertools
 import json
@@ -236,7 +237,13 @@ if __name__ == '__main__':
     geometry = geometry_audit()
     fiducials = fiducial_audit(args.dataset_root, output)
     probe = probe_screen(output)
-    result = dict(protocol_commit='ee47e68', geometry=geometry, fiducials=fiducials, probe=probe,
+    detail_path = output/'fiducial_geometry_witnesses.json.gz'
+    details = {k:geometry[k] for k in ['comparisons', 'witnesses']}
+    detail_path.write_bytes(gzip.compress(json.dumps(details, sort_keys=True, allow_nan=False).encode(), mtime=0))
+    geometry_summary = {k:v for k,v in geometry.items() if k not in details}
+    geometry_summary['details_file'] = detail_path.name
+    geometry_summary['details_sha256'] = hashlib.sha256(detail_path.read_bytes()).hexdigest()
+    result = dict(protocol_commit='ee47e68', geometry=geometry_summary, fiducials=fiducials, probe=probe,
                   real_one_image_claim_settled=False)
     (output/'fiducial_measurement.json').write_text(json.dumps(result, indent=2, allow_nan=False)+'\n')
     print(json.dumps(dict(geometry={k:v for k,v in geometry.items() if k not in ['comparisons', 'witnesses']},

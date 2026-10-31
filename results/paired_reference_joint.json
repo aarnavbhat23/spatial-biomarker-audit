@@ -1,0 +1,8259 @@
+{
+  "protocol_commit": "0a55e8b",
+  "seed": 2026103004,
+  "repetitions": 2000,
+  "settings": [
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.017,
+      "abstain": 0.983,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0025,
+      "incorrect": 0.0,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0235,
+      "incorrect": 0.0,
+      "abstain": 0.9765,
+      "correct_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.014,
+      "incorrect": 0.003,
+      "abstain": 0.983,
+      "correct_wilson": [
+        0.009703783146220175,
+        0.020159586811157672
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0235,
+      "incorrect": 0.021,
+      "abstain": 0.9555,
+      "correct_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.047,
+      "incorrect": 0.0,
+      "abstain": 0.953,
+      "correct_wilson": [
+        0.038561402365168564,
+        0.05717544247164658
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0155,
+      "incorrect": 0.002,
+      "abstain": 0.9825,
+      "correct_wilson": [
+        0.010940972933704062,
+        0.021916645881830028
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.088,
+      "incorrect": 0.004,
+      "abstain": 0.908,
+      "correct_wilson": [
+        0.07636089079305232,
+        0.10121875616670008
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.009,
+      "abstain": 0.991,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.005700499728577407,
+        0.014182040701612969
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0655,
+      "incorrect": 0.0035,
+      "abstain": 0.931,
+      "correct_wilson": [
+        0.05546852874487852,
+        0.07719738534253028
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0295,
+      "incorrect": 0.0195,
+      "abstain": 0.951,
+      "correct_wilson": [
+        0.02293885238774463,
+        0.037865089103914375
+      ],
+      "incorrect_wilson": [
+        0.014297256348690845,
+        0.026545026088593226
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.221,
+      "incorrect": 0.0,
+      "abstain": 0.779,
+      "correct_wilson": [
+        0.2033600655726267,
+        0.23970964681031237
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0725,
+      "incorrect": 0.0025,
+      "abstain": 0.925,
+      "correct_wilson": [
+        0.06193616869555324,
+        0.08470290672991801
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.2575,
+      "incorrect": 0.001,
+      "abstain": 0.7415,
+      "correct_wilson": [
+        0.23881433369341082,
+        0.27711543423799684
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.021,
+      "abstain": 0.979,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.4135,
+      "incorrect": 0.002,
+      "abstain": 0.5845,
+      "correct_wilson": [
+        0.39210322986916285,
+        0.4352284193104938
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.076,
+      "incorrect": 0.027,
+      "abstain": 0.897,
+      "correct_wilson": [
+        0.06518168804667072,
+        0.08844396804783176
+      ],
+      "incorrect_wilson": [
+        0.020752396241488,
+        0.035061130486577274
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.731,
+      "incorrect": 0.0,
+      "abstain": 0.269,
+      "correct_wilson": [
+        0.711136493558038,
+        0.7499778305980231
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.459,
+      "incorrect": 0.003,
+      "abstain": 0.538,
+      "correct_wilson": [
+        0.4372601333273435,
+        0.48089706454971914
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.739,
+      "incorrect": 0.0,
+      "abstain": 0.261,
+      "correct_wilson": [
+        0.7193072712144236,
+        0.7577763801851375
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.026,
+      "abstain": 0.974,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019882087677964753,
+        0.033935273144663027
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.001,
+      "abstain": 0.999,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0125,
+      "abstain": 0.9875,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.008481081388571086,
+        0.018388039710650523
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.1325,
+      "incorrect": 0.0,
+      "abstain": 0.8675,
+      "correct_wilson": [
+        0.11834352753837758,
+        0.14806550221334328
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.043,
+      "incorrect": 0.0,
+      "abstain": 0.957,
+      "correct_wilson": [
+        0.03495107254461269,
+        0.05280110867045247
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.175,
+      "incorrect": 0.0,
+      "abstain": 0.825,
+      "correct_wilson": [
+        0.1589748608704663,
+        0.19227121986234802
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0135,
+      "abstain": 0.9865,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.009294493997659236,
+        0.019570793006999862
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.287,
+      "incorrect": 0.003,
+      "abstain": 0.71,
+      "correct_wilson": [
+        0.2675978783634713,
+        0.3072187837783423
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.047,
+      "incorrect": 0.0215,
+      "abstain": 0.9315,
+      "correct_wilson": [
+        0.038561402365168564,
+        0.05717544247164658
+      ],
+      "incorrect_wilson": [
+        0.016000780509074646,
+        0.028833833739084404
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.5795,
+      "incorrect": 0.0,
+      "abstain": 0.4205,
+      "correct_wilson": [
+        0.557733506058135,
+        0.6009616834241458
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.301,
+      "incorrect": 0.0055,
+      "abstain": 0.6935,
+      "correct_wilson": [
+        0.28129442275243555,
+        0.321468562065503
+      ],
+      "incorrect_wilson": [
+        0.003073897009543817,
+        0.009822062751615332
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.5925,
+      "incorrect": 0.0,
+      "abstain": 0.4075,
+      "correct_wilson": [
+        0.5708077822521831,
+        0.6138375640007852
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0245,
+      "abstain": 0.9755,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01858163028213664,
+        0.032241481682334906
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.972,
+      "incorrect": 0.002,
+      "abstain": 0.026,
+      "correct_wilson": [
+        0.9638155173143411,
+        0.9783747900521559
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.1615,
+      "incorrect": 0.0235,
+      "abstain": 0.815,
+      "correct_wilson": [
+        0.1460236816757033,
+        0.17827415933370488
+      ],
+      "incorrect_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.996,
+      "incorrect": 0.0,
+      "abstain": 0.004,
+      "correct_wilson": [
+        0.9921265357039621,
+        0.9979717533930348
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.961,
+      "incorrect": 0.004,
+      "abstain": 0.035,
+      "correct_wilson": [
+        0.9515939149560816,
+        0.968638567450603
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.994,
+      "incorrect": 0.0,
+      "abstain": 0.006,
+      "correct_wilson": [
+        0.9895415516630582,
+        0.9965644056230637
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.021,
+      "abstain": 0.979,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.9975,
+      "incorrect": 0.0,
+      "abstain": 0.0025,
+      "correct_wilson": [
+        0.9941608466835673,
+        0.9989316912715861
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.5195,
+      "incorrect": 0.0215,
+      "abstain": 0.459,
+      "correct_wilson": [
+        0.4975871916271909,
+        0.5413380435288401
+      ],
+      "incorrect_wilson": [
+        0.016000780509074646,
+        0.028833833739084404
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.993,
+      "incorrect": 0.0,
+      "abstain": 0.007,
+      "correct_wilson": [
+        0.9882841374366056,
+        0.9958256539440788
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.03,
+      "abstain": 0.97,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.02337785471293825,
+        0.03842416973143951
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.6985,
+      "incorrect": 0.002,
+      "abstain": 0.2995,
+      "correct_wilson": [
+        0.6780229328287194,
+        0.7182159994006231
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.047,
+      "incorrect": 0.0145,
+      "abstain": 0.9385,
+      "correct_wilson": [
+        0.038561402365168564,
+        0.05717544247164658
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.8565,
+      "incorrect": 0.0,
+      "abstain": 0.1435,
+      "correct_wilson": [
+        0.8404514484685872,
+        0.8711816968198796
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.7355,
+      "incorrect": 0.0035,
+      "abstain": 0.261,
+      "correct_wilson": [
+        0.7157315552920356,
+        0.7543655154384943
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.9045,
+      "incorrect": 0.0,
+      "abstain": 0.0955,
+      "correct_wilson": [
+        0.890832875631817,
+        0.9166162331176492
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0125,
+      "incorrect": 0.0085,
+      "abstain": 0.979,
+      "correct_wilson": [
+        0.008481081388571086,
+        0.018388039710650523
+      ],
+      "incorrect_wilson": [
+        0.005313767739685552,
+        0.013570689737786079
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.998,
+      "incorrect": 0.0,
+      "abstain": 0.002,
+      "correct_wilson": [
+        0.994868648214923,
+        0.9992219726929489
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.346,
+      "incorrect": 0.017,
+      "abstain": 0.637,
+      "correct_wilson": [
+        0.3254653360603457,
+        0.3671251145022801
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.994,
+      "incorrect": 0.0,
+      "abstain": 0.006,
+      "correct_wilson": [
+        0.9895415516630582,
+        0.9965644056230637
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0205,
+      "incorrect": 0.021,
+      "abstain": 0.9585,
+      "correct_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.999,
+      "incorrect": 0.0,
+      "abstain": 0.001,
+      "correct_wilson": [
+        0.9963610657309615,
+        0.9997257210823479
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.957,
+      "incorrect": 0.0165,
+      "abstain": 0.0265,
+      "correct_wilson": [
+        0.9471988913295474,
+        0.9650489274553872
+      ],
+      "incorrect_wilson": [
+        0.01177282360725337,
+        0.023080961113718216
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9935,
+      "incorrect": 0.0,
+      "abstain": 0.0065,
+      "correct_wilson": [
+        0.9889104708274775,
+        0.9961974035059259
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.02,
+      "incorrect": 0.0255,
+      "abstain": 0.9545,
+      "correct_wilson": [
+        0.014721726201265444,
+        0.027118639188737373
+      ],
+      "incorrect_wilson": [
+        0.019447915824308683,
+        0.033371362045600345
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.9975,
+      "incorrect": 0.0,
+      "abstain": 0.0025,
+      "correct_wilson": [
+        0.9941608466835673,
+        0.9989316912715861
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9805,
+      "incorrect": 0.0,
+      "abstain": 0.0195,
+      "correct_wilson": [
+        0.9734549739114068,
+        0.9857027436513092
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.994,
+      "incorrect": 0.0,
+      "abstain": 0.006,
+      "correct_wilson": [
+        0.9895415516630582,
+        0.9965644056230637
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.022,
+      "incorrect": 0.025,
+      "abstain": 0.953,
+      "correct_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0005,
+      "abstain": 0.9995,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.017,
+      "abstain": 0.983,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0025,
+      "incorrect": 0.0,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.015,
+      "incorrect": 0.0,
+      "abstain": 0.985,
+      "correct_wilson": [
+        0.010527098037106688,
+        0.021332437825708653
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.004,
+      "incorrect": 0.0,
+      "abstain": 0.996,
+      "correct_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.006,
+      "incorrect": 0.0205,
+      "abstain": 0.9735,
+      "correct_wilson": [
+        0.003435594376936234,
+        0.010458448336941664
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0275,
+      "incorrect": 0.0,
+      "abstain": 0.9725,
+      "correct_wilson": [
+        0.021188498165677007,
+        0.03562311151510701
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.001,
+      "incorrect": 0.0035,
+      "abstain": 0.9955,
+      "correct_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.019,
+      "incorrect": 0.005,
+      "abstain": 0.976,
+      "correct_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ],
+      "incorrect_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.021,
+      "abstain": 0.979,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.006,
+      "incorrect": 0.001,
+      "abstain": 0.993,
+      "correct_wilson": [
+        0.003435594376936234,
+        0.010458448336941664
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0025,
+      "incorrect": 0.0205,
+      "abstain": 0.977,
+      "correct_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0275,
+      "incorrect": 0.0,
+      "abstain": 0.9725,
+      "correct_wilson": [
+        0.021188498165677007,
+        0.03562311151510701
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0035,
+      "incorrect": 0.003,
+      "abstain": 0.9935,
+      "correct_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0335,
+      "incorrect": 0.0005,
+      "abstain": 0.966,
+      "correct_wilson": [
+        0.026465276470638475,
+        0.042323328642770504
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.017,
+      "abstain": 0.983,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.018,
+      "incorrect": 0.0025,
+      "abstain": 0.9795,
+      "correct_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0005,
+      "incorrect": 0.0215,
+      "abstain": 0.978,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        0.016000780509074646,
+        0.028833833739084404
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.069,
+      "incorrect": 0.0,
+      "abstain": 0.931,
+      "correct_wilson": [
+        0.05869826979779586,
+        0.08095422495864418
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.012,
+      "incorrect": 0.003,
+      "abstain": 0.985,
+      "correct_wilson": [
+        0.008077154276022635,
+        0.017793883870480226
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.065,
+      "incorrect": 0.0,
+      "abstain": 0.935,
+      "correct_wilson": [
+        0.055007837621403224,
+        0.07665999351328683
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.017,
+      "abstain": 0.983,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0005,
+      "abstain": 0.9995,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0125,
+      "abstain": 0.9875,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.008481081388571086,
+        0.018388039710650523
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.1145,
+      "incorrect": 0.0,
+      "abstain": 0.8855,
+      "correct_wilson": [
+        0.10127782200421726,
+        0.12920022144962875
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0265,
+      "incorrect": 0.0,
+      "abstain": 0.9735,
+      "correct_wilson": [
+        0.020316920414969065,
+        0.03449852336037745
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.1255,
+      "incorrect": 0.0,
+      "abstain": 0.8745,
+      "correct_wilson": [
+        0.11169516279841597,
+        0.14074070561524243
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.134,
+      "incorrect": 0.0015,
+      "abstain": 0.8645,
+      "correct_wilson": [
+        0.11976999062102056,
+        0.14963328798885656
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0125,
+      "incorrect": 0.0165,
+      "abstain": 0.971,
+      "correct_wilson": [
+        0.008481081388571086,
+        0.018388039710650523
+      ],
+      "incorrect_wilson": [
+        0.01177282360725337,
+        0.023080961113718216
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.346,
+      "incorrect": 0.0,
+      "abstain": 0.654,
+      "correct_wilson": [
+        0.3254653360603457,
+        0.3671251145022801
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.1655,
+      "incorrect": 0.003,
+      "abstain": 0.8315,
+      "correct_wilson": [
+        0.14985708438214576,
+        0.1824254202490124
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.414,
+      "incorrect": 0.0005,
+      "abstain": 0.5855,
+      "correct_wilson": [
+        0.39259844495741614,
+        0.43573128717495924
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0165,
+      "abstain": 0.9835,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01177282360725337,
+        0.023080961113718216
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.8445,
+      "incorrect": 0.0025,
+      "abstain": 0.153,
+      "correct_wilson": [
+        0.8279593275922938,
+        0.859719826830923
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0205,
+      "incorrect": 0.025,
+      "abstain": 0.9545,
+      "correct_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.9545,
+      "incorrect": 0.0,
+      "abstain": 0.0455,
+      "correct_wilson": [
+        0.9444626753715425,
+        0.9627947286497985
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.806,
+      "incorrect": 0.004,
+      "abstain": 0.19,
+      "correct_wilson": [
+        0.7880899514249193,
+        0.8227368156389538
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.9505,
+      "incorrect": 0.0,
+      "abstain": 0.0495,
+      "correct_wilson": [
+        0.9400999950103993,
+        0.9591727453891917
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.018,
+      "abstain": 0.982,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.999,
+      "incorrect": 0.0,
+      "abstain": 0.001,
+      "correct_wilson": [
+        0.9963610657309615,
+        0.9997257210823479
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0155,
+      "incorrect": 0.0255,
+      "abstain": 0.959,
+      "correct_wilson": [
+        0.010940972933704062,
+        0.021916645881830028
+      ],
+      "incorrect_wilson": [
+        0.019447915824308683,
+        0.033371362045600345
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.994,
+      "incorrect": 0.0,
+      "abstain": 0.006,
+      "correct_wilson": [
+        0.9895415516630582,
+        0.9965644056230637
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.021,
+      "abstain": 0.979,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.6275,
+      "incorrect": 0.0005,
+      "abstain": 0.372,
+      "correct_wilson": [
+        0.6060858442270278,
+        0.6484253087162526
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.021,
+      "incorrect": 0.0105,
+      "abstain": 0.9685,
+      "correct_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ],
+      "incorrect_wilson": [
+        0.006877887380873443,
+        0.015998901907473176
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.817,
+      "incorrect": 0.0,
+      "abstain": 0.183,
+      "correct_wilson": [
+        0.7994515474981367,
+        0.8333330445255487
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.647,
+      "incorrect": 0.002,
+      "abstain": 0.351,
+      "correct_wilson": [
+        0.6257917571764973,
+        0.6676446309228143
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.8615,
+      "incorrect": 0.0,
+      "abstain": 0.1385,
+      "correct_wilson": [
+        0.8456670391022474,
+        0.8759469357134069
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.005,
+      "incorrect": 0.0115,
+      "abstain": 0.9835,
+      "correct_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ],
+      "incorrect_wilson": [
+        0.007675227286212753,
+        0.01719772790757136
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.999,
+      "incorrect": 0.0,
+      "abstain": 0.001,
+      "correct_wilson": [
+        0.9963610657309615,
+        0.9997257210823479
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.196,
+      "incorrect": 0.018,
+      "abstain": 0.786,
+      "correct_wilson": [
+        0.17919210630660154,
+        0.21397345844040022
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.994,
+      "incorrect": 0.001,
+      "abstain": 0.005,
+      "correct_wilson": [
+        0.9895415516630582,
+        0.9965644056230637
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.005,
+      "incorrect": 0.0235,
+      "abstain": 0.9715,
+      "correct_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ],
+      "incorrect_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.998,
+      "incorrect": 0.0,
+      "abstain": 0.002,
+      "correct_wilson": [
+        0.994868648214923,
+        0.9992219726929489
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.7605,
+      "incorrect": 0.0205,
+      "abstain": 0.219,
+      "correct_wilson": [
+        0.7413078324035932,
+        0.7786933859628739
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.994,
+      "incorrect": 0.0,
+      "abstain": 0.006,
+      "correct_wilson": [
+        0.9895415516630582,
+        0.9965644056230637
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.001,
+      "incorrect": 0.021,
+      "abstain": 0.978,
+      "correct_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.9975,
+      "incorrect": 0.0,
+      "abstain": 0.0025,
+      "correct_wilson": [
+        0.9941608466835673,
+        0.9989316912715861
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9705,
+      "incorrect": 0.0005,
+      "abstain": 0.029,
+      "correct_wilson": [
+        0.9621349108960856,
+        0.9770611476122554
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.993,
+      "incorrect": 0.0,
+      "abstain": 0.007,
+      "correct_wilson": [
+        0.9882841374366056,
+        0.9958256539440788
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0285,
+      "abstain": 0.9715,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.022062516054529094,
+        0.03674525953169242
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.001,
+      "abstain": 0.999,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0145,
+      "abstain": 0.9855,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0005,
+      "incorrect": 0.0,
+      "abstain": 0.9995,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0065,
+      "incorrect": 0.0,
+      "abstain": 0.9935,
+      "correct_wilson": [
+        0.0038025964940741515,
+        0.011089529172522494
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0005,
+      "incorrect": 0.003,
+      "abstain": 0.9965,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0005,
+      "incorrect": 0.0185,
+      "abstain": 0.981,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.003,
+      "incorrect": 0.0,
+      "abstain": 0.997,
+      "correct_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.003,
+      "abstain": 0.997,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.002,
+      "incorrect": 0.004,
+      "abstain": 0.994,
+      "correct_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0015,
+      "abstain": 0.9985,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0175,
+      "abstain": 0.9825,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.012609752959581211,
+        0.024240197666827872
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.001,
+      "incorrect": 0.0,
+      "abstain": 0.999,
+      "correct_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.004,
+      "abstain": 0.996,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.001,
+      "abstain": 0.999,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0195,
+      "abstain": 0.9805,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.014297256348690845,
+        0.026545026088593226
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0005,
+      "abstain": 0.9995,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0055,
+      "abstain": 0.9945,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.003073897009543817,
+        0.009822062751615332
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.022,
+      "abstain": 0.978,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.001,
+      "abstain": 0.999,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0135,
+      "abstain": 0.9865,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.009294493997659236,
+        0.019570793006999862
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0035,
+      "incorrect": 0.0,
+      "abstain": 0.9965,
+      "correct_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0545,
+      "incorrect": 0.0,
+      "abstain": 0.9455,
+      "correct_wilson": [
+        0.045378356153563185,
+        0.06532973297403316
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0495,
+      "incorrect": 0.001,
+      "abstain": 0.9495,
+      "correct_wilson": [
+        0.040827254610808245,
+        0.059900004989600644
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0025,
+      "incorrect": 0.022,
+      "abstain": 0.9755,
+      "correct_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ],
+      "incorrect_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.13,
+      "incorrect": 0.0,
+      "abstain": 0.87,
+      "correct_wilson": [
+        0.1159674906239881,
+        0.14545112436413904
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0385,
+      "incorrect": 0.003,
+      "abstain": 0.9585,
+      "correct_wilson": [
+        0.03091432761660475,
+        0.047855107023991705
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.1855,
+      "incorrect": 0.0,
+      "abstain": 0.8145,
+      "correct_wilson": [
+        0.1690732403049362,
+        0.20313258243497184
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0135,
+      "abstain": 0.9865,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.009294493997659236,
+        0.019570793006999862
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.357,
+      "incorrect": 0.0025,
+      "abstain": 0.6405,
+      "correct_wilson": [
+        0.3362947366265104,
+        0.3782535388959279
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0005,
+      "incorrect": 0.021,
+      "abstain": 0.9785,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.6005,
+      "incorrect": 0.0,
+      "abstain": 0.3995,
+      "correct_wilson": [
+        0.5788612116287786,
+        0.6217534618676896
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.2895,
+      "incorrect": 0.009,
+      "abstain": 0.7015,
+      "correct_wilson": [
+        0.2700420224153538,
+        0.30976505449005354
+      ],
+      "incorrect_wilson": [
+        0.005700499728577407,
+        0.014182040701612969
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.585,
+      "incorrect": 0.0,
+      "abstain": 0.415,
+      "correct_wilson": [
+        0.5632630456485423,
+        0.6064110563136447
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.029,
+      "abstain": 0.971,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.022500401616129873,
+        0.03730545692281039
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.976,
+      "incorrect": 0.002,
+      "abstain": 0.022,
+      "correct_wilson": [
+        0.9683245276915415,
+        0.9818504432967055
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.025,
+      "abstain": 0.975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.997,
+      "incorrect": 0.0,
+      "abstain": 0.003,
+      "correct_wilson": [
+        0.9934700849260646,
+        0.9986243700763698
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.951,
+      "incorrect": 0.0055,
+      "abstain": 0.0435,
+      "correct_wilson": [
+        0.9406443633026171,
+        0.9596264600496927
+      ],
+      "incorrect_wilson": [
+        0.003073897009543817,
+        0.009822062751615332
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.9945,
+      "incorrect": 0.0,
+      "abstain": 0.0055,
+      "correct_wilson": [
+        0.9901779372483848,
+        0.9969261029904561
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.024,
+      "abstain": 0.976,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.018149556703294482,
+        0.03167547230845831
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.5425,
+      "incorrect": 0.001,
+      "abstain": 0.4565,
+      "correct_wilson": [
+        0.520605552475454,
+        0.5642314985056394
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0075,
+      "incorrect": 0.0105,
+      "abstain": 0.982,
+      "correct_wilson": [
+        0.004550377435809225,
+        0.012337914136224913
+      ],
+      "incorrect_wilson": [
+        0.006877887380873443,
+        0.015998901907473176
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.7665,
+      "incorrect": 0.0,
+      "abstain": 0.2335,
+      "correct_wilson": [
+        0.7474588661886875,
+        0.7845193476104045
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.545,
+      "incorrect": 0.0055,
+      "abstain": 0.4495,
+      "correct_wilson": [
+        0.5231103560332848,
+        0.5667171097114025
+      ],
+      "incorrect_wilson": [
+        0.003073897009543817,
+        0.009822062751615332
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.799,
+      "incorrect": 0.0,
+      "abstain": 0.201,
+      "correct_wilson": [
+        0.7808710507776225,
+        0.8159825549481882
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0015,
+      "incorrect": 0.0105,
+      "abstain": 0.988,
+      "correct_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ],
+      "incorrect_wilson": [
+        0.006877887380873443,
+        0.015998901907473176
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.999,
+      "incorrect": 0.0,
+      "abstain": 0.001,
+      "correct_wilson": [
+        0.9963610657309615,
+        0.9997257210823479
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.068,
+      "incorrect": 0.0175,
+      "abstain": 0.9145,
+      "correct_wilson": [
+        0.05777462902670909,
+        0.07988169982429345
+      ],
+      "incorrect_wilson": [
+        0.012609752959581211,
+        0.024240197666827872
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.993,
+      "incorrect": 0.001,
+      "abstain": 0.006,
+      "correct_wilson": [
+        0.9882841374366056,
+        0.9958256539440788
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.015,
+      "abstain": 0.985,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.010527098037106688,
+        0.021332437825708653
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.999,
+      "incorrect": 0.0,
+      "abstain": 0.001,
+      "correct_wilson": [
+        0.9963610657309615,
+        0.9997257210823479
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.242,
+      "incorrect": 0.0305,
+      "abstain": 0.7275,
+      "correct_wilson": [
+        0.22373559735998083,
+        0.2612535990371456
+      ],
+      "incorrect_wilson": [
+        0.02381739549016912,
+        0.03898271190692737
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9915,
+      "incorrect": 0.0,
+      "abstain": 0.0085,
+      "correct_wilson": [
+        0.9864293102622139,
+        0.9946862322603145
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0215,
+      "abstain": 0.9785,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.016000780509074646,
+        0.028833833739084404
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.9985,
+      "incorrect": 0.0,
+      "abstain": 0.0015,
+      "correct_wilson": [
+        0.9955989674442294,
+        0.9994897364163615
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.75,
+      "incorrect": 0.028,
+      "abstain": 0.222,
+      "correct_wilson": [
+        0.7305556107841923,
+        0.7684858655751813
+      ],
+      "incorrect_wilson": [
+        0.021625209947844046,
+        0.03618448268565872
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9915,
+      "incorrect": 0.0,
+      "abstain": 0.0085,
+      "correct_wilson": [
+        0.9864293102622139,
+        0.9946862322603145
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 2.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.023,
+      "abstain": 0.977,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.017287655978080053,
+        0.030541207128235243
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0045,
+      "incorrect": 0.002,
+      "abstain": 0.9935,
+      "correct_wilson": [
+        0.0023692806369618345,
+        0.008530513218759823
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.02,
+      "incorrect": 0.017,
+      "abstain": 0.963,
+      "correct_wilson": [
+        0.014721726201265444,
+        0.027118639188737373
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0135,
+      "abstain": 0.9865,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.009294493997659236,
+        0.019570793006999862
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0045,
+      "incorrect": 0.0015,
+      "abstain": 0.994,
+      "correct_wilson": [
+        0.0023692806369618345,
+        0.008530513218759823
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0245,
+      "incorrect": 0.015,
+      "abstain": 0.9605,
+      "correct_wilson": [
+        0.01858163028213664,
+        0.032241481682334906
+      ],
+      "incorrect_wilson": [
+        0.010527098037106688,
+        0.021332437825708653
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0205,
+      "incorrect": 0.0,
+      "abstain": 0.9795,
+      "correct_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0065,
+      "incorrect": 0.0025,
+      "abstain": 0.991,
+      "correct_wilson": [
+        0.0038025964940741515,
+        0.011089529172522494
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.041,
+      "incorrect": 0.0245,
+      "abstain": 0.9345,
+      "correct_wilson": [
+        0.03315349074927443,
+        0.05060635865491575
+      ],
+      "incorrect_wilson": [
+        0.01858163028213664,
+        0.032241481682334906
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.007,
+      "incorrect": 0.0025,
+      "abstain": 0.9905,
+      "correct_wilson": [
+        0.0041743460559210965,
+        0.011715862563394297
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.035,
+      "incorrect": 0.0205,
+      "abstain": 0.9445,
+      "correct_wilson": [
+        0.027795569156293554,
+        0.04398728481527167
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0355,
+      "incorrect": 0.0,
+      "abstain": 0.9645,
+      "correct_wilson": [
+        0.028239876230264,
+        0.04454106069401996
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0115,
+      "incorrect": 0.001,
+      "abstain": 0.9875,
+      "correct_wilson": [
+        0.007675227286212753,
+        0.01719772790757136
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0685,
+      "incorrect": 0.027,
+      "abstain": 0.9045,
+      "correct_wilson": [
+        0.05823636538977861,
+        0.08041804641394268
+      ],
+      "incorrect_wilson": [
+        0.020752396241488,
+        0.035061130486577274
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.025,
+      "abstain": 0.975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.02,
+      "incorrect": 0.005,
+      "abstain": 0.975,
+      "correct_wilson": [
+        0.014721726201265444,
+        0.027118639188737373
+      ],
+      "incorrect_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.089,
+      "incorrect": 0.0295,
+      "abstain": 0.8815,
+      "correct_wilson": [
+        0.07729578599356494,
+        0.10228002687162495
+      ],
+      "incorrect_wilson": [
+        0.02293885238774463,
+        0.037865089103914375
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0925,
+      "incorrect": 0.0,
+      "abstain": 0.9075,
+      "correct_wilson": [
+        0.08057157812198121,
+        0.10599081541223992
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.06,
+      "incorrect": 0.001,
+      "abstain": 0.939,
+      "correct_wilson": [
+        0.050411197114316506,
+        0.07127580449318606
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.2265,
+      "incorrect": 0.018,
+      "abstain": 0.7555,
+      "correct_wilson": [
+        0.2086902655828713,
+        0.24535835927997401
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.022,
+      "abstain": 0.978,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.064,
+      "incorrect": 0.0015,
+      "abstain": 0.9345,
+      "correct_wilson": [
+        0.05408699935255319,
+        0.07558466587669936
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.2235,
+      "incorrect": 0.0225,
+      "abstain": 0.754,
+      "correct_wilson": [
+        0.20578231824139684,
+        0.24227780890513598
+      ],
+      "incorrect_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.2315,
+      "incorrect": 0.0,
+      "abstain": 0.7685,
+      "correct_wilson": [
+        0.21353981142967077,
+        0.250489642960362
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.01,
+      "incorrect": 0.001,
+      "abstain": 0.989,
+      "correct_wilson": [
+        0.006482767876552687,
+        0.015395938459075187
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.056,
+      "incorrect": 0.0155,
+      "abstain": 0.9285,
+      "correct_wilson": [
+        0.04674833393876454,
+        0.06695400404698805
+      ],
+      "incorrect_wilson": [
+        0.010940972933704062,
+        0.021916645881830028
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.012,
+      "abstain": 0.988,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.008077154276022635,
+        0.017793883870480226
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0125,
+      "incorrect": 0.0025,
+      "abstain": 0.985,
+      "correct_wilson": [
+        0.008481081388571086,
+        0.018388039710650523
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.069,
+      "incorrect": 0.0145,
+      "abstain": 0.9165,
+      "correct_wilson": [
+        0.05869826979779586,
+        0.08095422495864418
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.067,
+      "incorrect": 0.0,
+      "abstain": 0.933,
+      "correct_wilson": [
+        0.05685166729541342,
+        0.07880849565015163
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.061,
+      "incorrect": 0.005,
+      "abstain": 0.934,
+      "correct_wilson": [
+        0.05132898110812262,
+        0.07235418640481744
+      ],
+      "incorrect_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.191,
+      "incorrect": 0.0255,
+      "abstain": 0.7835,
+      "correct_wilson": [
+        0.1743711269973035,
+        0.20881360822251077
+      ],
+      "incorrect_wilson": [
+        0.019447915824308683,
+        0.033371362045600345
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0265,
+      "abstain": 0.9735,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.020316920414969065,
+        0.03449852336037745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.047,
+      "incorrect": 0.0015,
+      "abstain": 0.9515,
+      "correct_wilson": [
+        0.038561402365168564,
+        0.05717544247164658
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.188,
+      "incorrect": 0.015,
+      "abstain": 0.797,
+      "correct_wilson": [
+        0.17148068565539723,
+        0.20571555184810456
+      ],
+      "incorrect_wilson": [
+        0.010527098037106688,
+        0.021332437825708653
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.1875,
+      "incorrect": 0.0,
+      "abstain": 0.8125,
+      "correct_wilson": [
+        0.1709991046047915,
+        0.20519904994599153
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.3655,
+      "incorrect": 0.0015,
+      "abstain": 0.633,
+      "correct_wilson": [
+        0.3446711541986199,
+        0.386844531520037
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.645,
+      "incorrect": 0.0215,
+      "abstain": 0.3335,
+      "correct_wilson": [
+        0.6237689097706326,
+        0.665675146517804
+      ],
+      "incorrect_wilson": [
+        0.016000780509074646,
+        0.028833833739084404
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.025,
+      "abstain": 0.975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.3355,
+      "incorrect": 0.005,
+      "abstain": 0.6595,
+      "correct_wilson": [
+        0.3151396320427095,
+        0.3564910765128227
+      ],
+      "incorrect_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.639,
+      "incorrect": 0.0225,
+      "abstain": 0.3385,
+      "correct_wilson": [
+        0.6177027540317526,
+        0.6597643068240591
+      ],
+      "incorrect_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.6645,
+      "incorrect": 0.0,
+      "abstain": 0.3355,
+      "correct_wilson": [
+        0.6435089234871773,
+        0.6848603679572906
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.981,
+      "incorrect": 0.004,
+      "abstain": 0.015,
+      "correct_wilson": [
+        0.974029585433736,
+        0.9861262150816985
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9795,
+      "incorrect": 0.005,
+      "abstain": 0.0155,
+      "correct_wilson": [
+        0.9723087105210271,
+        0.9848528411362514
+      ],
+      "incorrect_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0215,
+      "abstain": 0.9785,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.016000780509074646,
+        0.028833833739084404
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.975,
+      "incorrect": 0.0045,
+      "abstain": 0.0205,
+      "correct_wilson": [
+        0.9671932285868021,
+        0.9809855764960074
+      ],
+      "incorrect_wilson": [
+        0.0023692806369618345,
+        0.008530513218759823
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.9755,
+      "incorrect": 0.0045,
+      "abstain": 0.02,
+      "correct_wilson": [
+        0.9677585183176651,
+        0.9814183697178633
+      ],
+      "incorrect_wilson": [
+        0.0023692806369618345,
+        0.008530513218759823
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.997,
+      "incorrect": 0.0,
+      "abstain": 0.003,
+      "correct_wilson": [
+        0.9934700849260646,
+        0.9986243700763698
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.219,
+      "incorrect": 0.0015,
+      "abstain": 0.7795,
+      "correct_wilson": [
+        0.20142295024698076,
+        0.23765443032508332
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.427,
+      "incorrect": 0.0195,
+      "abstain": 0.5535,
+      "correct_wilson": [
+        0.4054820253501738,
+        0.44879786355288903
+      ],
+      "incorrect_wilson": [
+        0.014297256348690845,
+        0.026545026088593226
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.011,
+      "incorrect": 0.017,
+      "abstain": 0.972,
+      "correct_wilson": [
+        0.007275425411318251,
+        0.016599446829747115
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.243,
+      "incorrect": 0.002,
+      "abstain": 0.755,
+      "correct_wilson": [
+        0.224707434303008,
+        0.26227792799955596
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.531,
+      "incorrect": 0.0205,
+      "abstain": 0.4485,
+      "correct_wilson": [
+        0.5090905584995371,
+        0.5527905845690253
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.5275,
+      "incorrect": 0.0,
+      "abstain": 0.4725,
+      "correct_wilson": [
+        0.5055883051812351,
+        0.5493062572182958
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.9405,
+      "incorrect": 0.0015,
+      "abstain": 0.058,
+      "correct_wilson": [
+        0.9292636881836284,
+        0.9500473931615877
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9785,
+      "incorrect": 0.0185,
+      "abstain": 0.003,
+      "correct_wilson": [
+        0.9711661662609156,
+        0.9839992194909254
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0225,
+      "incorrect": 0.0185,
+      "abstain": 0.959,
+      "correct_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9335,
+      "incorrect": 0.002,
+      "abstain": 0.0645,
+      "correct_wilson": [
+        0.9217283654429757,
+        0.9436095545641779
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.982,
+      "incorrect": 0.0135,
+      "abstain": 0.0045,
+      "correct_wilson": [
+        0.9751819578651543,
+        0.9869700085557177
+      ],
+      "incorrect_wilson": [
+        0.009294493997659236,
+        0.019570793006999862
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.9905,
+      "incorrect": 0.0,
+      "abstain": 0.0095,
+      "correct_wilson": [
+        0.9852096168457007,
+        0.9939097597713902
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.995,
+      "incorrect": 0.0,
+      "abstain": 0.005,
+      "correct_wilson": [
+        0.990820304050058,
+        0.9972818191415014
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.975,
+      "incorrect": 0.0,
+      "abstain": 0.025,
+      "correct_wilson": [
+        0.9671932285868021,
+        0.9809855764960074
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0225,
+      "incorrect": 0.027,
+      "abstain": 0.9505,
+      "correct_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ],
+      "incorrect_wilson": [
+        0.020752396241488,
+        0.035061130486577274
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9965,
+      "incorrect": 0.0,
+      "abstain": 0.0035,
+      "correct_wilson": [
+        0.9927928037467583,
+        0.9983035683029576
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.973,
+      "incorrect": 0.0,
+      "abstain": 0.027,
+      "correct_wilson": [
+        0.9649388695134226,
+        0.9792476037585119
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.998,
+      "incorrect": 0.0,
+      "abstain": 0.002,
+      "correct_wilson": [
+        0.994868648214923,
+        0.9992219726929489
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9755,
+      "incorrect": 0.0,
+      "abstain": 0.0245,
+      "correct_wilson": [
+        0.9677585183176651,
+        0.9814183697178633
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0225,
+      "incorrect": 0.025,
+      "abstain": 0.9525,
+      "correct_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9975,
+      "incorrect": 0.0,
+      "abstain": 0.0025,
+      "correct_wilson": [
+        0.9941608466835673,
+        0.9989316912715861
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.9775,
+      "incorrect": 0.0,
+      "abstain": 0.0225,
+      "correct_wilson": [
+        0.9700270953304039,
+        0.9831421245159996
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.0,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0005,
+      "incorrect": 0.0005,
+      "abstain": 0.999,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0065,
+      "incorrect": 0.0205,
+      "abstain": 0.973,
+      "correct_wilson": [
+        0.0038025964940741515,
+        0.011089529172522494
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0145,
+      "abstain": 0.9855,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.003,
+      "abstain": 0.997,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.004,
+      "incorrect": 0.019,
+      "abstain": 0.977,
+      "correct_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.005,
+      "incorrect": 0.0,
+      "abstain": 0.995,
+      "correct_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0035,
+      "abstain": 0.9965,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.003,
+      "incorrect": 0.019,
+      "abstain": 0.978,
+      "correct_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0265,
+      "abstain": 0.9735,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.020316920414969065,
+        0.03449852336037745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.003,
+      "incorrect": 0.0175,
+      "abstain": 0.9795,
+      "correct_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ],
+      "incorrect_wilson": [
+        0.012609752959581211,
+        0.024240197666827872
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.002,
+      "incorrect": 0.0,
+      "abstain": 0.998,
+      "correct_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.004,
+      "abstain": 0.996,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0235,
+      "abstain": 0.9765,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0285,
+      "abstain": 0.9715,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.022062516054529094,
+        0.03674525953169242
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0165,
+      "abstain": 0.9835,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01177282360725337,
+        0.023080961113718216
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0165,
+      "abstain": 0.9835,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01177282360725337,
+        0.023080961113718216
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.018,
+      "abstain": 0.982,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0235,
+      "abstain": 0.9765,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.005,
+      "incorrect": 0.004,
+      "abstain": 0.991,
+      "correct_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.018,
+      "incorrect": 0.02,
+      "abstain": 0.962,
+      "correct_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ],
+      "incorrect_wilson": [
+        0.014721726201265444,
+        0.027118639188737373
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.02,
+      "abstain": 0.98,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.014721726201265444,
+        0.027118639188737373
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.001,
+      "incorrect": 0.0035,
+      "abstain": 0.9955,
+      "correct_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.022,
+      "incorrect": 0.0225,
+      "abstain": 0.9555,
+      "correct_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ],
+      "incorrect_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.015,
+      "incorrect": 0.0,
+      "abstain": 0.985,
+      "correct_wilson": [
+        0.010527098037106688,
+        0.021332437825708653
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.005,
+      "incorrect": 0.002,
+      "abstain": 0.993,
+      "correct_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.024,
+      "incorrect": 0.021,
+      "abstain": 0.955,
+      "correct_wilson": [
+        0.018149556703294482,
+        0.03167547230845831
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0275,
+      "abstain": 0.9725,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.021188498165677007,
+        0.03562311151510701
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.003,
+      "incorrect": 0.002,
+      "abstain": 0.995,
+      "correct_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.022,
+      "incorrect": 0.0185,
+      "abstain": 0.9595,
+      "correct_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0255,
+      "incorrect": 0.0,
+      "abstain": 0.9745,
+      "correct_wilson": [
+        0.019447915824308683,
+        0.033371362045600345
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0035,
+      "incorrect": 0.0015,
+      "abstain": 0.995,
+      "correct_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0275,
+      "incorrect": 0.025,
+      "abstain": 0.9475,
+      "correct_wilson": [
+        0.021188498165677007,
+        0.03562311151510701
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.025,
+      "abstain": 0.975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0035,
+      "incorrect": 0.004,
+      "abstain": 0.9925,
+      "correct_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.024,
+      "incorrect": 0.0245,
+      "abstain": 0.9515,
+      "correct_wilson": [
+        0.018149556703294482,
+        0.03167547230845831
+      ],
+      "incorrect_wilson": [
+        0.01858163028213664,
+        0.032241481682334906
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0315,
+      "incorrect": 0.0,
+      "abstain": 0.9685,
+      "correct_wilson": [
+        0.02469804258437448,
+        0.0400982307181595
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.002,
+      "incorrect": 0.0035,
+      "abstain": 0.9945,
+      "correct_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.019,
+      "incorrect": 0.0255,
+      "abstain": 0.9555,
+      "correct_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ],
+      "incorrect_wilson": [
+        0.019447915824308683,
+        0.033371362045600345
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.03,
+      "abstain": 0.97,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.02337785471293825,
+        0.03842416973143951
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.003,
+      "incorrect": 0.0045,
+      "abstain": 0.9925,
+      "correct_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ],
+      "incorrect_wilson": [
+        0.0023692806369618345,
+        0.008530513218759823
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.023,
+      "incorrect": 0.028,
+      "abstain": 0.949,
+      "correct_wilson": [
+        0.017287655978080053,
+        0.030541207128235243
+      ],
+      "incorrect_wilson": [
+        0.021625209947844046,
+        0.03618448268565872
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.022,
+      "incorrect": 0.0,
+      "abstain": 0.978,
+      "correct_wilson": [
+        0.0164289081143177,
+        0.0294037890865601
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.111,
+      "incorrect": 0.0025,
+      "abstain": 0.8865,
+      "correct_wilson": [
+        0.09797153726075743,
+        0.12551992552405733
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.2475,
+      "incorrect": 0.018,
+      "abstain": 0.7345,
+      "correct_wilson": [
+        0.2290824041590487,
+        0.26688570471798395
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0045,
+      "incorrect": 0.017,
+      "abstain": 0.9785,
+      "correct_wilson": [
+        0.0023692806369618345,
+        0.008530513218759823
+      ],
+      "incorrect_wilson": [
+        0.012190680521843938,
+        0.023661187151846397
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.108,
+      "incorrect": 0.0055,
+      "abstain": 0.8865,
+      "correct_wilson": [
+        0.0951409941930465,
+        0.12236197087545578
+      ],
+      "incorrect_wilson": [
+        0.003073897009543817,
+        0.009822062751615332
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.331,
+      "incorrect": 0.0155,
+      "abstain": 0.6535,
+      "correct_wilson": [
+        0.31071781694683853,
+        0.35193014503422493
+      ],
+      "incorrect_wilson": [
+        0.010940972933704062,
+        0.021916645881830028
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.344,
+      "incorrect": 0.0,
+      "abstain": 0.656,
+      "correct_wilson": [
+        0.32349766533155805,
+        0.36510045342019276
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.694,
+      "incorrect": 0.0025,
+      "abstain": 0.3035,
+      "correct_wilson": [
+        0.6734476531944407,
+        0.7138085324604331
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.8625,
+      "incorrect": 0.016,
+      "abstain": 0.1215,
+      "correct_wilson": [
+        0.846710940600441,
+        0.8768992001206507
+      ],
+      "incorrect_wilson": [
+        0.011356235350080627,
+        0.02249946641817221
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.004,
+      "incorrect": 0.0175,
+      "abstain": 0.9785,
+      "correct_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ],
+      "incorrect_wilson": [
+        0.012609752959581211,
+        0.024240197666827872
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.6485,
+      "incorrect": 0.0035,
+      "abstain": 0.348,
+      "correct_wilson": [
+        0.6273091553210961,
+        0.6691214816363718
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.8805,
+      "incorrect": 0.016,
+      "abstain": 0.1035,
+      "correct_wilson": [
+        0.8655493359511705,
+        0.8939917910677958
+      ],
+      "incorrect_wilson": [
+        0.011356235350080627,
+        0.02249946641817221
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.91,
+      "incorrect": 0.0,
+      "abstain": 0.09,
+      "correct_wilson": [
+        0.8966591728360274,
+        0.9217688483933453
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.999,
+      "incorrect": 0.0,
+      "abstain": 0.001,
+      "correct_wilson": [
+        0.9963610657309615,
+        0.9997257210823479
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9825,
+      "incorrect": 0.0,
+      "abstain": 0.0175,
+      "correct_wilson": [
+        0.9757598023331722,
+        0.9873902470404188
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9955,
+      "incorrect": 0.0005,
+      "abstain": 0.004,
+      "correct_wilson": [
+        0.9914694867812403,
+        0.9976307193630382
+      ],
+      "incorrect_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.977,
+      "incorrect": 0.0,
+      "abstain": 0.023,
+      "correct_wilson": [
+        0.9694587928717646,
+        0.9827123440219199
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.996,
+      "incorrect": 0.0,
+      "abstain": 0.004,
+      "correct_wilson": [
+        0.9921265357039621,
+        0.9979717533930348
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9775,
+      "incorrect": 0.0,
+      "abstain": 0.0225,
+      "correct_wilson": [
+        0.9700270953304039,
+        0.9831421245159996
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.023,
+      "abstain": 0.977,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.017287655978080053,
+        0.030541207128235243
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.996,
+      "incorrect": 0.0,
+      "abstain": 0.004,
+      "correct_wilson": [
+        0.9921265357039621,
+        0.9979717533930348
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.979,
+      "incorrect": 0.0,
+      "abstain": 0.021,
+      "correct_wilson": [
+        0.971736989530377,
+        0.9844264791741825
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.1,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.001,
+      "abstain": 0.999,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0005,
+      "incorrect": 0.0155,
+      "abstain": 0.984,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        0.010940972933704062,
+        0.021916645881830028
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0145,
+      "abstain": 0.9855,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0015,
+      "abstain": 0.9985,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0145,
+      "abstain": 0.9855,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0015,
+      "abstain": 0.9985,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.018,
+      "abstain": 0.982,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0175,
+      "abstain": 0.9825,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.012609752959581211,
+        0.024240197666827872
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.016,
+      "abstain": 0.984,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.011356235350080627,
+        0.02249946641817221
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0165,
+      "abstain": 0.9835,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01177282360725337,
+        0.023080961113718216
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.021,
+      "abstain": 0.979,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.003,
+      "abstain": 0.997,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0015,
+      "abstain": 0.9985,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.018,
+      "abstain": 0.982,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0245,
+      "abstain": 0.9755,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01858163028213664,
+        0.032241481682334906
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.004,
+      "abstain": 0.996,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0305,
+      "abstain": 0.9695,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.02381739549016912,
+        0.03898271190692737
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 0.5,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.003,
+      "abstain": 0.997,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0185,
+      "abstain": 0.9815,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.02,
+      "abstain": 0.98,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.014721726201265444,
+        0.027118639188737373
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.005,
+      "abstain": 0.995,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0027181808584985597,
+        0.009179695949941846
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0015,
+      "incorrect": 0.0145,
+      "abstain": 0.984,
+      "correct_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ],
+      "incorrect_wilson": [
+        0.01011467734679028,
+        0.020746775563306317
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.001,
+      "incorrect": 0.0,
+      "abstain": 0.999,
+      "correct_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.001,
+      "abstain": 0.999,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0002742789176520342,
+        0.003638934269038394
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0235,
+      "abstain": 0.9765,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0225,
+      "abstain": 0.9775,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.016,
+      "abstain": 0.984,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.011356235350080627,
+        0.02249946641817221
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0015,
+      "abstain": 0.9985,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0005102635836384819,
+        0.004401032555770693
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0185,
+      "abstain": 0.9815,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.019,
+      "abstain": 0.981,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013873784918301425,
+        0.025970414566263898
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.003,
+      "abstain": 0.997,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0013756299236301083,
+        0.006529915073935308
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0275,
+      "abstain": 0.9725,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.021188498165677007,
+        0.03562311151510701
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0025,
+      "abstain": 0.9975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0255,
+      "abstain": 0.9745,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019447915824308683,
+        0.033371362045600345
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.025,
+      "abstain": 0.975,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019014423503992475,
+        0.032806771413197815
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0,
+      "incorrect": 0.0035,
+      "abstain": 0.9965,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.0,
+      "incorrect": 0.0235,
+      "abstain": 0.9765,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.017718224361690932,
+        0.031108721697343113
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 2.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0,
+      "abstain": 1.0,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.0225,
+      "incorrect": 0.002,
+      "abstain": 0.9755,
+      "correct_wilson": [
+        0.01685787548400037,
+        0.02997290466959618
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.0745,
+      "incorrect": 0.018,
+      "abstain": 0.9075,
+      "correct_wilson": [
+        0.06378984993294572,
+        0.08684155730340053
+      ],
+      "incorrect_wilson": [
+        0.01302999144428223,
+        0.024818042134845595
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.0185,
+      "abstain": 0.9815,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.013451349814109871,
+        0.025394766717736703
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.0205,
+      "incorrect": 0.0035,
+      "abstain": 0.976,
+      "correct_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ],
+      "incorrect_wilson": [
+        0.0016964316970424177,
+        0.007207196253241745
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.108,
+      "incorrect": 0.0175,
+      "abstain": 0.8745,
+      "correct_wilson": [
+        0.0951409941930465,
+        0.12236197087545578
+      ],
+      "incorrect_wilson": [
+        0.012609752959581211,
+        0.024240197666827872
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 1,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.1085,
+      "incorrect": 0.0,
+      "abstain": 0.8915,
+      "correct_wilson": [
+        0.09561252722040278,
+        0.12288852080081825
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.136,
+      "incorrect": 0.002,
+      "abstain": 0.862,
+      "correct_wilson": [
+        0.12167290401775677,
+        0.15172270640299534
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.2765,
+      "incorrect": 0.023,
+      "abstain": 0.7005,
+      "correct_wilson": [
+        0.25734059205454174,
+        0.29651632808017825
+      ],
+      "incorrect_wilson": [
+        0.017287655978080053,
+        0.030541207128235243
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0005,
+      "incorrect": 0.0205,
+      "abstain": 0.979,
+      "correct_wilson": [
+        8.826773070546787e-05,
+        0.0028268625032662133
+      ],
+      "incorrect_wilson": [
+        0.01514715886374858,
+        0.02769128947897298
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.113,
+      "incorrect": 0.0025,
+      "abstain": 0.8845,
+      "correct_wilson": [
+        0.09986032758661222,
+        0.12762346700907756
+      ],
+      "incorrect_wilson": [
+        0.0010683087284139143,
+        0.005839153316432755
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.341,
+      "incorrect": 0.021,
+      "abstain": 0.638,
+      "correct_wilson": [
+        0.3205469238852224,
+        0.36206269715021605
+      ],
+      "incorrect_wilson": [
+        0.015573520825817387,
+        0.028263010469622922
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 4,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.38,
+      "incorrect": 0.0,
+      "abstain": 0.62,
+      "correct_wilson": [
+        0.35897659276662947,
+        0.4014834985808711
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.698,
+      "incorrect": 0.002,
+      "abstain": 0.3,
+      "correct_wilson": [
+        0.677514455968432,
+        0.7177263933081918
+      ],
+      "incorrect_wilson": [
+        0.0007780273070510575,
+        0.005131351785076866
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.844,
+      "incorrect": 0.024,
+      "abstain": 0.132,
+      "correct_wilson": [
+        0.8274395607225219,
+        0.859241510747976
+      ],
+      "incorrect_wilson": [
+        0.018149556703294482,
+        0.03167547230845831
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.026,
+      "abstain": 0.974,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.019882087677964753,
+        0.033935273144663027
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.6305,
+      "incorrect": 0.004,
+      "abstain": 0.3655,
+      "correct_wilson": [
+        0.6091151000366376,
+        0.6513845506229553
+      ],
+      "incorrect_wilson": [
+        0.0020282466069651696,
+        0.007873464296037741
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.8625,
+      "incorrect": 0.024,
+      "abstain": 0.1135,
+      "correct_wilson": [
+        0.846710940600441,
+        0.8768992001206507
+      ],
+      "incorrect_wilson": [
+        0.018149556703294482,
+        0.03167547230845831
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 16,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 0.8905,
+      "incorrect": 0.0,
+      "abstain": 0.1095,
+      "correct_wilson": [
+        0.8760586499397343,
+        0.903444136133607
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "joint_rectangle",
+      "correct": 0.996,
+      "incorrect": 0.0,
+      "abstain": 0.004,
+      "correct_wilson": [
+        0.9921265357039621,
+        0.9979717533930348
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "conditional_reference",
+      "correct": 0.9785,
+      "incorrect": 0.0,
+      "abstain": 0.0215,
+      "correct_wilson": [
+        0.9711661662609156,
+        0.9839992194909254
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 0,
+      "method": "target_only",
+      "correct": 0.0,
+      "incorrect": 0.028,
+      "abstain": 0.972,
+      "correct_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ],
+      "incorrect_wilson": [
+        0.021625209947844046,
+        0.03618448268565872
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "joint_rectangle",
+      "correct": 0.9945,
+      "incorrect": 0.0,
+      "abstain": 0.0055,
+      "correct_wilson": [
+        0.9901779372483848,
+        0.9969261029904561
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "conditional_reference",
+      "correct": 0.976,
+      "incorrect": 0.0,
+      "abstain": 0.024,
+      "correct_wilson": [
+        0.9683245276915415,
+        0.9818504432967055
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    },
+    {
+      "background": 10.0,
+      "delta": 0.25,
+      "efficiency_min": 8.0,
+      "dose": 64,
+      "truth": 1,
+      "method": "target_only",
+      "correct": 1.0,
+      "incorrect": 0.0,
+      "abstain": 0.0,
+      "correct_wilson": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "incorrect_wilson": [
+        1.0842021724855044e-19,
+        0.001917047281252934
+      ]
+    }
+  ],
+  "gates": {
+    "joint_rectangle": {
+      "incorrect_decision_control": true,
+      "strong_signal_decisiveness": true,
+      "minimum_strong_correct": 0.9915,
+      "minimum_strong_correct_wilson_lower": 0.9864293102622139,
+      "maximum_incorrect": 0.009
+    },
+    "conditional_reference": {
+      "incorrect_decision_control": true,
+      "strong_signal_decisiveness": false,
+      "minimum_strong_correct": 0.75,
+      "minimum_strong_correct_wilson_lower": 0.7305556107841923,
+      "maximum_incorrect": 0.0305
+    },
+    "target_only": {
+      "incorrect_decision_control": true,
+      "strong_signal_decisiveness": false,
+      "minimum_strong_correct": 0.0,
+      "minimum_strong_correct_wilson_lower": 1.0842021724855044e-19,
+      "maximum_incorrect": 0.03
+    }
+  },
+  "out_of_contract_stress": {
+    "joint_rectangle": {
+      "false_presence": 0.001,
+      "correct_absence": 0.0,
+      "abstain": 0.999,
+      "both_flags": 0.999
+    },
+    "conditional_reference": {
+      "false_presence": 0.0005,
+      "correct_absence": 0.0,
+      "abstain": 0.9995
+    },
+    "target_only": {
+      "false_presence": 1.0,
+      "correct_absence": 0.0,
+      "abstain": 0.0
+    }
+  },
+  "real_probe_acquired": false,
+  "independent_biological_validation": false,
+  "distinct_new_test": false
+}

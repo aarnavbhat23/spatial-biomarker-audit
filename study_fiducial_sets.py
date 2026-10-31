@@ -1,5 +1,6 @@
 """Conditional mean-center ambiguity given actual selected bead displacements."""
 import json
+import gzip
 import numpy as np
 import pandas as pd
 from scipy.optimize import linprog
@@ -28,7 +29,8 @@ def run():
     previous = json.loads((ROOT/'results/fiducial_measurement.json').read_text())
     matched = pd.read_csv(ROOT/'results/fiducial_matches.csv')
     layout = pd.read_csv(ROOT/'datasets/spatial_v01/dataorganization.csv').iloc[:16]
-    witnesses = [w for w in previous['geometry']['witnesses'] if w['first'] == 'Adamdec1 + Adgrg6']
+    details = json.loads(gzip.decompress((ROOT/'results'/previous['geometry']['details_file']).read_bytes()))
+    witnesses = [w for w in details['witnesses'] if w['first'] == 'Adamdec1 + Adgrg6']
     observations = [matched[matched['round'] == r][['shift_y', 'shift_x']].to_numpy() for r in range(2, 9)]
     consistency_minimum = max(float(np.ptp(values, axis=0).max()/2) for values in observations)
     rows = []

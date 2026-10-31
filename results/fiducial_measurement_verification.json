@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "oriented_geometry_cases": 5274,
+  "fiducial_matches": 2233,
+  "optimal_boundary_certificates": 16,
+  "experiment_method_decisions": 1440000,
+  "biological_truth_verified": false,
+  "raw_peak_detection_replayed": false
+}

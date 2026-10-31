@@ -1,5 +1,15 @@
 # Paper decision after the public molecular-proximity round
 
+**2026-10-30 fiducial/reference follow-up:** [actual acquisition constraints](FIDUCIAL_MEASUREMENT_RESULTS.md)
+remove many of the independent-bit aliases. Measured fiducial displacement sets
+yield conditional, LP-certified ambiguity thresholds, but their error allowance
+and gene-color transfer remain uncalibrated. The original conditional reference
+test fails decisiveness; a separately frozen standard joint-count control passes
+in the declared synthetic model. This establishes conditional measurement
+feasibility, without new estimator priority or independent truth. Continue toward
+calibrated claim-specific measurement requirements. Grades and submission
+decision remain unchanged; do not turn the simulation pass into a biological claim.
+
 **2026-10-30 measurement-identifiability follow-up:** the [six-step screen](BARCODE_COLLISION_RESULTS.md)
 verifies 858 ambiguous classes in the nonblank source-codebook pair universe,
 an independent-probe separator and a sharp background-overlap failure. These
