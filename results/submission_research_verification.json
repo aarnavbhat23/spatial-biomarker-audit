@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "reference": {
+    "physical_feature_components": 131,
+    "source_predictions": 2720,
+    "independent_identity_truth": false
+  },
+  "gaussian": {
+    "theory_settings": 144,
+    "saved_full_experiment_statistics": 144000,
+    "real_covariance_validated": false
+  }
+}

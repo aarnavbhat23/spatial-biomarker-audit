@@ -1,5 +1,15 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Submission-research update:** the [external cross-channel reference benchmark](SUBMISSION_RESEARCH_RESULTS.md)
+refits 680 selected matches with whole-feature holdouts. Affine registration
+reduces typical test error, but its calibrated radius fails the frozen precision
+gate. A [conditional localization result](LOCALIZATION_INFORMATION_THEORY.md)
+gives exact binary Gaussian decision risk and a calibration-information ceiling:
+18/144 tested entries cannot reach 5% error through gene photons alone at fixed
+fiducial information. Its optimal control is conventional GLS; raw-image transfer,
+variance calibration and published-decoder comparison remain open. All source
+data terms, failed gates and independent replays are retained.
+
 **Minimum-measurement update:** the [shared-fiducial study](FIDUCIAL_MEASUREMENT_RESULTS.md)
 conditions barcode ambiguity on the actual round/color layout and selected bead
 displacements. Small assumed displacement-error allowances are inconsistent with

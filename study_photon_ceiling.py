@@ -5,7 +5,6 @@ import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from scipy.linalg import cholesky, solve_triangular
 from scipy.stats import norm
 from study_fiducial_measurement import design
 

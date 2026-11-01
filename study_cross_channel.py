@@ -1,5 +1,6 @@
 """Frozen whole-feature registration and split-conformal reference benchmark."""
 import hashlib
+import gzip
 import json
 from collections import defaultdict
 from pathlib import Path
@@ -117,11 +118,16 @@ def run():
                  improvement=affine['median_test_group_residual'] <= .8*translation['median_test_group_residual'])
     output = dict(protocol_commit='f4fd37b', source_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
                   source_rows=len(frame), physical_feature_components=len(nodes), invalid_components=invalid,
-                  source_position='0', independent_specimens=1, selected_matches_only=True,
+                  source_position='0', source_fields=1, independently_identified_specimens=None, selected_matches_only=True,
                   source_units='source xy coordinate units; no physical scale inferred',
                   gates=gates, usefulness_pass=all(gates.values()), settings=summaries,
                   splits=splits, predictions=predictions, biological_truth_verified=False,
                   probe_efficiency_calibrated=False)
+    details = {key:output.pop(key) for key in ['splits', 'predictions']}
+    detail_path = ROOT/'results/cross_channel_calibration_details.json.gz'
+    detail_path.write_bytes(gzip.compress(json.dumps(details, separators=(',', ':'), allow_nan=False).encode(), mtime=0))
+    output['details_file'] = detail_path.name
+    output['details_sha256'] = hashlib.sha256(detail_path.read_bytes()).hexdigest()
     (ROOT/'results/cross_channel_calibration.json').write_text(json.dumps(output, indent=2, allow_nan=False)+'\n')
     print(json.dumps(dict(groups=len(nodes), gates=gates, settings=summaries), indent=2))
 

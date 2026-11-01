@@ -1,5 +1,14 @@
 # Paper decision after the public molecular-proximity round
 
+**2026-11-01 executed submission-research round:** the [reference benchmark and
+finite-localization study](SUBMISSION_RESEARCH_RESULTS.md) now supply whole-feature
+holdouts on an external source, a retained precision failure and a conditional
+calibration-information ceiling. Assess the focused artifact around 7.5 overall,
+with roughly one-point uncertainty; novelty remains about 6.5-7 and independent
+biological calibration remains incomplete. A project-grade improvement does not
+complete submission gates. Continue raw-image/decoder comparison and independent
+proof/priority review before submitting. Earlier grades below are dated history.
+
 **2026-11-01 submission path:** prioritize a focused calibration-dependent
 measurement paper using the [claim/evidence gates](SUBMISSION_PATH.md). A public
 cross-channel reference table and smFISH count references are now verified at

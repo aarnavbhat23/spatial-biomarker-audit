@@ -1,0 +1,88 @@
+{
+  "protocol_commit": "f4fd37b",
+  "source_sha256": "7ebb373a323bdc3254745c3083dd62ccaf559876596c704dacfdfc2fceaf32ab",
+  "source_rows": 680,
+  "physical_feature_components": 131,
+  "invalid_components": [],
+  "source_position": "0",
+  "source_fields": 1,
+  "independently_identified_specimens": null,
+  "selected_matches_only": true,
+  "source_units": "source xy coordinate units; no physical scale inferred",
+  "gates": {
+    "coverage": true,
+    "precision": false,
+    "improvement": true
+  },
+  "usefulness_pass": false,
+  "settings": [
+    {
+      "mode": "hashed",
+      "method": "translation",
+      "train_groups": 65,
+      "calibration_groups": 32,
+      "test_groups": 34,
+      "radius": 2.712765487261361,
+      "test_covered": 34,
+      "test_coverage": 1.0,
+      "coverage_wilson": [
+        0.8984854458466761,
+        0.9999999999999999
+      ],
+      "median_test_group_residual": 1.4872304776499738,
+      "maximum_test_group_residual": 2.6951023276799724
+    },
+    {
+      "mode": "hashed",
+      "method": "affine",
+      "train_groups": 65,
+      "calibration_groups": 32,
+      "test_groups": 34,
+      "radius": 2.9631848899475406,
+      "test_covered": 34,
+      "test_coverage": 1.0,
+      "coverage_wilson": [
+        0.8984854458466761,
+        0.9999999999999999
+      ],
+      "median_test_group_residual": 0.21363515991369958,
+      "maximum_test_group_residual": 0.9300588802308337
+    },
+    {
+      "mode": "spatial_extrapolation",
+      "method": "translation",
+      "train_groups": 65,
+      "calibration_groups": 32,
+      "test_groups": 34,
+      "radius": 3.1186396300456325,
+      "test_covered": 32,
+      "test_coverage": 0.9411764705882353,
+      "coverage_wilson": [
+        0.80906393095719,
+        0.9837173447898772
+      ],
+      "median_test_group_residual": 2.5486484691170412,
+      "maximum_test_group_residual": 3.287747199953716
+    },
+    {
+      "mode": "spatial_extrapolation",
+      "method": "affine",
+      "train_groups": 65,
+      "calibration_groups": 32,
+      "test_groups": 34,
+      "radius": 0.9439074322135882,
+      "test_covered": 32,
+      "test_coverage": 0.9411764705882353,
+      "coverage_wilson": [
+        0.80906393095719,
+        0.9837173447898772
+      ],
+      "median_test_group_residual": 0.44606319391321925,
+      "maximum_test_group_residual": 0.9734844058501899
+    }
+  ],
+  "biological_truth_verified": false,
+  "probe_efficiency_calibrated": false,
+  "details_file": "cross_channel_calibration_details.json.gz",
+  "details_sha256": "6566de7fd168c4736fb35d6bf7ab3a946be879b02245513a601287f7fe09debc"
+}

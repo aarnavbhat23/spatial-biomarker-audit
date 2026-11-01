@@ -1,5 +1,12 @@
 # Spatial submission path — 2026-11-01
 
+Progress: [the first execution round](SUBMISSION_RESEARCH_RESULTS.md) is complete.
+The reference benchmark fails its primary radius gate; the conditional Gaussian
+information result passes its computation checks. Raw-image/decoder comparison
+and target-matched independent confirmation remain open. The assessment below
+records the pre-round starting point; the new focused-project assessment is
+approximately 7.5 overall, with substantial uncertainty and incomplete submission gates.
+
 Decision: prioritize one focused spatial methods paper. The present project is
 approximately 7/10 overall, with roughly one-point judgment uncertainty. A
 defensible 7.5-8 target is plausible if the gates below pass; no rating increase
