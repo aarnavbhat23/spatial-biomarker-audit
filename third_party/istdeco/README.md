@@ -1,0 +1,1 @@
+Unmodified published ISTDECO sources by Andersson et al. (2021), copied from the commit and SHA256 values in upstream.json. Their MIT license is preserved in LICENSE. Only the three modules executed by this benchmark are included. This is an external comparator; it is not our method.

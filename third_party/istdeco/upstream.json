@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/axanderssonuu/istdeco",
+  "commit": "264c9383a2d73d5669561bff179fd4c359d2e103",
+  "modified": false,
+  "files": {
+    "LICENSE": "edc3aefd505d830c5350bf3f787c01b2dd267b68d32eadf699ed088d14512d1e",
+    "codebook.py": "cd0e6ce89e78d1d5b07e0cd47e013543c6dfd023aaa33fbd90a3cfcab2caff39",
+    "istdeco.py": "85bca2f1d5d0e9d6e0b5a8f6c2c5fd65524403a5ec8ef122aef10664a611e65a",
+    "psf.py": "b84b92256440cb761ce7ecaab774642ad51fce4e25da146573057df2810588da"
+  }
+}
