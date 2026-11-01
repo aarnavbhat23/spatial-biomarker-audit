@@ -1,5 +1,13 @@
 # Paper decision after the public molecular-proximity round
 
+**2026-11-01 submission path:** prioritize a focused calibration-dependent
+measurement paper using the [claim/evidence gates](SUBMISSION_PATH.md). A public
+cross-channel reference table and smFISH count references are now verified at
+metadata level; neither their residual outcomes nor biological claim accuracy
+has been scored. They offer a concrete validation lead, not a grade increase.
+The target is a defensible 7.5-8 overall after the missing contribution and
+independent validation are established. Submission remains deferred.
+
 **2026-10-30 fiducial/reference follow-up:** [actual acquisition constraints](FIDUCIAL_MEASUREMENT_RESULTS.md)
 remove many of the independent-bit aliases. Measured fiducial displacement sets
 yield conditional, LP-certified ambiguity thresholds, but their error allowance

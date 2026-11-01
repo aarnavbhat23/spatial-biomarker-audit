@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Submission-readiness source feasibility; metadata only, no residual/biological truth scoring",
+  "source_trees": [
+    {
+      "repository": "CaiGroup/seqfish_fm_match",
+      "sha": "28cc5e310a85fc5c1ab69aafad85d03f0b431246",
+      "entries": 30,
+      "truncated": false
+    },
+    {
+      "repository": "CaiGroup/UntanglingBarcodes",
+      "sha": "9987fa86a22a7954d895f54cec0d0e615ac034a9",
+      "entries": 1925,
+      "truncated": false
+    }
+  ],
+  "inspected_tables": [
+    {
+      "repository": "CaiGroup/seqfish_fm_match",
+      "tree_sha": "28cc5e310a85fc5c1ab69aafad85d03f0b431246",
+      "path": "example_data/in_channel/initial_reference.csv",
+      "blob_sha": "e4e1bc1fd61cc1bfd77d495aca72233d9d1cda7c",
+      "bytes": 3645,
+      "rows": 97,
+      "columns": [
+        "x",
+        "y",
+        "z",
+        "int"
+      ],
+      "duplicate_column_names": [],
+      "outcomes_scored": false
+    },
+    {
+      "repository": "CaiGroup/UntanglingBarcodes",
+      "tree_sha": "9987fa86a22a7954d895f54cec0d0e615ac034a9",
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/cross_channel_matched_reference_dots_pos0.csv",
+      "blob_sha": "024fe5233ece13c91db1116c9aa43bbbef791cf0",
+      "bytes": 151932,
+      "rows": 680,
+      "columns": [
+        "ref_x",
+        "ref_y",
+        "ref_z",
+        "ref_int",
+        "ref_x",
+        "ref_y",
+        "ref_z",
+        "hyb",
+        "comp_x",
+        "comp_y",
+        "comp_z",
+        "comp_int",
+        "aligned_x",
+        "aligned_y",
+        "aligned_z",
+        "ref_int",
+        "ref_ch",
+        "comp_ch"
+      ],
+      "duplicate_column_names": [
+        "ref_x",
+        "ref_y",
+        "ref_z",
+        "ref_int"
+      ],
+      "outcomes_scored": false
+    }
+  ],
+  "additional_available_tables": [
+    {
+      "path": "figure_generating_notebooks/Fig2A/data/smFISH_results.csv",
+      "git_blob_sha": "89d1b981977758d6b24038b895c629234556cd9b",
+      "bytes": 48919
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2B_ExtDataFig2&3/smFISH_gene_by_cell_cnts.csv",
+      "git_blob_sha": "d206dfbc923833c1ebcb25200431a381d90c8011",
+      "bytes": 40521
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/cross_channel_matched_reference_dots_pos0.csv",
+      "git_blob_sha": "024fe5233ece13c91db1116c9aa43bbbef791cf0",
+      "bytes": 151932
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/matches_ch0_pos_0.csv",
+      "git_blob_sha": "86be12122c5a82dd57f5759f42c532599be0a828",
+      "bytes": 1116174
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/matches_ch1_pos_0.csv",
+      "git_blob_sha": "e44da25c3aa25f21b040cd3bb7d4842b6cc78280",
+      "bytes": 1115755
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/matches_ch2_pos_0.csv",
+      "git_blob_sha": "1b7f8d3f4c3d45f67442181298dc47eab734c860",
+      "bytes": 1043096
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/offsets_ch0_pos_0.csv",
+      "git_blob_sha": "441443275788a9367f745571d4b0fb20ff8fab49",
+      "bytes": 5135
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/offsets_ch1_pos_0.csv",
+      "git_blob_sha": "f15b6e8b2720fe753a77f2ab6bdb7f6c79255c30",
+      "bytes": 5123
+    },
+    {
+      "path": "figure_generating_notebooks/Fig2F-H/alignment/offsets_ch2_pos_0.csv",
+      "git_blob_sha": "caed3708b3437324150f40c58c090cc9f76cda0f",
+      "bytes": 5119
+    }
+  ],
+  "limitations": [
+    "Author-selected matched features are not independent adjudicated identities.",
+    "Author-aligned coordinates must not be used to claim held-out transform accuracy; refit from raw matched coordinates with whole-feature splits.",
+    "Same-culture smFISH count references do not establish per-molecule composition truth.",
+    "Cross-channel fitted references do not validate an added Adamdec1 probe or transfer directly to the existing MERFISH field."
+  ],
+  "license_notes": {
+    "seqfish_fm_match": "Repository MIT license; retain source attribution if reused.",
+    "UntanglingBarcodes": "Repository LICENSE.md limits redistribution/use to academic and other non-commercial purposes. Paper version is CC BY-NC 4.0. Check applicability before incorporating source assets."
+  },
+  "sources": [
+    "https://github.com/CaiGroup/seqfish_fm_match",
+    "https://github.com/CaiGroup/UntanglingBarcodes",
+    "https://caigroup.github.io/UntanglingBarcodes/input_files.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12262624/"
+  ]
+}
+
