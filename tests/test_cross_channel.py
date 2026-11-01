@@ -1,9 +1,22 @@
 import unittest
+import json
+import pandas as pd
 import numpy as np
-from study_cross_channel import conformal_radius, fit_transform, predict_transform, partition
+from study_cross_channel import ROOT, source_groups, conformal_radius, fit_transform, predict_transform, partition
 
 
 class CrossChannelTests(unittest.TestCase):
+    def test_original_feature_split_survives_last_bit_csv_parser_differences(self):
+        frame = pd.read_csv(ROOT/'datasets/reference_calibration_v01/cross_channel_matches.csv')
+        anchors = json.loads((ROOT/'datasets/reference_calibration_v01/frozen_feature_groups.json').read_text())['groups']
+        first, nodes = source_groups(frame, anchors)
+        perturbed = frame.copy()
+        for name in ['ref_x', 'ref_y', 'comp_x', 'comp_y']:
+            perturbed[name] = np.nextafter(perturbed[name].to_numpy(), np.inf)
+        second, changed_nodes = source_groups(perturbed, anchors)
+        self.assertEqual(first, second)
+        self.assertEqual(partition(nodes, 'hashed'), partition(changed_nodes, 'hashed'))
+        self.assertEqual(len(nodes), 131)
     def test_affine_recovers_heldout_reference_geometry(self):
         x = np.array([[0., 0.], [1., 0.], [0., 1.], [2., 3.], [-1., 4.]])
         matrix = np.array([[1.2, -.2], [.3, .9], [2., -3.]])

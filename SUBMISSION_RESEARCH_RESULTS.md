@@ -68,10 +68,15 @@ gates pass. The empirical source radius is not substituted for Gaussian variance
 
 ## Verification, paper scope and next requirement
 
-113 tests pass. Independent replay checks all 2,720 refitted source predictions,
+114 tests pass. Independent replay checks all 2,720 refitted source predictions,
 131 feature identities/splits, 144 theory settings and 144,000 saved Gaussian
 experiment statistics using full-joint null-space projection. This verifies
 computation; it does not establish biological truth or real variance calibration.
+
+Linux replay exposed one-bit CSV-parser differences in feature-ID hashing. The
+source-checksummed frozen feature manifest preserves the original memberships and
+splits across platforms; fitting continues to use raw coordinates. A regression
+test perturbs coordinate last bits and confirms that no feature is reassigned.
 
 ```sh
 python datasets/acquire_reference_calibration.py

@@ -11,7 +11,7 @@ from study_barcode_collisions import wilson
 ROOT = Path(__file__).resolve().parent
 
 
-def source_groups(frame):
+def source_groups(frame, frozen=None):
     parent = {}
     def find(node):
         parent.setdefault(node, node)
@@ -20,18 +20,24 @@ def source_groups(frame):
         return parent[node]
     edges = []
     for row in frame.to_numpy():
-        first = (int(row[16]), float(row[0]), float(row[1]))
-        second = (int(row[17]), float(row[8]), float(row[9]))
+        first = (int(row[16]), round(float(row[0]), 8), round(float(row[1]), 8))
+        second = (int(row[17]), round(float(row[8]), 8), round(float(row[9]), 8))
         parent[find(second)] = find(first)
         edges.append((first, second))
     groups = defaultdict(list)
     for node in parent:
         groups[find(node)].append(node)
     ids, group_nodes = {}, {}
+    anchors = None if frozen is None else {tuple(sorted((int(c), round(x, 8), round(y, 8)) for c, x, y in r['nodes'])):r for r in frozen}
     for nodes in groups.values():
-        encoded = ';'.join(f'{c}:{x.hex()}:{y.hex()}' for c, x, y in sorted(nodes))
-        ident = hashlib.sha256(encoded.encode()).hexdigest()
-        group_nodes[ident] = sorted(nodes)
+        if anchors is None:
+            encoded = ';'.join(f'{c}:{x.hex()}:{y.hex()}' for c, x, y in sorted(nodes))
+            ident = hashlib.sha256(encoded.encode()).hexdigest()
+            group_nodes[ident] = sorted(nodes)
+        else:
+            anchor = anchors[tuple(sorted(nodes))]
+            ident = anchor['group_id']
+            group_nodes[ident] = anchor['nodes']
         for node in nodes:
             ids[node] = ident
     return [ids[a] for a, _ in edges], group_nodes
@@ -71,7 +77,10 @@ def run():
         raise ValueError('Source mismatch')
     frame = pd.read_csv(path)
     np.testing.assert_array_equal(frame.iloc[:, :3], frame.iloc[:, 4:7])
-    group_ids, nodes = source_groups(frame)
+    frozen = json.loads((ROOT/'datasets/reference_calibration_v01/frozen_feature_groups.json').read_text())
+    if frozen['source_sha256'] != hashlib.sha256(path.read_bytes()).hexdigest():
+        raise ValueError('Frozen feature manifest belongs to a different source')
+    group_ids, nodes = source_groups(frame, frozen['groups'])
     invalid = [key for key, group in nodes.items() if len(group) != len(set(n[0] for n in group))]
     if invalid or len(nodes) < 60:
         raise ValueError('Frozen identity/group eligibility failed')

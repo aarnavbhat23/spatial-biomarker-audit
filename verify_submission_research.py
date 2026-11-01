@@ -22,9 +22,11 @@ def verify_reference():
     study.update(json.loads(gzip.decompress(payload)))
     assert hashlib.sha256(source.read_bytes()).hexdigest() == study['source_sha256']
     graph = defaultdict(set); edges = []
+    frozen = json.loads((ROOT/'datasets/reference_calibration_v01/frozen_feature_groups.json').read_text())
+    anchors = {tuple(sorted((int(c), round(x, 8), round(y, 8)) for c, x, y in r['nodes'])):r for r in frozen['groups']}
     for row in frame.to_numpy():
-        first = (int(row[16]), float(row[0]), float(row[1]))
-        second = (int(row[17]), float(row[8]), float(row[9]))
+        first = (int(row[16]), round(float(row[0]), 8), round(float(row[1]), 8))
+        second = (int(row[17]), round(float(row[8]), 8), round(float(row[9]), 8))
         graph[first].add(second); graph[second].add(first); edges.append((first, second))
     assigned, nodes = {}, {}
     for first in graph:
@@ -35,9 +37,11 @@ def verify_reference():
             for other in graph[queue.popleft()]:
                 if other not in seen:
                     seen.add(other); queue.append(other)
-        encoded = ';'.join(f'{c}:{x.hex()}:{y.hex()}' for c, x, y in sorted(seen))
+        anchor = anchors[tuple(sorted(seen))]
+        encoded = ';'.join(f'{c}:{float(x).hex()}:{float(y).hex()}' for c, x, y in sorted(anchor['nodes']))
         key = hashlib.sha256(encoded.encode()).hexdigest()
-        nodes[key] = sorted(seen)
+        assert key == anchor['group_id']
+        nodes[key] = anchor['nodes']
         for node in seen:
             assigned[node] = key
     assert len(nodes) == study['physical_feature_components']

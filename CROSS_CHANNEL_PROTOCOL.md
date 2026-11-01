@@ -44,3 +44,11 @@ training, next quarter calibration, last quarter test, with identical estimators
 Report without retuning. Keep unmatched/undetected-feature limitations explicit:
 the source table does not permit evaluating them. Do not transfer this radius to
 the existing MERFISH field or use it as an Adamdec1-probe efficiency calibration.
+
+Portability amendment after Linux replay: platform CSV parsers can differ by one
+floating-point bit, changing float.hex-based hashes. Preserve the ORIGINAL 131
+group identities/nodes and split ordering in a source-checksummed manifest.
+Reconstruct match components at eight coordinate decimals only for identity
+lookup, require exact agreement of component memberships with the frozen manifest,
+and retain raw coordinates for fitting. This tolerance is <1e-8 source units,
+far below measured residuals. No feature, split, prediction or gate is reselected.
