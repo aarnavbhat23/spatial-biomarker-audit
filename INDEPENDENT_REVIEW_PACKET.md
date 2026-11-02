@@ -1,9 +1,11 @@
 # Review packet: when does a spatial claim need another measurement?
 
-Status, 2026-11-01: ready to request outside feedback; **none has been obtained
-or requested by this repository**. Numerical replays and tests are not external
-peer review. A new decoder and a biologically calibrated decision guarantee
-have not been established.
+For a short introduction, start with the [research summary](RESEARCH_SUMMARY.md).
+This file contains the more detailed assumptions and open questions.
+
+Status, 2026-11-02: outside feedback has been requested; no technical assessment
+has been received yet. A new decoder and a biologically calibrated decision
+guarantee have not been established.
 
 ## Proposed focused contribution
 
@@ -77,11 +79,3 @@ particular ambiguities. The paper must retain these defeat conditions. If no
 appropriate labeled cohort is available, restrict the manuscript to theory,
 controlled pixels and selected-feature registration validation; omit claims of
 biological identification, practical assay savings or general tissue accuracy.
-
-## Review decision requested
-
-Ask a mathematical/imaging reviewer for a concrete theorem correction or closest
-prior result, and an experimental reviewer whether the proposed references
-support the measurement contract. Revise the scope around that feedback before
-submission. No person should be named as endorsing this work without their
-actual review and permission.

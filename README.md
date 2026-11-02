@@ -1,5 +1,8 @@
 # Measuring confidence in virtual spatial marker readouts
 
+Start with the [short research summary](RESEARCH_SUMMARY.md) for the question,
+one concrete example, the main results and what remains untested.
+
 **Current paper core:** [full-pixel measurement ambiguities](PIXEL_INFORMATION_THEORY.md),
 [executed published decoding](PIXEL_DECODER_RESULTS.md), and externally held-out
 reference calibration. The unchanged ISTDECO implementation passes registered
