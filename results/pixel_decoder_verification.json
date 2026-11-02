@@ -1,0 +1,8 @@
+{
+  "checked_active_image_identities": 64,
+  "checked_decoder_readouts": 960,
+  "decoder_runs": 980,
+  "upstream_source_files": 3,
+  "independent_gene_truth": false,
+  "external_expert_review": false
+}

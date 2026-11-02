@@ -1,5 +1,14 @@
 # Paper decision after the public molecular-proximity round
 
+**2026-11-01 published-implementation follow-up:** both original ISTDECO and the
+closest authors' ADCG/syndrome pipeline have now been executed on controlled
+full-pixel cases and a measured development diagnostic. Strong registered
+controls pass; the original measured syndrome run is fitting-cap limited.
+This closes the lack of an executed published comparator, not the independent
+annotated raw-image validation gap. Use [the review packet](INDEPENDENT_REVIEW_PACKET.md)
+and [pixel results](PIXEL_DECODER_RESULTS.md); defer biological guarantees and
+submission until priority/proof feedback and claim-appropriate calibration.
+
 **2026-11-01 executed submission-research round:** the [reference benchmark and
 finite-localization study](SUBMISSION_RESEARCH_RESULTS.md) now supply whole-feature
 holdouts on an external source, a retained precision failure and a conditional

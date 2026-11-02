@@ -1,0 +1,727 @@
+{
+  "seed": 2026110104,
+  "settings": [
+    {
+      "case": 0,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 0,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 0,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 0,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 0,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 0,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 1,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 1,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 1,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 1,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 1,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 2,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 2,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 2,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 2,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 2,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 3,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 1.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 3,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 1.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 3,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 3.0,
+      "exposure": 1.0,
+      "mode": "added_probe",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "alias_paired",
+      "error": 0.5
+    },
+    {
+      "case": 3,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "known_registration",
+      "error": 0.0
+    },
+    {
+      "case": 3,
+      "distance": 3.0,
+      "exposure": 16.0,
+      "mode": "added_probe",
+      "error": 0.0
+    }
+  ],
+  "pixel_mean_checks": {
+    "c0_d1.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Ccr2",
+          "Pik3r1"
+        ]
+      ]
+    },
+    "c0_d1.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Ccr2",
+          "Pik3r1"
+        ]
+      ]
+    },
+    "c0_d3.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Ccr2",
+          "Pik3r1"
+        ]
+      ]
+    },
+    "c0_d3.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Ccr2",
+          "Pik3r1"
+        ]
+      ]
+    },
+    "c1_d1.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Pik3r1",
+          "Ccr2"
+        ]
+      ]
+    },
+    "c1_d1.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Pik3r1",
+          "Ccr2"
+        ]
+      ]
+    },
+    "c1_d3.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Pik3r1",
+          "Ccr2"
+        ]
+      ]
+    },
+    "c1_d3.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Pik3r1",
+          "Ccr2"
+        ]
+      ]
+    },
+    "c2_d1.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Eif2ak3",
+          "Crtc1"
+        ]
+      ]
+    },
+    "c2_d1.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Eif2ak3",
+          "Crtc1"
+        ]
+      ]
+    },
+    "c2_d3.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Eif2ak3",
+          "Crtc1"
+        ]
+      ]
+    },
+    "c2_d3.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Eif2ak3",
+          "Crtc1"
+        ]
+      ]
+    },
+    "c3_d1.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Crtc1",
+          "Eif2ak3"
+        ]
+      ]
+    },
+    "c3_d1.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Crtc1",
+          "Eif2ak3"
+        ]
+      ]
+    },
+    "c3_d3.0_E1.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Crtc1",
+          "Eif2ak3"
+        ]
+      ]
+    },
+    "c3_d3.0_E16.0": {
+      "max_pixel_mean_difference": 0.0,
+      "paired_worlds": [
+        [
+          "Adamdec1",
+          "Adgrg6"
+        ],
+        [
+          "Crtc1",
+          "Eif2ak3"
+        ]
+      ]
+    }
+  },
+  "gates": {
+    "pixel_equal": true,
+    "paired_error": true,
+    "registered_control": true,
+    "published_decoder_with_probe": true,
+    "conventional_probe": true
+  },
+  "registered_control_accuracy": 1.0,
+  "decoder_probe_accuracy": 1.0,
+  "conventional_probe_accuracy": 1.0,
+  "protocol_commit": "29a7eb4",
+  "decoder": {
+    "repository": "https://github.com/axanderssonuu/istdeco",
+    "commit": "264c9383a2d73d5669561bff179fd4c359d2e103",
+    "modified": false,
+    "files": {
+      "LICENSE": "edc3aefd505d830c5350bf3f787c01b2dd267b68d32eadf699ed088d14512d1e",
+      "codebook.py": "cd0e6ce89e78d1d5b07e0cd47e013543c6dfd023aaa33fbd90a3cfcab2caff39",
+      "istdeco.py": "85bca2f1d5d0e9d6e0b5a8f6c2c5fd65524403a5ec8ef122aef10664a611e65a",
+      "psf.py": "b84b92256440cb761ce7ecaab774642ad51fce4e25da146573057df2810588da"
+    }
+  },
+  "torch_version": "2.14.1",
+  "decoder_calls": 980,
+  "gene_names": [
+    "Adamdec1",
+    "Akt1",
+    "Akt2",
+    "Akt3",
+    "Amica1",
+    "Anpep",
+    "Bcl2",
+    "Bcl6",
+    "Blk",
+    "Blnk",
+    "Car5b",
+    "Ccr2",
+    "Ccr3",
+    "Ccr7",
+    "Cd19",
+    "Cd28",
+    "Cd38",
+    "Cd4",
+    "Cd6",
+    "Clec7a",
+    "Cr2",
+    "Csf1r",
+    "Csf3r",
+    "Dock9",
+    "Egf",
+    "Egln2",
+    "Egln3",
+    "Eif2ak3",
+    "Eif4e2",
+    "Erbb2",
+    "Etv5",
+    "Fosb",
+    "Foxj1",
+    "Gata3",
+    "Gpr83",
+    "Gtf3c1",
+    "Hif1a",
+    "Hk2",
+    "Icos",
+    "Ikzf2",
+    "Ikzf4",
+    "Il12rb2",
+    "Il17ra",
+    "Il21r",
+    "Il5ra",
+    "Itgb2l",
+    "Jun",
+    "Klri2",
+    "Kras",
+    "Lamp3",
+    "Maf",
+    "Map2k1",
+    "Map2k2",
+    "Mapk1",
+    "Marco",
+    "Met",
+    "Mgam",
+    "Ms4a1",
+    "Msr1",
+    "Mtor",
+    "Nup107",
+    "Oas3",
+    "Padi4",
+    "Pdcd1",
+    "Pdgfc",
+    "Pdk1",
+    "Pik3ca",
+    "Pik3cd",
+    "Pik3cg",
+    "Pik3r1",
+    "Pik3r2",
+    "Pik3r5",
+    "Pkm",
+    "Pla2g6",
+    "Plcg1",
+    "Prf1",
+    "Prkcb",
+    "Pten",
+    "Ptgdr2",
+    "Ptprc",
+    "Rac1",
+    "Rac2",
+    "Raf1",
+    "Reps1",
+    "Rorc",
+    "Rps6kb1",
+    "Slc2a1",
+    "Slc44a4",
+    "Smad2",
+    "Smpd3",
+    "Sp1",
+    "Spib",
+    "Stat4",
+    "Stat6",
+    "Tbx21",
+    "Zbtb16",
+    "Zfp13",
+    "blank_01",
+    "blank_02",
+    "blank_03",
+    "blank_04",
+    "blank_05",
+    "blank_06",
+    "Adamts7",
+    "Adgrg6",
+    "Ado",
+    "Arhgef11",
+    "Atg9b",
+    "Baz2b",
+    "Brsk1",
+    "Ckap2",
+    "Crtc1",
+    "Ddx11",
+    "Dis3l",
+    "Eea1",
+    "Git1",
+    "Gm996",
+    "Gnptab",
+    "Gprasp1",
+    "Hecw2",
+    "Itga8",
+    "Kdm2b",
+    "Maml3",
+    "Mreg",
+    "Nckap5l",
+    "Nuak1",
+    "Pcdhac2",
+    "Pid1",
+    "Ppp1r26",
+    "Primpol",
+    "Rab11fip5",
+    "Rab3ip",
+    "Rab44",
+    "Scarf1",
+    "Scube3",
+    "Slc35d2",
+    "Smg7",
+    "Tmem151a",
+    "Tnip3",
+    "Txlna"
+  ],
+  "measured_summary": {
+    "crops": 4,
+    "variants": 5,
+    "known_gene_truth": false,
+    "dominant_gene_changes": 0
+  },
+  "details_file": "pixel_decoder_details.json.gz",
+  "details_sha256": "968304148519cbb569bd2da574cb1dc7afd94ba244599f4a4dd707ecddbba224",
+  "independent_biological_validation": false,
+  "new_decoder": false
+}

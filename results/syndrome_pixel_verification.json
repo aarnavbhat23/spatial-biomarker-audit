@@ -1,0 +1,21 @@
+{
+  "exhaustively_verified_synthetic_networks": 12,
+  "candidate_counts": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "measured_bits_hitting_cap": 16,
+  "measured_accuracy_evaluated": false,
+  "extended_run_completed": false,
+  "outside_expert_feedback": false
+}

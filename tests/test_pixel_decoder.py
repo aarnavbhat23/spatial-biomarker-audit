@@ -2,9 +2,21 @@ import unittest
 import numpy as np
 from study_photon_ceiling import cases
 from study_pixel_decoder import inputs, render, source_check
+from prepare_syndrome_pixel import parity_check
 
 
 class PixelDecoderTests(unittest.TestCase):
+    def test_exact_parity_contains_source_words_rejects_single_bit_errors(self):
+        _, codes, _, _ = inputs()
+        check = parity_check(codes.astype(int))
+        self.assertEqual(check.shape, (5, 16))
+        np.testing.assert_array_equal(check @ codes.T % 2, np.zeros((5, 140)))
+        self.assertEqual(len(set(tuple(c) for c in check.T)), 16)
+        for bit in range(16):
+            damaged = codes[0].astype(int).copy()
+            damaged[bit] ^= 1
+            self.assertTrue(np.any(check @ damaged % 2))
+
     def test_complete_pixel_alias_and_known_registration_separation(self):
         names, codes, dictionary, mapping = inputs()
         self.assertEqual(dictionary.shape, (140, 8, 2))

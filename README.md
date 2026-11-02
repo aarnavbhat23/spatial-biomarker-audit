@@ -1,13 +1,23 @@
 # Measuring confidence in virtual spatial marker readouts
 
+**Current paper core:** [full-pixel measurement ambiguities](PIXEL_INFORMATION_THEORY.md),
+[executed published decoding](PIXEL_DECODER_RESULTS.md), and externally held-out
+reference calibration. The unchanged ISTDECO implementation passes registered
+controls and resolves the cases when given the same ideal extra probe as a
+conventional test. The closest authors' ADCG/syndrome pipeline also recovers all
+eight noiseless registered controls. These comparisons do not establish a novel
+decoder or measured tissue accuracy. Start with the [outside-review packet](INDEPENDENT_REVIEW_PACKET.md)
+for the focused claims, known prior work, calibration failure and remaining gaps.
+
 **Submission-research update:** the [external cross-channel reference benchmark](SUBMISSION_RESEARCH_RESULTS.md)
 refits 680 selected matches with whole-feature holdouts. Affine registration
 reduces typical test error, but its calibrated radius fails the frozen precision
 gate. A [conditional localization result](LOCALIZATION_INFORMATION_THEORY.md)
 gives exact binary Gaussian decision risk and a calibration-information ceiling:
 18/144 tested entries cannot reach 5% error through gene photons alone at fixed
-fiducial information. Its optimal control is conventional GLS; raw-image transfer,
-variance calibration and published-decoder comparison remain open. All source
+fiducial information. Its optimal control is conventional GLS; biological image
+transfer and variance calibration remain open. Published decoder implementations
+are now executed in the focused follow-up above. All source
 data terms, failed gates and independent replays are retained.
 
 **Minimum-measurement update:** the [shared-fiducial study](FIDUCIAL_MEASUREMENT_RESULTS.md)

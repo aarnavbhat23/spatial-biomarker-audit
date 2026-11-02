@@ -1,0 +1,10 @@
+{
+  "executed_control_stacks": 3,
+  "registered_controls_correct": 2,
+  "last_checkpoint_completed_bits": 16,
+  "last_checkpoint_points": 8,
+  "source_package_commits": {
+    "SeqFISH_ADCG": "f0cb871d2f512bee0cb6dfb03e02089fec225241",
+    "SeqFISHSyndromeDecoding": "b122a9189ca543315e45b2a389f4857709e78eab"
+  }
+}

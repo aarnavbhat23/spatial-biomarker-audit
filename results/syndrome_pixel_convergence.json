@@ -1,0 +1,18 @@
+{
+  "protocol_commit": "4c10382",
+  "completed": false,
+  "measured_gene_accuracy_evaluated": false,
+  "observed_failure": "Stopped extended run; upstream attempted to read optimizer primals when no solution was available.",
+  "solver_termination_status_captured": false,
+  "why_no_solution": "Not established; no infeasibility conclusion is warranted.",
+  "fitted_points_available": false,
+  "reported_fit_cap_messages": 10,
+  "reported_registered_controls": 8,
+  "measured_iteration_cap": 200,
+  "original_iteration_cap": 40,
+  "input_sha256": "828a8eea58be8bef21f9f2393ad34329fe8fc48253e8f238fe4b19ec5d3dfb79",
+  "log_file": "comparators/white_pixel/convergence_log.txt.gz",
+  "log_sha256": "6db7d8f65206016e711e4e37f8f42aae15248c90ec02dc8d6b5d5148d00cefb2",
+  "independent_biological_validation": false,
+  "convergence_gate": false
+}

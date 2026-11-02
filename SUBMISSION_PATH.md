@@ -1,5 +1,13 @@
 # Spatial submission path — 2026-11-01
 
+Follow-up: [published implementations](PIXEL_DECODER_RESULTS.md) are now executed,
+with an independent exhaustive check of the small syndrome-decoding networks.
+The measured development diagnostic has no gene truth and its original fitting
+cap binds. This is progress on implementation comparison, not completion of
+annotated image validation. [Outside review and calibration requirements](INDEPENDENT_REVIEW_PACKET.md)
+are the current gate checklist; earlier unexecuted-comparator language below is
+the dated plan.
+
 Progress: [the first execution round](SUBMISSION_RESEARCH_RESULTS.md) is complete.
 The reference benchmark fails its primary radius gate; the conditional Gaussian
 information result passes its computation checks. Raw-image/decoder comparison

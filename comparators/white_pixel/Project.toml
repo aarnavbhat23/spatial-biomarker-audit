@@ -1,0 +1,7 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+SeqFISHSyndromeDecoding = "51ea57f1-910f-46fc-b3bd-0d8c863eb521"
+SeqFISH_ADCG = "43951575-4589-48f4-b0ab-ec671c641013"
